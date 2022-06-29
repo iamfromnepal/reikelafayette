@@ -1,0 +1,39 @@
+// Typography
+
+.heading {
+
+    &-primary,
+    &-secondary {
+        line-height: .7;
+
+        span {
+            display: block;
+            margin-bottom: 0.75rem;
+            font-family: $font-double-signature;
+        }
+    }
+
+    &-primary {
+        @include font-size(1.875rem);
+
+        span {
+            @include font-size(5rem);
+        }
+
+        @include media-breakpoint-up(sm) {
+            @include font-size(2.1875rem);
+
+            span {
+                @include font-size(6.25rem);
+            }
+        }
+    }
+
+    &-secondary {
+        @include font-size(1.875rem);
+
+        span {
+            @include font-size(5rem);
+        }
+    }
+}

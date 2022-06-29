@@ -1,0 +1,27 @@
+//slick default
+
+.hide {
+	&-arrow {
+		.slick {
+			&-arrow {
+				display: none !important;
+			}
+		}
+	}
+
+	&-dots {
+		.slick {
+			&-dots {
+				display: none !important;
+			}
+		}
+	}
+}
+
+.slick-dots {
+	li {
+		&:only-child {
+			display: none;
+		}
+	}
+}

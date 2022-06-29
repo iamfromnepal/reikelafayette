@@ -10,8 +10,8 @@
  */
 
 ?>
-
-	<footer id="colophon" class="site-footer">
+	</main>
+	<footer id="colophon" class="site-footer mt-auto">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'reiki-lafayette' ) ); ?>">
 				<?php
@@ -26,7 +26,7 @@
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
-</div><!-- #page -->
+</div><!-- /.site-wrapper -->
 
 <?php wp_footer(); ?>
 

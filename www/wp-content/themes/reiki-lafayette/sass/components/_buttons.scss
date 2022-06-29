@@ -1,0 +1,13 @@
+// Buttons
+.btn {
+    max-width: 244px;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    &.btn-block {
+        max-width: 100%;
+    }
+}

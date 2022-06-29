@@ -138,10 +138,17 @@ add_action( 'widgets_init', 'reiki_lafayette_widgets_init' );
  * Enqueue scripts and styles.
  */
 function reiki_lafayette_scripts() {
-	wp_enqueue_style( 'reiki-lafayette-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'reiki-lafayette-style', 'rtl', 'replace' );
+	// wp_enqueue_style( 'reiki-lafayette-style', get_stylesheet_uri(), array(), _S_VERSION );
+	// wp_style_add_data( 'reiki-lafayette-style', 'rtl', 'replace' );
+	wp_enqueue_style('reiki-lafayette-slick-css', get_template_directory_uri() . '/vendors/slick/slick.css');
+	wp_enqueue_style('reiki-lafayette-fancybox-css', get_template_directory_uri() . '/vendors/fancybox/jquery.fancybox.min.css');
+	wp_enqueue_style( 'reiki-lafayette-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'reiki-lafayette-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	add_action( 'wp_head', function(){ echo '<script>var ss;</script>'; } ); // don't remove
+	wp_enqueue_script('reiki-lafayette-slick-js', get_template_directory_uri() . '/vendors/slick/slick.min.js', '', null, true);
+	wp_enqueue_script('reiki-lafayette-fancybox-js', get_template_directory_uri() . '/vendors/fancybox/jquery.fancybox.min.js', '', null, true);
+	// wp_enqueue_script( 'reiki-lafayette-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'reiki-lafayette-bundle', get_template_directory_uri() . '/js/bundle.js', array('jquery'), null, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -176,3 +183,41 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+/*
+ * Brand functionality.
+*/
+add_filter('get_custom_logo', 'ss_logo_class_name');
+function ss_logo_class_name($html){
+	$html = str_replace('custom-logo', 'navbar-brand', $html);
+	$html = str_replace('custom-logo-link', 'navbar-brand', $html);
+
+	return $html;
+}
+function get_brand(){
+	if(get_custom_logo()):
+		the_custom_logo();
+	else:
+		$img = array('logo.svg','logo.png','logo.jpg');
+		$brand = '<span>'.get_bloginfo('name').'</span>';
+		foreach ($img as $logo){
+			if(file_exists(get_template_directory().'/img/'.$logo)){
+				$brand = '<img src="'.get_template_directory_uri().'/img/'.$logo.'" alt="'.get_bloginfo('name').'">';
+			}elseif(file_exists(get_template_directory().'/images/'.$logo)){
+				$brand = '<img src="'.get_template_directory_uri().'/images/'.$logo.'" alt="'.get_bloginfo('name').'">';
+			}
+		}
+		return '<a class="navbar-brand" href="'.esc_url(home_url('/')).'">'.$brand.'</a>';
+	endif;
+	return false;
+}
+function the_brand(){ echo get_brand(); }
+
+/**
+ * Load Custom Nav Walker.
+ */
+if(!file_exists( get_template_directory() . '/inc/bootstrap-navwalker.php')){
+	wp_die('<div style="text-align:center"><h1 style="font-weight:normal">Custom Walker Nav Not Found</h1><p>Opps we have got error!<br>It appears the bootstrap-navwalker.php file may be missing.</p></div>','Custom Walker Nav Not Found');
+}else{
+	require_once get_template_directory() . '/inc/bootstrap-navwalker.php';
+}
