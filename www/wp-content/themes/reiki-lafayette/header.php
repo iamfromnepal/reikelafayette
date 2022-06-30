@@ -31,24 +31,28 @@
 	<?php wp_body_open(); ?>
 	<div class="site-wrapper">
 		<header id="masthead" class="site-header">
-			<nav class="navbar navbar-light">
+			<nav class="navbar navbar-expand-lg px-0">
 				<div class="container">
 					<?php the_brand(); ?>
-					<!--<div class="navbar-overlay"></div>-->
-					<div class="navbar__priMenu ml-auto">
-						<?php
-						wp_nav_menu(array(
-							'theme_location'  => 'nav-pri',
-							'depth'	          => 3, // 1 = no dropdowns, 2 = with dropdowns.
-							'container'       => 'div',
-							'container_class' => 'nav-pri',
-							'container_id'    => 'nav-pri',
-							'menu_class'      => 'nav align-items-center justify-content-center ml-auto',
-							'walker'         => new WP_Bootstrap_NavWalker(),
-							'fallback_cb'    => 'WP_Bootstrap_NavWalker::fallback',
-						));
-						?>
-					</div><!-- /.navbar__priMenu -->
+					<?php
+					wp_nav_menu(array(
+						'theme_location'  => 'nav-pri',
+						'depth'	          => 3, // 1 = no dropdowns, 2 = with dropdowns.
+						'container'       => 'div',
+						'container_class' => 'collapse navbar-collapse offset',
+						'container_id'    => 'nav-pri',
+						'menu_class'      => 'nav navbar-nav justify-content-end ml-auto',
+						'walker'         => new WP_Bootstrap_NavWalker(),
+						'fallback_cb'    => 'WP_Bootstrap_NavWalker::fallback',
+					));
+					?>
+					<div class="navbar-toggler-wrap">
+						<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#nav-pri" aria-controls="nav-pri" aria-expanded="false" aria-label="Toggle Navigation">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div> <!-- /.site-header-wrap -->
 				</div>
 			</nav>
 		</header><!-- #masthead -->

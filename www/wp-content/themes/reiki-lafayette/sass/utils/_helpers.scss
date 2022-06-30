@@ -29,38 +29,51 @@ img {
 
 // Fonts
 %font-avenirLTStd-roman {
-    font-family: $font-avenirLTStd-roman;
+	font-family: $font-avenirLTStd-roman;
 }
+
 .font-avenirLTStd-roman {
-    @extend %font-avenirLTStd-roman;
+	@extend %font-avenirLTStd-roman;
 }
 
 %font-avenirLTStd-book {
-    font-family: $font-avenirLTStd-book;
+	font-family: $font-avenirLTStd-book;
 }
+
 .font-avenirLTStd-book {
-    @extend %font-avenirLTStd-book;
+	@extend %font-avenirLTStd-book;
 }
 
 %font-avenirLTStd-black {
-    font-family: $font-avenirLTStd-black;
+	font-family: $font-avenirLTStd-black;
 }
+
 .font-avenirLTStd-black {
-    @extend %font-avenirLTStd-black;
+	@extend %font-avenirLTStd-black;
 }
 
 %font-double-signature {
-    font-family: $font-double-signature;
+	font-family: $font-double-signature;
 }
+
 .font-double-signature {
-    @extend %font-double-signature;
+	@extend %font-double-signature;
 }
 
 %font-nelphim {
-    font-family: $font-nelphim;
+	font-family: $font-nelphim;
 }
+
 .font-nelphim {
-    @extend %font-nelphim;
+	@extend %font-nelphim;
+}
+
+%font-avenir {
+	font-family: $font-avenir;
+}
+
+.font-avenir {
+	@extend %font-avenir;
 }
 
 // Visibility
@@ -79,15 +92,17 @@ ol {
 .text-transform-none {
 	text-transform: none !important;
 }
+
 .text-underline {
 	text-decoration: underline;
+
 	&:hover {
 		text-decoration: none;
 	}
 }
 
 @for $i from 1 through 9 {
-	.font-#{$i*100}{
+	.font-#{$i*100} {
 		font-weight: $i*100;
 	}
 }
@@ -104,6 +119,42 @@ picture {
 	display: block;
 }
 
+.block {
+	&-width {
+		&-612 {
+			@include media-breakpoint-up(lg) {
+				max-width: 612px;
+			}
+		}
+
+		&-350 {
+			@include media-breakpoint-up(lg) {
+				max-width: 350px;
+			}
+		}
+
+		&-365 {
+			@include media-breakpoint-up(lg) {
+				max-width: 365px;
+			}
+		}
+	}
+}
+
+.max-width {
+	&-510 {
+		max-width: 510px;
+	}
+}
+
+.container-alt {
+	@extend .container-fluid;
+
+	@include media-breakpoint-up(xxl) {
+		max-width: 1440px;
+	}
+}
+
 .text-white {
 
 	h1,
@@ -112,6 +163,43 @@ picture {
 	h4,
 	h5,
 	h6 {
-		color: $white  !important;
+		color: $white !important;
 	}
+}
+
+// bg-black
+.bg-black {
+	background-color: $black;
+}
+
+.has-bg-img {
+	position: relative;
+	z-index: 1;
+
+	.bg-img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+
+		&--alt {
+			@include media-breakpoint-down(xs) {
+				height: 70%;
+			}
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			font-family: 'object-fit: cover;';
+		}
+	}
+}
+
+// font-size-18
+.font-size-18 {
+	@include font-size(1.125rem);
 }

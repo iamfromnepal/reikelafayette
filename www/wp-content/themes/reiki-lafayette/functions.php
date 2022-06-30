@@ -49,7 +49,7 @@ function reiki_lafayette_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'reiki-lafayette' ),
+			'nav-pri' => esc_html__('Primary', 'reiki-lafayette'),
 		)
 	);
 
@@ -147,7 +147,7 @@ function reiki_lafayette_scripts() {
 	add_action( 'wp_head', function(){ echo '<script>var ss;</script>'; } ); // don't remove
 	wp_enqueue_script('reiki-lafayette-slick-js', get_template_directory_uri() . '/vendors/slick/slick.min.js', '', null, true);
 	wp_enqueue_script('reiki-lafayette-fancybox-js', get_template_directory_uri() . '/vendors/fancybox/jquery.fancybox.min.js', '', null, true);
-	// wp_enqueue_script( 'reiki-lafayette-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'reiki-lafayette-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'reiki-lafayette-bundle', get_template_directory_uri() . '/js/bundle.js', array('jquery'), null, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

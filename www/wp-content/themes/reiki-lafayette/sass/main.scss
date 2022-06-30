@@ -81,6 +81,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "components/forms";
 @import "components/banner";
 @import "components/sliders";
+@import "components/accordion";
+@import "components/list";
 
 
 // Header
@@ -94,6 +96,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 // Pages
 @import "pages/404";
 @import "pages/homepage";
+@import "pages/courses";
 
 
 // Footer

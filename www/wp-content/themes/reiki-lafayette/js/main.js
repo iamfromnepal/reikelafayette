@@ -274,7 +274,7 @@ var rl;
         },
     };
     $(function () {
-        ss.init();
+        rl.init();
 
         //Counter Init
         jQuery(".counter").counterUp({
