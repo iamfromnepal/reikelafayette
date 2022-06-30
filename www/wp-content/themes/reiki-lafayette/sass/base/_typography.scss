@@ -5,6 +5,11 @@
     &-primary,
     &-secondary {
         line-height: .7;
+        text-shadow: 0px 4px 4px 0px rgba($black, 0.25);
+
+        &.text-white {
+            text-shadow: 0px 4px 10px rgba($black, 0.58);
+        }
 
         span {
             display: block;

@@ -19,6 +19,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
+	<link rel="preload" href="<?php echo get_template_directory_uri(); ?>/fonts/Avenir-Light.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="<?php echo get_template_directory_uri(); ?>/fonts/AvenirLTStd-Roman.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="<?php echo get_template_directory_uri(); ?>/fonts/AvenirLTStd-Book.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="<?php echo get_template_directory_uri(); ?>/fonts/AvenirLTStd-Black.woff2" as="font" type="font/woff2" crossorigin>

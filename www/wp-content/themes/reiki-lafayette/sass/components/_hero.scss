@@ -1,0 +1,14 @@
+.hero {
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 862px;
+
+        @include media-breakpoint-up(sm) {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

@@ -28,6 +28,14 @@ img {
 }
 
 // Fonts
+%font-avenir {
+	font-family: $font-avenir;
+}
+
+.font-avenir {
+	@extend %font-avenir;
+}
+
 %font-avenirLTStd-roman {
 	font-family: $font-avenirLTStd-roman;
 }
@@ -66,14 +74,6 @@ img {
 
 .font-nelphim {
 	@extend %font-nelphim;
-}
-
-%font-avenir {
-	font-family: $font-avenir;
-}
-
-.font-avenir {
-	@extend %font-avenir;
 }
 
 // Visibility
@@ -117,6 +117,12 @@ a {
 
 picture {
 	display: block;
+}
+
+.img-fluid {
+	img {
+		width: 100%;
+	}
 }
 
 .block {
@@ -199,7 +205,68 @@ picture {
 	}
 }
 
-// font-size-18
+// font-sizes
 .font-size-18 {
 	@include font-size(1.125rem);
+}
+
+.font-size-lg {
+	@include font-size($font-size-lg);
+}
+
+//overlays
+.overlay {
+	position: relative;
+
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+
+	&-80 {
+
+		&--top {
+			&:before {
+				top: 0;
+				bottom: 60%;
+				background: linear-gradient(180deg, rgba($black, 0.8) 0%, rgba($black, 0) 100%);
+			}
+		}
+
+		&--bottom {
+			&:after {
+				top: 60%;
+				bottom: 0;
+				background: linear-gradient(0deg, rgba($black, 0.8) 0%, rgba($black, 0) 100%);
+			}
+		}
+	}
+
+	&-53 {
+		&:after {
+			background: linear-gradient(180deg, rgba($black, 0.53) 0%, rgba($black, 0) 100%);
+		}
+
+		&--top {}
+
+		&--bottom {
+			&:after {
+				top: 60%;
+				bottom: 0;
+			}
+		}
+	}
+
+	&-sm-00 {
+		&:after {
+			@include media-breakpoint-up(sm) {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+	}
 }
