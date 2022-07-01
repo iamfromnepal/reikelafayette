@@ -53,6 +53,32 @@ var rl;
             });
         },
         nav: function () {
+
+            //sticky-header
+            function stickyHeader() {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 10) {
+                    jQuery(".site-header").addClass("sticky-header");
+                } else {
+                    jQuery(".site-header").removeClass("sticky-header");
+                }
+            }
+            stickyHeader();
+            $(window).scroll(stickyHeader);
+            $(window).resize(stickyHeader);
+
+            function marginEl() {
+                var header = $(".site-header");
+                var headerHeight = header.innerHeight();
+                var marginElm = $(".site-content");
+                marginElm.css("margin-top", headerHeight);
+            }
+            marginEl();
+
+            $(window).resize(function () {
+                marginEl();
+            });
+
             //dropdown toggle
             $(".navbar .menu-item-has-children .caret").on(
                 "click",

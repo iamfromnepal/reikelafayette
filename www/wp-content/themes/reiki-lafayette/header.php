@@ -33,7 +33,7 @@
 	<div class="site-wrapper">
 		<header id="masthead" class="site-header">
 			<nav class="navbar navbar-expand-lg px-0">
-				<div class="container">
+				<div class="container-fluid">
 					<?php the_brand(); ?>
 					<?php
 					wp_nav_menu(array(
@@ -42,7 +42,7 @@
 						'container'       => 'div',
 						'container_class' => 'collapse navbar-collapse offset',
 						'container_id'    => 'nav-pri',
-						'menu_class'      => 'nav navbar-nav justify-content-end ml-auto',
+						'menu_class'      => 'nav navbar-nav justify-content-end',
 						'walker'         => new WP_Bootstrap_NavWalker(),
 						'fallback_cb'    => 'WP_Bootstrap_NavWalker::fallback',
 					));

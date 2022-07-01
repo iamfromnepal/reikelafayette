@@ -316,7 +316,7 @@ class WP_Bootstrap_Navwalker extends Walker_Nav_Menu
 			if ($this->has_children != true) {
 				$item_output .= '</a>';
 			} else {
-				$item_output .= '</a><span class="caret"></span>';
+				$item_output .= '</a><span class="caret"><i class="icon-caret-down"></i></span>';
 			}
 		}
 

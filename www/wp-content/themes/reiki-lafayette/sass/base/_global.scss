@@ -151,10 +151,16 @@ body {
 		position: relative;
 		align-items: stretch;
 		flex-direction: column;
+		min-width: 320px;
+		overflow: hidden;
 	}
 
 	&-content {
 		flex-grow: 1;
+
+		@media screen\0 {
+			flex-grow: 0;
+		}
 	}
 
 	&-header,
