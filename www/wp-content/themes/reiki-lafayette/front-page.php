@@ -17,26 +17,51 @@ get_header();
 ?>
 
 <!-- Home Banner -->
-<section class="hero container-alt">
-	<picture class="img-fluid">
+<section class="hero has-bg-img container container-alt py-3">
+	<!-- <picture class="has-bg-img">
 		<img src="https://via.placeholder.com/1440x865.jpg/a59090/000000?Text=1440x865" alt="Home Hero Background" width="1440" height="865" loading="lazy">
-	</picture>
-	<!-- <picture class="img-fluid">
-		<source srcset="<?php echo site_url(); ?>/media/home-hero-bg.webp" type="image/webp">
-		<source srcset="<?php echo site_url(); ?>/media/home-hero-bg.jpg" type="image/jpg">
-		<img src="<?php echo site_url(); ?>/media/home-hero-bg.jpg" alt="Home Hero Background" width="1440" height="862" loading="lazy">
 	</picture> -->
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<h1 class="heading-primary text-center text-white">
-					Your
-					<span>Energy Healing Journey</span>
-					Starts Here.
-				</h1> <!-- /.heading-primary -->
-			</div>
-		</div> <!-- /.hero__inner -->
-	</div>
+	<picture class="bg-img">
+		<!-- <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-hero-bg.webp" type="image/webp"> -->
+		<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-hero-bg.jpg" type="image/jpg">
+		<!-- <source srcset="<?php echo site_url(); ?>/media/home-hero-bg-mobile.webp" type="image/webp"> -->
+		<source srcset="<?php echo site_url(); ?>/media/home-hero-bg-mobile.jpg" type="image/jpg">
+		<img src="<?php echo site_url(); ?>/media/home-hero-bg.jpg" alt="Home Hero Background" width="1440" height="862" loading="lazy">
+	</picture>
+	<div class="d-flex flex-column justify-content-between justify-content-lg-center mh-sm mh-lg mh-xl">
+		<h1 class="heading-primary text-center text-white mb-2 mb-lg-3">
+			Your
+			<span>Energy Healing Journey</span>
+			Starts Here.
+		</h1> <!-- /.heading-primary -->
+
+		<div class="collapse-acc" style="width: 100%; max-width: 319px; margin: 0 auto;">
+			<div class="collapse-acc__item">
+				<button class="collapse-acc__head">
+					<h2 class="h3"><i class="icon-courses"></i> Courses</h2>
+				</button>
+				<div class="collapse-acc__content">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div> <!-- /.collapse-acc__item -->
+			<div class="collapse-acc__item">
+				<button class="collapse-acc__head">
+					<h2 class="h3"><i class="icon-sessions"></i> Sessions</h2>
+				</button>
+				<div class="collapse-acc__content">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div> <!-- /.collapse-acc__item -->
+			<div class="collapse-acc__item">
+				<button class="collapse-acc__head">
+					<h2 class="h3"><i class="icon-event"></i> Events</h2>
+				</button>
+				<div class="collapse-acc__content">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div> <!-- /.collapse-acc__item -->
+		</div>
+	</div> <!-- /. -->
 </section> <!-- /.hero -->
 <hr>
 <hr>

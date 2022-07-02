@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?55e6hg');
-  src:  url('fonts/icomoon.eot?55e6hg#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?55e6hg') format('truetype'),
-    url('fonts/icomoon.woff?55e6hg') format('woff'),
-    url('fonts/icomoon.svg?55e6hg#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?v9ne12');
+  src:  url('fonts/icomoon.eot?v9ne12#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?v9ne12') format('truetype'),
+    url('fonts/icomoon.woff?v9ne12') format('woff'),
+    url('fonts/icomoon.svg?v9ne12#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -51,4 +51,13 @@
 }
 .icon-arrow-right:before {
   content: "\e901";
+}
+.icon-courses:before {
+  content: "\e909";
+}
+.icon-sessions:before {
+  content: "\e90a";
+}
+.icon-event:before {
+  content: "\e90b";
 }

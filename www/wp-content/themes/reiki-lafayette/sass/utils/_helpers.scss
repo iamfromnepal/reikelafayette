@@ -270,3 +270,21 @@ picture {
 		}
 	}
 }
+
+// min-height
+.mh {
+	
+	&-sm {
+		min-height: 756px;
+	}
+
+	&-lg {
+		@include media-breakpoint-up(lg) {}
+	}
+
+	&-xl {
+		@include media-breakpoint-up(xl) {
+			min-height: 862px;
+		}
+	}
+}

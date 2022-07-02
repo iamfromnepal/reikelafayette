@@ -143,7 +143,7 @@ var rl;
                 $(window).resize(stickyHeader);
 
                 //match-height
-                $('[data-fix="height"]').matchHeight();
+                // $('[data-fix="height"]').matchHeight();
 
                 // toggle active
                 $(".faq-accordion .btn").on("click", function () {
@@ -152,6 +152,17 @@ var rl;
                         .not(this)
                         .parents(".card")
                         .removeClass("active");
+                });
+
+                //collapse-acc
+                $(".collapse-acc__head.active").next().slideDown();
+                $(".collapse-acc__head").on("click", function () {
+                    if ($(this).hasClass('active')) {
+                        $(this).removeClass("active").next().slideUp();
+                    } else {
+                        $(".collapse-acc__head.active").removeClass("active").next(".collapse-acc__content").slideUp();
+                        $(this).addClass('active').next('.collapse-acc__content').slideDown();
+                    }
                 });
             } catch (err) {
                 console.log(err);
@@ -303,9 +314,9 @@ var rl;
         rl.init();
 
         //Counter Init
-        jQuery(".counter").counterUp({
-            delay: 10,
-            time: 1000,
-        });
+        // jQuery(".counter").counterUp({
+        //     delay: 10,
+        //     time: 1000,
+        // });
     });
 })(jQuery);
