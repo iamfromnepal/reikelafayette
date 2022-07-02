@@ -5,6 +5,95 @@ get_header();
 ?>
 
 <section class="components-page">
+    <!-- Banner ii -->
+    <section class="hero container-alt">
+        <div class="row align-items-center">
+            <picture class="col-md-6 hero__img-block img-fluid">
+                <source srcset="<?php echo site_url(); ?>/media/courses-hero-feature.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/courses-hero-feature.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/courses-hero-feature.jpg" alt="Home Hero Background" width="706" height="863" loading="lazy">
+            </picture>
+            <div class="col-md-6 hero__content-block text-center">
+                <h1 class="heading-primary mb-1 mb-lg-3">
+                    <span>Unleash</span>
+                    Your inner Healer
+                </h1> <!-- /.heading-primary -->
+                <div class="box-quote box-quote--md mx-auto">
+                    <p>Your ability to heal is innate. Whether you’re exploring for yourself or responding to a deep call to guide others on their healing journey, it’s time to reclaim your inner healer.</p>
+                </div>
+            </div>
+        </div> <!-- /.hero__inner -->
+    </section> <!-- /.hero -->
+    <hr>
+    <hr>
+
+    <!-- Banner iii -->
+    <section class="hero container-alt">
+        <div class="row align-items-center">
+            <picture class="col-md-6 hero__img-block img-fluid">
+                <source srcset="<?php echo site_url(); ?>/media/individual-course-hero-feature.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/individual-course-hero-feature.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/individual-course-hero-feature.jpg" alt="Home Hero Background" width="706" height="863" loading="lazy">
+            </picture>
+            <div class="col-md-6 hero__content-block text-center">
+                <div class="font-nelphim font-size-lg" style="max-width: 321px; margin: auto;">
+                    <div class="box-text mb-1 mb-lg-2">
+                        <span class="box-text__off">Reiki I</span>
+                        <h1 class="heading-primary">
+                            <span>Awaken</span>
+                            Your inner Healer
+                        </h1> <!-- /.heading-primary -->
+                    </div>
+                    <p>You’ve heard the call for some time now. You’ve been meditating, diving into your spiritual work and you’re fascinated. The next step is now clear: awaken the healer in you, learn more about energy in an experiential way, find out how it all works… and maybe, just maybe learn to help others heal too.</p>
+                </div>
+            </div>
+        </div> <!-- /.hero__inner -->
+    </section> <!-- /.hero -->
+    <hr>
+    <hr>
+
+    <!-- Banner iv -->
+    <section class="hero container-alt">
+        <div class="row align-items-center">
+            <picture class="col-md-6 hero__img-block img-fluid">
+                <img src="https://via.placeholder.com/708x865.jpg/a59090/000000?Text=708x865" alt="Home Hero Background" width="708" height="865" loading="lazy">
+            </picture>
+            <picture class="col-md-6 hero__img-block img-fluid">
+                <source srcset="<?php echo site_url(); ?>/media/session-hero-feature.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/session-hero-feature.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/session-hero-feature.jpg" alt="Home Hero Background" width="708" height="865" loading="lazy">
+            </picture>
+            <div class="col-md-6 hero__content-block text-center">
+                <div class="font-nelphim font-size-lg" style="max-width: 458px; margin: auto;">
+                    <h1 class="heading-primary mb-1 mb-lg-2 mb-xl-4">
+                        <span>Healing Sessions</span>
+                    </h1> <!-- /.heading-primary -->
+                    <div class="border-mini border-mini--center mb-1 mb-lg-2">
+                        <p>We're a team of reiki + energy healing professionals spread throughout the Montreal area here to help you get back to your most whole & vibrant self.</p>
+                    </div>
+                    <a href="#" class="btn btn-primary">Find Your Practitioner Here</a>
+                </div>
+            </div>
+        </div> <!-- /.hero__inner -->
+    </section> <!-- /.hero -->
+    <hr>
+    <hr>
+
+    <!-- Banner v -->
+    <section class="hero container-alt">
+        <div class="overlay overlay-80 overlay-80--top overlay-80--bottom">
+            <picture class="img-fluid">
+                <img src="https://via.placeholder.com/1440x865.jpg/a59090/000000?Text=1440x865" alt="Home Hero Background" width="1440" height="865" loading="lazy">
+            </picture>
+            <picture class="img-fluid">
+                <source srcset="<?php echo site_url(); ?>/media/practitioner-hero-bg.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/practitioner-hero-bg.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/practitioner-hero-bg.jpg" alt="Home Hero Background" width="1440" height="865" loading="lazy">
+            </picture>
+        </div>
+    </section> <!-- /.hero -->
+    <hr>
+    <hr>
     <div class="container">
         <h1>This is Heading One.</h1>
         <h2>This is Heading Two.</h2>
@@ -50,7 +139,7 @@ get_header();
         <h2 class="text-center mb-1"><code>[.heading-secondary]</code></h2>
         <h2 class="heading-secondary text-center">
             <span>What is</span>
-            The Reiki certificate? 
+            The Reiki certificate?
         </h2>
         <hr>
         <hr>
