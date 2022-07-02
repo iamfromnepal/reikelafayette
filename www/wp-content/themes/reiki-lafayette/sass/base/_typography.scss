@@ -5,10 +5,14 @@
     &-primary,
     &-secondary {
         line-height: .7;
-        text-shadow: 0px 4px 4px 0px rgba($black, 0.25);
+    }
+
+    &-primary,
+    &-secondary,
+    &-tertiary {
 
         &.text-white {
-            text-shadow: 0px 4px 10px rgba($black, 0.58);
+            filter: drop-shadow(0px 4px 4px rgba($black, 0.25));
         }
 
         span {
@@ -39,6 +43,15 @@
 
         span {
             @include font-size(5rem);
+        }
+    }
+
+    &-tertiary {
+        @include font-size(1.25rem);
+
+        span {
+            @include font-size(4.375rem);
+            line-height: .7;
         }
     }
 }

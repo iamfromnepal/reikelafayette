@@ -133,6 +133,12 @@ picture {
 			}
 		}
 
+		&-625 {
+			@include media-breakpoint-up(lg) {
+				max-width: 625px;
+			}
+		}
+
 		&-350 {
 			@include media-breakpoint-up(lg) {
 				max-width: 350px;
@@ -286,5 +292,9 @@ picture {
 		@include media-breakpoint-up(xl) {
 			min-height: 862px;
 		}
+	}
+
+	&-700 {
+		min-height: 700px;
 	}
 }

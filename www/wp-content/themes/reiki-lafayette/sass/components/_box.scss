@@ -50,4 +50,15 @@
             padding: 0.25rem 0.75rem;
         }
     }
+
+    &-light {
+        background: rgba($white, 0.7);
+        margin: 0 auto;
+        color: $black;
+        padding: 1rem 2rem;
+
+        @include media-breakpoint-up(md) {
+            padding: 2.875rem 2.875rem 3.5rem;
+        }
+    }
 }
