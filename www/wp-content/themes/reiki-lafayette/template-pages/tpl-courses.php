@@ -3,7 +3,6 @@
 
 get_header();
 ?>
-<div class="p-3" style="background-color: #000;"></div>
 
 <section class="cta-block container text-center pb-xxl-6 pb-lg-4 pb-sm-3 pb-2">
     <div class="cta-block__heading title-has-bg">
@@ -95,7 +94,7 @@ get_header();
                                     <p>Nothing fits your schedule right now? No problem, you can still start with one of our self-study programs [anchor link] while you wait.</p>
                                     <p>Ready to begin but not sure where to start? Reiki I & Mind Mastery I are amazing
                                     <p>starting points, but the best is to go with whatever class is calling you.</p>
-                                    You’ve already done Reiki I, II, III or have a long-standing mindfulness practice? These are likely to be recognized and you can jump into the more advanced classes.</p>
+                                    <p>You’ve already done Reiki I, II, III or have a long-standing mindfulness practice? These are likely to be recognized and you can jump into the more advanced classes.</p>
                                 </div>
                             </div>
                         </div> <!-- /.card -->
@@ -164,6 +163,127 @@ get_header();
         </ul>
     </div> <!-- /.counter-list -->
 </section> <!-- /.container -->
+
+<section class="offset-block has-bg-img">
+    <picture class="bg-img bg-img--offset has-overlay">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/offset-block-bg-img.webp" type="image/webp">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/offset-block-bg-img.jpg" type="image/jpg">
+        <source srcset="<?php echo site_url(); ?>/media/offset-block-bg-img-xs.webp" type="image/webp">
+        <source srcset="<?php echo site_url(); ?>/media/offset-block-bg-img-xs.jpg" type="image/jpg">
+        <img width="1440" height="826" src="<?php echo site_url(); ?>/media/offset-block-bg-img.jpg" loading="lazy" alt="Jungle">
+    </picture> <!-- /.bg-img -->
+    <div class="container text-center max-width-650 mx-auto">
+        <div class="offset-block__heading mb-1">
+            <h2 class="heading-secondary mb-4">
+                <span>Who is</span>
+                the teacher?
+            </h2>
+            <div class="avatar-circle-wrapper">
+                <picture class="avatar-circle">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.webp" type="image/webp">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
+                    <img width="368" height="232" src="<?php echo site_url(); ?>/media/teacher-avatar.png" loading="lazy" alt="Teacher">
+                </picture>
+            </div>
+        </div> <!-- /.offset-block__heading -->
+        <div class="text-white">
+            <div class="offset-block__info">
+                <strong class="info-title">A life-long learner</strong>
+                <p>As long as I can remember I’ve been interested in understanding how people work and particularly how they heal, transform and thrive. This learning journey started with me experiencing life as a (codependent) empath, led me to get a Masters in Neuropsychology (completed in 2013) as well as a Certificate in Energy Medicine (completed in 2014) and has continued way beyond my formal training. I am always learning from my clients, students, from new teachers and most of all: from life & the energy.</p>
+            </div> <!-- /.offset-block__info -->
+            <div class="offset-block__info">
+                <strong class="info-title">Following a deep calling:</strong>
+                <p>I want to live in a world where people are free to be exactly who they are. That’s why I build programs that help you transform stuckness into growth, transcend your conditioning to return you to your essence and help others do the same. Beyond The Reiki Certificate, I also have programs that take you further into energy mastery and love supporting new healers to launch their businesses.</p>
+            </div> <!-- /.offset-block__info -->
+            <div class="offset-block__info">
+                <strong class="info-title">Obsessed with creating and delivering potent healing journeys: </strong>
+                <p>As far as I’m concerned, the real teachers are always (1) your essence and (2) the energy. It’s my job to create experiences where you uncover your own knowing. I will use meditations, exercises, discussions & important concepts in order to make that happen for you.</p>
+            </div> <!-- /.offset-block__info -->
+        </div>
+        <div class="btn-wrap">
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+    </div>
+</section> <!-- /.offset-block -->
+
+<section class="container schedule-section max-width-750 mb-xl-6 mb-lg-4 mb-3 pt-lg-3 pt-sm-2 pt-1">
+    <div class="schedule-section__heading title-has-bg text-center mb-lg-4 mb-3">
+        <h2 class="heading-secondary heading-secondary--alt">
+            <span>The 7 Courses included</span>
+            in the Reiki <br>Certificate
+        </h2>
+    </div> <!-- /.schedule-section__heading -->
+    <div class="schedule-section__inner max-width-750 mx-auto">
+        <div class="box-text position-relative">
+            <span class="box-text__off text-center">Scheduled Courses</span>
+
+            <div class="box-text__info text-center max-width-437 mx-auto">
+                <strong class="info-title font-weight-normal">Reiki I</strong>
+                <p>Awaken the energy healer within.</p>
+                <strong class="info-title font-weight-normal">Reiki II</strong>
+                <p>The Empowered Healer: Alchemize the triggers and shadows of being a healer</p>
+                <strong class="info-title font-weight-normal">Reiki III</strong>
+                <p>Create space for your soul’s gifts to infuse your healing work.</p>
+                <strong class="info-title font-weight-normal">Energy Healing Toolkit: </strong>
+                <p>Become an accomplished healing guide.</p>
+                <strong class="info-title font-weight-normal">Mind Mastery 2</strong>
+                <p>The Empowered Empath: Mastering Your Mind, Emotions & Energy with Mindfulness</p>
+            </div> <!-- /.box-text__info -->
+        </div>
+    </div>
+</section> <!-- /.schedule-section -->
+
+<section class="course-foot mb-xl-6 mb-lg-4 mb-sm-3 mb-2">
+    <div class="course-foot__top has-bg-img pt-xl-6 pt-lg-4 py-3">
+        <picture class="bg-img">
+            <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/course-page-foot-bg.webp" type="image/webp">
+            <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/course-page-foot-bg.jpg" type="image/jpg">
+            <source srcset="<?php echo site_url(); ?>/media/course-page-foot-bg-xs.webp" type="image/webp">
+            <source srcset="<?php echo site_url(); ?>/media/course-page-foot-bg-xs.jpg" type="image/jpg">
+            <img width="1440" height="800" src="<?php echo site_url(); ?>/media/course-page-foot-bg.jpg" loading="lazy" alt="Face">
+        </picture> <!-- /.bg-img -->
+        <div class="container max-width-750">
+            <div class="box-text box-text--white position-relative mx-auto max-width-350">
+                <span class="box-text__off text-center text-capitalize">Start-Anytime Courses:</span>
+
+                <div class="box-text__info text-center">
+                    <strong class="info-title font-weight-normal">Chakra Journey</strong>
+                    <p>Balance and heal each of your 7 chakras.</p>
+                    <strong class="info-title font-weight-normal">Mind Mastery 1:</strong>
+                    <p>Mindfulness for Empaths</p>
+                </div> <!-- /.box-text__info -->
+            </div> <!-- /.box-text -->
+        </div>
+    </div> <!-- /.course-foot__top -->
+    <div class="course-foot__bottom container max-width-750 pt-sm-0 pt-2">
+        <div class="course-foot__info max-width-650 mx-auto text-center font-avenir mb-lg-4 mb-sm-3 mb-2">
+            <h2 class="heading-secondary mb-sm-2 mb-1">
+                <span>What happens</span>
+                When graduate?
+            </h2>
+            <p>When you graduate (and way before), you’re equipped with the know-how to strike out on your own as an energy healer. Of course, you’ll have a million business questions and I’ve got you covered there too.</p>
+        </div> <!-- /.course-foot__info -->
+
+        <div class="counter-list text-center has-bg-img py-2 pb-lg-4 pb-sm-3">
+            <picture class="bg-img">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/course-page-foot-list-bg.webp" type="image/webp">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/course-page-foot-list-bg.jpg" type="image/jpg">
+                <source srcset="<?php echo site_url(); ?>/media/course-page-foot-list-bg-xs.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/course-page-foot-list-bg-xs.jpg" type="image/jpg">
+                <img width="706" height="668" src="<?php echo site_url(); ?>/media/course-page-foot-list-bg.jpg" loading="lazy" alt="Background Image">
+            </picture> <!-- /.bg-img -->
+            <h2 class="heading-secondary text-center mb-2">
+                <span>What</span>
+                to do next?
+            </h2>
+            <ul>
+                <li><a href="#">Make sure we’re a good fit by booking a discovery call.</a> I like to get to know to all my prospective students by speaking to them individually at least once before they dive in.</li>
+                <li><a href="#">Pick your next course. Learn about each one here.</a> If you’re at the very beginning of your journey, we recommend starting with Reiki I or with Mind Mastery I.</li>
+                <li><a href="#">Register for your next course.</a> Click through, fill out the form and make your first payment.</li>
+            </ul>
+        </div> <!-- /.counter-list -->
+    </div>
+</section> <!-- /.course-foot -->
 
 <?php
 get_footer();

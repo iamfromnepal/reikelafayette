@@ -49,6 +49,56 @@
             color: $black;
             padding: 0.25rem 0.75rem;
         }
+
+        &__info {
+            font-family: $font-avenir;
+            font-weight: 400;
+
+            .info-title {
+                font-family: $font-nelphim;
+                @include font-size(1.25rem);
+                display: block;
+                line-height: 1.2;
+                margin-bottom: .25rem;
+
+                @include media-breakpoint-up(xl) {
+                    margin-bottom: 9px;
+                }
+            }
+
+            p+.info-title {
+                @include media-breakpoint-up(xl) {
+                    padding-top: 8px;
+                }
+            }
+        }
+
+        &--white {
+            color: $white;
+            border-color: transparent $white $white;
+            position: relative;
+
+            &:before,
+            &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 1px;
+                width: 32px;
+                background-color: $white;
+            }
+
+            &:after {
+                right: 0;
+                left: auto;
+            }
+
+            .box-text__off {
+                background-color: transparent;
+                color: inherit;
+            }
+        }
     }
 
     &-light {
