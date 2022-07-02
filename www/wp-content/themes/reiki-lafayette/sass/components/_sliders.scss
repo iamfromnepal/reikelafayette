@@ -25,3 +25,99 @@
 		}
 	}
 }
+
+.slick-dots {
+	list-style: none;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+
+	li {
+		line-height: 1;
+	}
+
+	button {
+		font-size: 0;
+		width: 5px;
+		height: 5px;
+		border-radius: 50%;
+		padding: 0;
+		border: 0;
+		background-color: rgba($white, .4);
+		transition: .3s ease-in-out;
+
+		@include media-breakpoint-up(sm) {
+			width: 8px;
+			height: 8px;
+		}
+	}
+
+	.slick-active {
+
+		button {
+			width: 9px;
+			height: 9px;
+			background-color: $white;
+			outline: none;
+
+			@include media-breakpoint-up(sm) {
+				width: 14px;
+				height: 14px;
+			}
+		}
+	}
+
+}
+
+.vertical-dots {
+	.slick-dots {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		max-width: 26px;
+		padding: 0.75rem 0.5rem;
+		margin-right: -15px;
+
+		@include media-breakpoint-up(sm) {
+			max-width: 46px;
+		}
+
+		li {
+			&+li {
+				margin-top: 1.125rem;
+
+				@include media-breakpoint-up(sm) {
+					margin-top: 2rem;
+				}
+			}
+		}
+	}
+}
+
+.home-slider {
+	@extend .d-flex;
+	@extend .align-items-center;
+	@extend .justify-content-center;
+
+	&__item {}
+
+	&__content {
+		font-family: $font-nelphim;
+
+		@include media-breakpoint-up(sm) {
+			@include font-size(1.25rem);
+			font-family: $font-avenirLTStd-roman;
+		}
+	}
+
+	&__count {
+		line-height: 1;
+		font-family: $font-nelphim;
+		@include font-size(2.5rem);
+
+		@include media-breakpoint-up(md) {
+			@include font-size(4.375rem);
+		}
+	}
+}

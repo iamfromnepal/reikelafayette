@@ -1,1 +1,21 @@
 // Page Home
+
+.home-slider-section {
+    position: relative;
+    z-index: 1;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $dark-green-100;
+        width: 26px;
+        height: 100%;
+
+        @include media-breakpoint-up(sm) {
+            width: 46px;
+        }
+    }
+}
