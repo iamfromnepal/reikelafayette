@@ -63,7 +63,7 @@ get_header();
 	</div>
 </section> <!-- /.hero -->
 
-<section class="has-bg-img container-alt py-3 mt-1">
+<section class="has-bg-img container-alt pt-3 pb-4 pb-lg-6 mt-1">
 	<picture class="bg-img">
 		<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-form-feature-bg.webp" type="image/webp">
 		<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-form-feature-bg.jpg" type="image/jpg">
@@ -82,7 +82,19 @@ get_header();
 			</div>
 		</div>
 	</div>
-</section> <!-- /.section -->
+</section> <!-- /section -->
+
+<section>
+	<div class="container">
+		<div class="avatar-circle-wrapper offset-top-sm offset-top-lg">
+			<picture class="avatar-circle">
+				<source srcset="<?php echo site_url(); ?>/media/reiki-montreal-avatar.webp" type="image/webp">
+				<source srcset="<?php echo site_url(); ?>/media/reiki-montreal-avatar.jpg" type="image/jpg">
+				<img src="<?php echo site_url(); ?>/media/reiki-montreal-avatar.jpg" alt="Reiki Montreal Avatar" width="160" height="160" loading="lazy">
+			</picture>
+		</div>
+	</div>
+</section> <!-- /section -->
 
 <?php
 get_footer();

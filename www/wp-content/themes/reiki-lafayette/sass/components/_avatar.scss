@@ -1,0 +1,29 @@
+.avatar {
+
+    &-circle {
+        width: 160px;
+        height: 160px;
+        @extend .rounded-circle;
+        @extend .overflow-hidden;
+        @extend .mx-auto;
+
+        &-wrapper {
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: -54px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: url('#{$image-path}/bg-leaf02.png') no-repeat;
+                background-position: 100%;
+                background-size: 368px;
+                width: 368px;
+                height: 232px;
+                z-index: -1;
+            }
+        }
+    }
+}

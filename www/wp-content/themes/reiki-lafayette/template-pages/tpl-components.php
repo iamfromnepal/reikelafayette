@@ -143,6 +143,15 @@ get_header();
         </h2>
         <hr>
         <hr>
+        <h2 class="text-center mb-4 mb-lg-6"><code>.avatar-circle</code></h2>
+        <div class="avatar-circle-wrapper offset-top-sm offset-top-lg">
+            <picture class="avatar-circle">
+                <!-- <source srcset="<?php echo site_url(); ?>/media/reiki-montreal-avatar.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/reiki-montreal-avatar.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/reiki-montreal-avatar.jpg" alt="Reiki Montreal Avatar" width="160" height="160" loading="lazy"> -->
+                <img src="https://via.placeholder.com/160x160.png/a59090/000000?Text=160x160" alt="Reiki Montreal Avatar" width="160" height="160" loading="lazy">
+            </picture>
+        </div>
     </div>
 </section> <!-- /.components-page -->
 <?php

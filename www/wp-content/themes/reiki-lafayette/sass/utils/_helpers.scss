@@ -175,7 +175,7 @@ picture {
 	h4,
 	h5,
 	h6 {
-		color: $white !important;
+		color: $white  !important;
 	}
 }
 
@@ -279,7 +279,7 @@ picture {
 
 // min-height
 .mh {
-	
+
 	&-sm {
 		min-height: 756px;
 	}
@@ -297,4 +297,19 @@ picture {
 	&-700 {
 		min-height: 700px;
 	}
+}
+
+// offsets
+.offset {
+
+	&-top-sm {
+		margin-top: -50px;
+	}
+
+	&-top-lg {
+		@include media-breakpoint-up(lg) {
+			margin-top: -76px;
+		}
+	}
+
 }
