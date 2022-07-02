@@ -65,4 +65,10 @@
             white-space: nowrap;
         }
     }
+
+    &--pri {
+        width: 100%;
+        max-width: 319px;
+        margin: 0 auto;
+    }
 }
