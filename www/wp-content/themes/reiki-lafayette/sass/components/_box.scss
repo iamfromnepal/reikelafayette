@@ -34,6 +34,29 @@
         &--lg {
             max-width: 496px;
         }
+
+        &--pri {
+            padding-left: 2rem;
+            padding-right: 2rem;
+            border-color: $white;
+
+            @include media-breakpoint-up(lg) {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+
+            &:before {
+                padding: 0 0.75rem;
+                color: $white;
+                background-color: $primary;
+            }
+
+            cite {
+                line-height: 1.2;
+                font-family: $font-double-signature;
+                @include font-size(3.75rem);
+            }
+        }
     }
 
     &-text {

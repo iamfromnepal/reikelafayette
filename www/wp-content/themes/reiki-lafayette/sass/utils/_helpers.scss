@@ -191,7 +191,7 @@ picture {
 	h4,
 	h5,
 	h6 {
-		color: $white !important;
+		color: $white  !important;
 	}
 }
 
@@ -390,4 +390,20 @@ picture {
 		}
 	}
 
+}
+
+.flower-bg-1 {
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		background: url('#{$image-path}/flower-bg01.png') no-repeat;
+		background-size: 287px;
+		width: 287px;
+		height: 246px;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 0;
+	}
 }

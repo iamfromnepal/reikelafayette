@@ -49,11 +49,16 @@
             @include font-size(5rem);
         }
 
-        &--alt {	
-            line-height: 1.5;	
-            span {	
-                line-height: .5;	
-            }	
+        &--alt {
+            line-height: 1.5;
+
+            span {
+                line-height: .5;
+            }
+        }
+
+        &--sm {
+            @include font-size(1.5rem);
         }
     }
 
@@ -64,5 +69,13 @@
             @include font-size(4.375rem);
             line-height: .7;
         }
+    }
+}
+
+.title-h2-25 {
+
+    h2,
+    .h2 {
+        @include font-size(1.5rem);
     }
 }
