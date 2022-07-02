@@ -153,6 +153,43 @@ get_header();
             </picture>
         </div>
     </div>
+
+    <div class="container">
+        <hr>
+        <hr>
+
+        <h2 class="my-3">[.list-icon]</h2>
+
+        <div class="list-icon list-unstyled font-avenir">
+            <ul>
+                <li><strong>Receiving information + training:</strong> attunements, conceptual training, “how to” guides, the history of Reiki & so much more is included</li>
+
+                <li><strong>Doing a 21-day self-healing journey.</strong> Every day, you connect to Reiki energy, healing, balancing,</li>
+
+                <li><strong>Becoming a Reiki channel for others.</strong> As of week 3, we’re shifting our focus from channeling Reiki for yourself, to</li>
+            </ul>
+        </div> <!-- /.list-icon -->
+
+        <hr>
+        <hr>
+
+        <h2 class="my-3 text-center">[.title-has-bg]</h2>
+
+        <div class="title-has-bg text-center">
+            <h2 class="h4 max-width-330 mx-auto">Within Reiki I, you will awaken your inner healer through:</h2>
+        </div> <!-- /.title-has-bg -->
+
+        <hr>
+        <hr>
+
+        <div class="counter-list text-center">
+            <ul>
+                <li><a href="#">Make sure we’re a good fit by booking a discovery call.</a> I like to get to know to all my prospective students by speaking to them individually at least once before they dive in.</li>
+                <li><a href="#">Pick your next course. Learn about each one here.</a> If you’re at the very beginning of your journey, we recommend starting with Reiki I or with Mind Mastery I.</li>
+                <li><a href="#">Register for your next course.</a> Click through, fill out the form and make your first payment.</li>
+            </ul>
+        </div>
+    </div>
 </section> <!-- /.components-page -->
 <?php
 get_footer();

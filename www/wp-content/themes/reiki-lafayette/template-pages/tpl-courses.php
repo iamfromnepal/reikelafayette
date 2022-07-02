@@ -207,7 +207,7 @@ get_header();
 </section> <!-- /.offset-block -->
 
 <section class="container schedule-section max-width-750 mb-xl-6 mb-lg-4 mb-3 pt-lg-3 pt-sm-2 pt-1">
-    <div class="schedule-section__heading title-has-bg text-center mb-lg-4 mb-3">
+    <div class="schedule-section__heading title-has-bg title-has-bg--alt text-center mb-lg-4 mb-3">
         <h2 class="heading-secondary heading-secondary--alt">
             <span>The 7 Courses included</span>
             in the Reiki <br>Certificate
