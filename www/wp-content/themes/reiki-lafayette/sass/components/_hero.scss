@@ -69,6 +69,20 @@
                     }
                 }
             }
+
+            .box-quote {
+                @include media-breakpoint-down(sm) {
+                    color: $white;
+                    border-color: $white;
+                }
+
+                &:before {
+                    @include media-breakpoint-down(sm) {
+                        color: $white;
+                        background-color: transparent;
+                    }
+                }
+            }
         }
     }
 }

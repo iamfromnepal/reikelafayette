@@ -168,15 +168,19 @@ get_header();
                 <h2 class="h3 mb-1 mb-xl-2">What’s next?</h2>
                 <p>I’d love to get to work with you and meet you, either through one of my healers, getting to teach you or meeting you at an event. <a href="#">(links)</a>.</p>
             </div>
-            <div class="box-light">
+            <div class="box-light box-light--mb">
                 <h2 class="heading-tertiary text-center mb-2 m-md-0">
                     When we say <br>your energy healing journey starts here,
                     <span>We Mean it.</span>
                 </h2>
                 <p>We have a year’s worth of FREE resources available for you via our newsletter. You’ll get highly valuable and easy to digest content every week delivered straight to your inbox.</p>
             </div>
+            <div class="form-primary">
+                <?php echo do_shortcode('[gravityform id=1 title=false description=false ajax=true]'); ?>
+            </div>
         </div>
     </div>
 </section> <!-- /section -->
+
 <?php
 get_footer();

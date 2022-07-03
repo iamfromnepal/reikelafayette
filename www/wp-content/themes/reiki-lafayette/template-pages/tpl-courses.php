@@ -4,6 +4,34 @@
 get_header();
 ?>
 
+<section class="hero hero-mobile-overlap container-alt overlay-mobile overlay-mobile--bottom overlay-mobile--top">
+    <div class="row align-items-center">
+        <picture class="col-md-6 img-block img-fluid">
+            <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/courses-hero-feature.webp" type="image/webp">
+            <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/courses-hero-feature.jpg" type="image/jpg">
+            <source srcset="<?php echo site_url(); ?>/media/courses-hero-feature-mobile.webp" type="image/webp">
+            <source srcset="<?php echo site_url(); ?>/media/courses-hero-feature-mobile.jpg" type="image/jpg">
+            <img src="<?php echo site_url(); ?>/media/courses-hero-feature.jpg" alt="Home Hero Background" width="706" height="863" loading="lazy">
+        </picture>
+        <div class="col-md-6 content-block content-block--alt justify-content-sm-end text-center">
+            <div class="d-sm-none">
+                <h2 class="heading-primary mb-1 mb-lg-3">
+                    <span>Energy Healing Courses</span>
+                </h2> <!-- /.heading-primary -->
+            </div>
+            <div class="font-nelphim font-size-lg block-width-350 mx-auto">
+                <h1 class="heading-primary mb-1 mb-lg-3">
+                    <span>Unleash</span>
+                    Your inner Healer
+                </h1> <!-- /.heading-primary -->
+                <div class="box-quote box-quote--md mx-auto">
+                    <p>Your ability to heal is innate. Whether you’re exploring for yourself or responding to a deep call to guide others on their healing journey, it’s time to reclaim your inner healer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> <!-- /.hero -->
+
 <section class="cta-block container text-center pb-xxl-6 pb-lg-4 pb-sm-3 pb-2">
     <div class="cta-block__heading title-has-bg">
         <h2 class="h4">We offer Reiki I, II, III & so much more.</h2>
@@ -13,7 +41,7 @@ get_header();
     </div>
 </section> <!-- /.cta-block -->
 
-<section class="info-block text-white bg-black has-bg-img pt-2 pb-lg-3 pb-sm-2 -b-1">
+<section class="info-block container-alt text-white bg-black has-bg-img pt-2 pb-lg-3 pb-sm-2 -b-1">
     <picture class="bg-img bg-img--alt">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/hand-bg-img.webp" type="image/webp">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/hand-bg-img.jpg" type="image/jpg">
@@ -164,7 +192,7 @@ get_header();
     </div> <!-- /.counter-list -->
 </section> <!-- /.container -->
 
-<section class="offset-block has-bg-img">
+<section class="container-alt offset-block has-bg-img">
     <picture class="bg-img bg-img--offset has-overlay">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/offset-block-bg-img.webp" type="image/webp">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/offset-block-bg-img.jpg" type="image/jpg">
@@ -233,7 +261,7 @@ get_header();
     </div>
 </section> <!-- /.schedule-section -->
 
-<section class="course-foot mb-xl-6 mb-lg-4 mb-sm-3 mb-2">
+<section class="course-foot container-alt mb-xl-6 mb-lg-4 mb-sm-3 mb-2">
     <div class="course-foot__top has-bg-img pt-xl-6 pt-lg-4 py-3">
         <picture class="bg-img">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/course-page-foot-bg.webp" type="image/webp">

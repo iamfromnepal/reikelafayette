@@ -19,7 +19,7 @@ get_header();
                     <span>Healing Sessions</span>
                 </h1> <!-- /.heading-primary -->
             </div>
-            <div class="font-nelphim font-size-lg">
+            <div class="block-width-460 mx-auto font-nelphim font-size-lg">
                 <div class="border-mini border-mini--center mb-1 mb-lg-2">
                     <p>We're a team of reiki + energy healing professionals spread throughout the Montreal area here to help you get back to your most whole & vibrant self.</p>
                 </div>
