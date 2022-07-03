@@ -131,6 +131,18 @@
                         border: none;
                         min-width: auto;
                         text-align: center;
+                        
+                        margin-top: 1rem;
+
+                        // &:before {
+                        //     content: '';
+                        //     position: absolute;
+                        //     top: -16px;
+                        //     bottom: -16px;
+                        //     left: -999px;
+                        //     right: -999px;
+                        //     background-color: $light-gray-1;
+                        // }
                     }
 
                     .menu-item {
@@ -233,6 +245,7 @@
                             color: $white;
                             transform: rotate(-90deg);
                             top: 11px;
+                            right: 8px;
                         }
 
                         @include media-breakpoint-down(md) {
@@ -253,7 +266,9 @@
 
                 @include media-breakpoint-down(md) {
                     display: inline-block;
-                    margin-bottom: 2rem;
+                    // margin-bottom: 2rem;
+                    margin-bottom: 1rem;
+                    padding-top: 1rem;
                 }
 
                 &:before {

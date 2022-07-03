@@ -66,3 +66,173 @@
         }
     }
 }
+
+// info-banner
+.info-banner {
+    min-height: 350px;
+    position: relative;
+
+    @media(min-width: 375px) {
+        min-height: 420px;
+    }
+
+    @include media-breakpoint-up(sm) {
+        min-height: 500px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        min-height: 600px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        min-height: 695px;
+    }
+
+    @media screen and (min-width:0\0) {
+        @include media-breakpoint-up(lg) {
+            height: 600px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            height: 695px;
+        }
+    }
+
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top left;
+
+        @include media-breakpoint-up(sm) {
+            width: 250px;
+            height: 200px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            width: 280px;
+            height: 230px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            width: 325px;
+            height: 265px;
+        }
+    }
+
+    &:before {
+        bottom: 0;
+        left: 0;
+        background-image: url(#{$image-path}/info-banner-leaf-img-alt.png);
+
+        @include media-breakpoint-down(xs) {
+            left: -70px;
+        }
+    }
+
+    &:after {
+        top: 0;
+        right: 0;
+        background-image: url(#{$image-path}/info-banner-leaf-img.png);
+
+        @include media-breakpoint-up(xl) {
+            width: 390px;
+            height: 290px;
+        }
+
+        @include media-breakpoint-down(xs) {
+            right: -70px;
+        }
+    }
+
+    &__content {
+        @include font-size(1.25rem);
+
+        @media(min-width: 415px) {
+            @include font-size(1.5rem);
+        }
+    }
+}
+
+// banner-primary
+.banner-primary {
+    background-color: $primary;
+    color: $white;
+    position: relative;
+
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        width: 260px;
+        height: 240px;
+        top: auto;
+        bottom: 0;
+        background-size: 100%;
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        @include media-breakpoint-up(sm) {
+            width: 287px;
+            height: 270px;
+        }
+    }
+
+    &:before {
+        background-image: url(#{$image-path}/fleur.png);
+        left: -110px;
+
+        @include media-breakpoint-up(lg) {
+            left: 24px;
+        }
+
+        @media(min-width: 1440px) {
+            left: 50px;
+        }
+    }
+
+    &:after {
+        background-image: url(#{$image-path}/fleur-reverse.png);
+        right: -110px;
+
+        @include media-breakpoint-up(lg) {
+            right: 1.5rem;
+        }
+
+        @media(min-width: 1440px) {
+            right: 50px;
+        }
+    }
+
+    &__inner {
+        font-family: $font-nelphim;
+        @include font-size(1.25rem);
+
+        &.has-border {
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 50%;
+                bottom: 0;
+                width: 100%;
+                max-width: 330px;
+                transform: translateX(-50%);
+                border: 1px solid;
+                border-color: $white transparent;
+            }
+        }
+
+        p {
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -190,13 +190,192 @@ get_header();
     </div>
 </section> <!-- /.two-col -->
 
-<section class="banner-primary">
+<section class="banner-primary py-lg-4 py-sm-3 py-2">
     <div class="container">
-        <div class="banner-primary__inner has-border max-width-650 mx-auto text-center">
+        <div class="banner-primary__inner has-border max-width-650 mx-auto text-center py-2">
             <p>If you’re not 100% ready to sign up for your class just yet, Inge offers discovery calls where you’ll get to know each other, where she can address all your questions and concerns and help you make an empowered decision.</p>
         </div>
     </div>
 </section> <!-- banner-primary -->
+
+<section class="testimonials-section container max-width-800 py-xl-5 py-lg-4 py-sm-3 py-2">
+    <header class="testimonials-section__heading mb-lg-4 mb-sm-3 mb-2">
+        <h2 class="heading-secondary text-center">
+            <span>What is</span>
+            The Reiki certificate?
+        </h2>
+    </header> <!-- /.testimonials-section__heading -->
+    <div class="row">
+        <div class="col-md-6 mb-1">
+            <blockquote class="testimonials-card">
+                <picture class="testimonials-card__media">
+                    <source srcset="<?php echo site_url(); ?>/media/past-students-avatar01.webp" type="image/webp">
+                    <source srcset="<?php echo site_url(); ?>/media/past-students-avatar01.jpg" type="image/jpg">
+                    <img width="102" height="102" src="<?php echo site_url(); ?>/media/past-students-avatar01.jpg" loading="lazy" alt="Student">
+                </picture>
+                <p>“I participated in reiki 1 with Inge and since then my eyes have opened up to a whole new world around us. There’s no looking back and I cannot express how much this work has changed me for the better. I now know that we can and should be actively participating in this wonderful energy world that surrounds us!”</p>
+                <address>- Emily</address>
+            </blockquote> <!-- /.testimonials-card -->
+        </div>
+        <div class="col-md-6 mb-1">
+            <blockquote class="testimonials-card">
+                <picture class="testimonials-card__media">
+                    <source srcset="<?php echo site_url(); ?>/media/past-students-avatar02.webp" type="image/webp">
+                    <source srcset="<?php echo site_url(); ?>/media/past-students-avatar02.jpg" type="image/jpg">
+                    <img width="102" height="102" src="<?php echo site_url(); ?>/media/past-students-avatar02.jpg" loading="lazy" alt="Student">
+                </picture>
+                <p>“I took Reiki I with Inge one year ago and totally my life started to shift. This training helped me to understand how energy works, how to balance my chakras and to be more present and attentive to what changes are happening in my surroundings. I love the way Inge runs the program, very clear and practical.”</p>
+                <address>- Davud Barraza</address>
+            </blockquote> <!-- /.testimonials-card -->
+        </div>
+    </div>
+</section> <!-- /.testimonials-section -->
+
+<section class="faq-block has-bg-img py-lg-4 py-sm-3 py-2">
+    <picture class="bg-img">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/faq-bg.webp" type="image/webp">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/faq-bg.jpg" type="image/jpg">
+        <source srcset="<?php echo site_url(); ?>/media/faq-bg-xs.webp" type="image/webp">
+        <source srcset="<?php echo site_url(); ?>/media/faq-bg-xs.jpg" type="image/jpg">
+        <img width="1440" height="558" src="<?php echo site_url(); ?>/media/faq-bg.jpg" loading="lazy" alt="Background Image">
+    </picture> <!-- /.bg-img -->
+
+    <div class="container max-width-380">
+        <header class="faq-block__heading text-white text-center mb-1">
+            <h2>FAQ</h2>
+        </header>
+
+        <div class="accordion accordion--faq" id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="accordion-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span>Who is Reiki I not for?</span>
+                            <i class="icon-caret-down"></i>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>If you’re doing Reiki I solely for the certificate, it’s not for you.
+                            If you want to do Reiki I to confirm that you are somehow special, this is not the place for you. Despite us all having very unique and incredible gifts (and they’re amazing and you’ll definitely start discovering how yours work!), we firmly believe that Reiki is a practice accessible to truly everyone.
+                            If you are coming solely for the initiation. We’ve built Reiki I to be a healing journey to be experienced over several weeks. Your sustained involvement will be required. There are other Reiki I certificates done over a day, we recommend you check those out.
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- /.card -->
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <span>What if I don’t like it? Is there a guarantee?</span>
+                            <i class="icon-caret-down"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+                    </div>
+                </div>
+            </div> <!-- /.card -->
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <span>What is the cancellation policy?</span>
+                            <i class="icon-caret-down"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+                    </div>
+                </div>
+            </div> <!-- /.card -->
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <span>Can I split the payments up?</span>
+                            <i class="icon-caret-down"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+                    </div>
+                </div>
+            </div> <!-- /.card -->
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <span>Can I start NOW?</span>
+                            <i class="icon-caret-down"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+                    </div>
+                </div>
+            </div> <!-- /.card -->
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                        <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <span>What if I need to miss a class?</span>
+                            <i class="icon-caret-down"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+                    </div>
+                </div>
+            </div> <!-- /.card -->
+            <div class="card">
+                <div class="card-header" id="headingSeven">
+                    <h5 class="mb-0">
+                        <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <span>I’d like to do the Reiki Certificate. When should I do Reiki I?</span>
+                            <i class="icon-caret-down"></i>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
+                    </div>
+                </div>
+            </div> <!-- /.card -->
+        </div> <!-- /.accordion -->
+    </div>
+</section> <!-- /.faq-block -->
+
+<section class="btn-block container text-center pt-xl-5 pt-lg-4 pt-sm-3 pt-2 pb-xl-3 pb-lg-2 pb-1">
+    <header class="block-header btn-block__heading">
+        <h2>You’ve made it all the way to the end of<br> the page. This is the moment you decide.</h2>
+    </header>
+    <div class="btn-block__inner">
+        <p>Are you feeling the call?</p>
+        <a href="#" class="btn btn-primary">Register</a>
+    </div>
+    <div class="btn-block__inner">
+        <p>You’re feeling the call, but there’s some hesitation?</p>
+        <a href="#" class="btn btn-primary">Book a Call With Inge</a>
+    </div>
+    <div class="btn-block__inner">
+        <p>You’re feeling it, but you’re not sure yet and you think this is for later?</p>
+        <a href="#" class="btn btn-primary">Receive the curriculum</a>
+    </div>
+</section> <!-- /.btn-block -->
 
 <?php
 get_footer();

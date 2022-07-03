@@ -1,93 +1,4 @@
-// info-banner
-.info-banner {
-    min-height: 350px;
-    position: relative;
 
-    @media(min-width: 375px) {
-        min-height: 420px;
-    }
-
-    @include media-breakpoint-up(sm) {
-        min-height: 500px;
-    }
-
-    @include media-breakpoint-up(lg) {
-        min-height: 600px;
-    }
-
-    @include media-breakpoint-up(xl) {
-        min-height: 695px;
-    }
-
-    @media screen and (min-width:0\0) {
-        @include media-breakpoint-up(lg) {
-            height: 600px;
-        }
-
-        @include media-breakpoint-up(xl) {
-            height: 695px;
-        }
-    }
-
-    &:before,
-    &:after {
-        content: '';
-        position: absolute;
-        width: 200px;
-        height: 150px;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: top left;
-
-        @include media-breakpoint-up(sm) {
-            width: 250px;
-            height: 200px;
-        }
-
-        @include media-breakpoint-up(lg) {
-            width: 280px;
-            height: 230px;
-        }
-
-        @include media-breakpoint-up(xl) {
-            width: 325px;
-            height: 265px;
-        }
-    }
-
-    &:before {
-        bottom: 0;
-        left: 0;
-        background-image: url(#{$image-path}/info-banner-leaf-img-alt.png);
-
-        @include media-breakpoint-down(xs) {
-            left: -70px;
-        }
-    }
-
-    &:after {
-        top: 0;
-        right: 0;
-        background-image: url(#{$image-path}/info-banner-leaf-img.png);
-
-        @include media-breakpoint-up(xl) {
-            width: 390px;
-            height: 290px;
-        }
-
-        @include media-breakpoint-down(xs) {
-            right: -70px;
-        }
-    }
-
-    &__content {
-        @include font-size(1.25rem);
-
-        @media(min-width: 415px) {
-            @include font-size(1.5rem);
-        }
-    }
-}
 
 // info-panel
 .info-panel {
@@ -374,12 +285,93 @@
     }
 }
 
-// banner-primary
-.banner-primary {
-    background-color: $primary;
-    color: $white;
+
+
+// testimonials-card
+blockquote.testimonials-card {
+    margin-bottom: 0;
+}
+
+.testimonials-card {
+    font-family: $font-nelphim;
+    color: $black;
+    text-align: center;
+    padding: 0 1rem;
+
+    @include media-breakpoint-up(sm) {
+        padding: 0 1.5rem;
+    }
+
+    &__media {
+        margin-bottom: 1rem;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    address {
+        margin-bottom: 0;
+        display: block;
+        font-family: $font-double-signature;
+        @include font-size(3.125rem);
+        line-height: 1;
+    }
+}
+
+// testimonials-section
+.testimonials-section {
+    &__heading {
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 368px;
+            height: 232px;
+            background-image: url(#{$image-path}/bg-leaf02.png);
+            background-size: 100%;
+            background-position: top left;
+            background-repeat: no-repeat;
+
+            @include media-breakpoint-up(sm) {
+                top: 36px;
+            }
+
+            @include media-breakpoint-up(md) {
+                display: none;
+            }
+        }
+    }
+}
+
+// btn-block
+.btn-block {
+    &__heading {
+        h2 {
+            font-size: 1.125rem;
+        }
+    }
 
     &__inner {
-        font-family: $font-nelphim;
+        margin-bottom: 1rem;
+
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 2rem;
+        }
+
+        p {
+            @include media-breakpoint-up(sm) {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .btn {
+            max-width: none;
+            min-width: 290px;
+        }
     }
 }

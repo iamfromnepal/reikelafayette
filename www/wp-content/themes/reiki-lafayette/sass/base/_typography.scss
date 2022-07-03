@@ -93,11 +93,11 @@
         @include media-breakpoint-up(sm) {
             margin-bottom: 2rem;
         }
+    }
 
-        br {
-            @media(max-width: 374.99px) {
-                display: none;
-            }
+    br {
+        @media(max-width: 374.99px) {
+            display: none;
         }
     }
 }
