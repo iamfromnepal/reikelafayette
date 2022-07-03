@@ -11,10 +11,12 @@
 
 ?>
 	</main>
-	<footer class="site-footer mt-auto">
-		
-	</footer><!-- #colophon -->
-</div><!-- /.site-wrapper -->
+	<footer class="site-footer text-center py-3 mt-auto d-none">
+		<div class="container">
+			<span class="copyright">&copy; <?php echo date('Y'); ?></span>
+		</div>
+	</footer>
+</div> <!-- /.site-wrapper -->
 
 <?php wp_footer(); ?>
 

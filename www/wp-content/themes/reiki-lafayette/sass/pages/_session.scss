@@ -1,0 +1,38 @@
+.session-about {
+    background: url('#{$image-path}/session-about-bg.png') no-repeat;
+    background-position: 62% 84%;
+    background-size: 283px;
+
+    @include media-breakpoint-down(xs) {
+        background-position: 111% 88%;
+    }
+
+    .block-width-612 {
+        @include media-breakpoint-down(xs) {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        @media (max-width: 440px) {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        
+        h3 {
+            margin-bottom: 1.25rem;
+        }
+
+        p {
+            margin-bottom: 1.75rem;
+        }
+
+        p:last-of-type {
+            text-align: center;
+            font-family: $font-nelphim;
+        }
+    }
+
+    .box-quote {
+        max-width: 306px;
+    }
+}

@@ -48,6 +48,12 @@
                 justify-content: flex-end;
             }
 
+            &--alt {
+                @include media-breakpoint-down(sm) {
+                    justify-content: space-between;
+                }
+            }
+
             .heading-primary {
                 @include media-breakpoint-down(sm) {
                     color: $white;
