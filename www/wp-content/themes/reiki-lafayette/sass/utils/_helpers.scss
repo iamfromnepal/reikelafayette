@@ -213,7 +213,7 @@ picture {
 	h4,
 	h5,
 	h6 {
-		color: $white !important;
+		color: $white  !important;
 	}
 }
 
@@ -225,7 +225,7 @@ picture {
 	h4,
 	h5,
 	h6 {
-		color: $primary !important;
+		color: $primary  !important;
 	}
 }
 
@@ -382,6 +382,27 @@ picture {
 			}
 		}
 	}
+
+	&-mobile {
+
+		&:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			width: 100%;
+			z-index: -1;
+		}
+
+		&--bottom {
+			&:after {
+				top: 60%;
+				bottom: 0;
+				background: linear-gradient(0deg, rgba($black, 0.53) 0%, rgba($black, 0) 100%);
+			}
+		}
+
+	}
 }
 
 // min-height
@@ -449,55 +470,55 @@ picture {
 
 // has-verticleImg
 .has-verticleImg {
-    position: relative;
-    z-index: 1;
+	position: relative;
+	z-index: 1;
 
-    &:before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: -155px;
-        transform: translateY(-50%);
-        width: 277px;
-        height: 467px;
-        background-image: url(#{$image-path}/flower-outline.png);
-        background-size: 100%;
-        background-position: top left;
-        background-repeat: no-repeat;
-        z-index: -1;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: -155px;
+		transform: translateY(-50%);
+		width: 277px;
+		height: 467px;
+		background-image: url(#{$image-path}/flower-outline.png);
+		background-size: 100%;
+		background-position: top left;
+		background-repeat: no-repeat;
+		z-index: -1;
 
-        @include media-breakpoint-up(xl) {
-            width: 306px;
-            height: 529px;
-        }
-    }
+		@include media-breakpoint-up(xl) {
+			width: 306px;
+			height: 529px;
+		}
+	}
 
-    &--right {
-        &:before {
-            left: auto;
-            right: -125px;
+	&--right {
+		&:before {
+			left: auto;
+			right: -125px;
 
-            @include media-breakpoint-up(lg) {
-                right: -155px;
-            }
-        }
-    }
+			@include media-breakpoint-up(lg) {
+				right: -155px;
+			}
+		}
+	}
 }
 
 // has-horizontalImg
 .has-horizontalImg {
-    position: relative;
+	position: relative;
 
-    &:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 330px;
-        height: 170px;
-        background-image: url(#{$image-path}/format-detail.-box-text-bg-leaf.png);
-        background-size: 100%;
-        background-position: top left;
-        background-repeat: no-repeat;
-    }
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 330px;
+		height: 170px;
+		background-image: url(#{$image-path}/format-detail.-box-text-bg-leaf.png);
+		background-size: 100%;
+		background-position: top left;
+		background-repeat: no-repeat;
+	}
 }

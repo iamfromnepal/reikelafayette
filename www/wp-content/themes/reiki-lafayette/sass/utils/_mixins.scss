@@ -5,3 +5,18 @@
     font-weight: $ss-font-weight;
     line-height: $ss-line-height;
 }
+
+@mixin positionAbsFull {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@mixin objCover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    font-family: "object-fit: cover;";
+}
