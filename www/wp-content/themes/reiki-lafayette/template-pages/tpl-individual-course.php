@@ -142,15 +142,61 @@ get_header();
                 <div class="text-wrap">
                     <p>231 Darwin, H3E 1C7 & 551, avenue du Mont-Royal Est, 3e étage Montréal, Québec, H2J 1W6.</p>
                 </div>
-            </div>
+            </div> <!-- /.location-block__content -->
         </div>
         <div class="col-lg-8">
             <div class="location-block__map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.2463623363547!2d-73.58414278444052!3d45.52524767910168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91bd051a9c4d1%3A0x8577292df4c2dc51!2sFitzroy!5e0!3m2!1sen!2snp!4v1656778363890!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            </div> <!-- /.location-block__map -->
         </div>
     </div>
-</section>
+</section> <!-- /.location-block -->
+
+<section class="container max-width-580 py-xl-6 py-lg-4 py-sm-3 py-2">
+    <header class="block-header text-center mb-xl-4 mb-3 title-h2-25">
+        <h2>What happens as<br> soon as you sign up:</h2>
+        <p>As soon as you sign up, you will receive an e-mail with access to your online learning portal, where you’ll have instant access to your welcome materials. You will also receive a confirmation e-mail with all the details of your course.</p>
+    </header> <!-- /.block-header -->
+    <div class="box-quote box-quote--md mx-auto text-center border border-primary text-black">
+        <p>“There’s a healer inside of you waiting to emerge. It’s time to let them come out. “ <span class="d-block">– Inge Broer</span></p>
+    </div>
+</section> <!-- /.container -->
+
+<section class="two-col two-col--offset pb-lg-0 pb-sm-3 pb-2">
+    <div class="row align-items-center text-lg-left text-center">
+        <div class="col-lg-6">
+            <picture class="two-col__media mb-lg-0 mb-sm-3 mb-2">
+                <source srcset="<?php echo site_url(); ?>/media/about-teacher-feature-img.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/about-teacher-feature-img.jpg" type="image/jpg">
+                <img width="672" height="572" src="<?php echo site_url(); ?>/media/about-teacher-feature-img.jpg" loading="lazy" alt="About Teacher">
+            </picture> <!-- /.two-col__media -->
+        </div>
+        <div class="col-lg-6">
+            <div class="two-col__content text-center max-width-580 mx-lg-0 mx-auto px-xl-2 px-1 text-black">
+                <div class="title-has-bg title-has-bg--alt text-center py-3 mb-2">
+                    <h2 class="heading-secondary text-center">
+                        <span>About</span>
+                        the teacher
+                    </h2>
+                </div>
+                <p>Hi, I’m Inge. I’d love to be your Reiki guide.
+                    In 2010 I found myself in my first Reiki class. I sat there arms crossed, brows furrowed, thinking “this doesn’t make sense”. With that first Reiki journey, I met resistance, fought many inner battles and yet my bigger mind knew I was somehow finally home and in contact with something gentle and true.
+                </p>
+                <p>
+                    Looking back, I see I needed to face those struggles so that I can teach this gentle, yet powerful healing modality from a place of true experience and allows me to welcome my students’ struggles with a warm-hearted smile and their healing with knowing celebration. Hopefully, through me, the practice of Reiki will get you to the place of love, intuition & trust it’s brought me.
+                </p>
+            </div> <!-- /.two-col__content -->
+        </div>
+    </div>
+</section> <!-- /.two-col -->
+
+<section class="banner-primary">
+    <div class="container">
+        <div class="banner-primary__inner has-border max-width-650 mx-auto text-center">
+            <p>If you’re not 100% ready to sign up for your class just yet, Inge offers discovery calls where you’ll get to know each other, where she can address all your questions and concerns and help you make an empowered decision.</p>
+        </div>
+    </div>
+</section> <!-- banner-primary -->
 
 <?php
 get_footer();

@@ -79,3 +79,25 @@
         @include font-size(1.5rem);
     }
 }
+
+// block-header
+.block-header {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 1rem;
+
+        @include media-breakpoint-up(sm) {
+            margin-bottom: 2rem;
+        }
+
+        br {
+            @media(max-width: 374.99px) {
+                display: none;
+            }
+        }
+    }
+}

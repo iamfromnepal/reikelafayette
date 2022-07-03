@@ -339,3 +339,47 @@
         }
     }
 }
+
+// two-col
+.two-col {
+    &__content {
+        font-family: $font-avenir;
+
+        .title-has-bg {
+            &--alt {
+                &:before {
+                    background-image: url(#{$image-path}/bg-leaf-alt-reverse.png);
+                    width: 274px;
+                    height: 187px;
+                    left: 44%;
+                }
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    &--offset {
+        .two-col {
+            &__media {
+                img {
+                    @include media-breakpoint-up(lg) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// banner-primary
+.banner-primary {
+    background-color: $primary;
+    color: $white;
+
+    &__inner {
+        font-family: $font-nelphim;
+    }
+}

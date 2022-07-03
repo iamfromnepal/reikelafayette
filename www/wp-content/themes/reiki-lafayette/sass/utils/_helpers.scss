@@ -180,6 +180,10 @@ picture {
 		max-width: 510px;
 	}
 
+	&-580 {
+		max-width: 580px;
+	}
+
 	&-650 {
 		max-width: 650px;
 	}
@@ -228,6 +232,11 @@ picture {
 // bg-black
 .bg-black {
 	background-color: $black;
+}
+
+// text-black
+.text-black {
+	color: $black;
 }
 
 .has-overlay {
