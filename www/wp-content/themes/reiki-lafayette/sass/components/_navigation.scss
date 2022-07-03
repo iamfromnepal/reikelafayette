@@ -1,5 +1,5 @@
 // Navigation
-.site-header {  
+.site-header {
 
     .navbar {
         padding: 0;
@@ -131,22 +131,42 @@
                         border: none;
                         min-width: auto;
                         text-align: center;
-                        
+                        background-color: transparent;
                         margin-top: 1rem;
-
-                        // &:before {
-                        //     content: '';
-                        //     position: absolute;
-                        //     top: -16px;
-                        //     bottom: -16px;
-                        //     left: -999px;
-                        //     right: -999px;
-                        //     background-color: $light-gray-1;
-                        // }
                     }
 
                     .menu-item {
                         padding: 0;
+
+                        @include media-breakpoint-down(md) {                            
+                            position: relative;
+                            z-index: 1;
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                left: -999px;
+                                right: -999px;
+                                background-color: rgba($light-gray-1, .1);
+                                z-index: -1;
+                            }
+
+                            .menu-item {
+                                &:before {
+                                    display: none !important;
+                                }
+                            }
+                        }
+                        
+                        &:first-child {
+                            @include media-breakpoint-down(md) {
+                                &:before {
+                                    top: -16px;
+                                }
+                            }
+                        }
 
                         &:not(:last-child) {
                             @include media-breakpoint-up(lg) {
@@ -163,6 +183,11 @@
                         }
 
                         &:last-child {
+                            @include media-breakpoint-down(md) {
+                                &:before {
+                                    bottom: -16px;
+                                }
+                            }
                             .dropdown-item {
                                 @include media-breakpoint-down(md) {
                                     border-bottom: none;
@@ -208,7 +233,7 @@
                             text-align: center;
                             display: inline-block;
                             border-bottom: 1px solid rgba($orange, .3);
-
+                            
                             &:hover,
                             &:focus {
                                 background-color: transparent;
