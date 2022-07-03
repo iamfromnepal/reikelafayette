@@ -548,3 +548,14 @@ picture {
 		background-repeat: no-repeat;
 	}
 }
+
+.mobile-px {
+	@include media-breakpoint-down(xs) {
+		padding-left: 1.5rem;
+		padding-right: 1rem;
+	}
+
+	@media (max-width: 413px) {
+		padding-left: 1rem;
+	}
+}

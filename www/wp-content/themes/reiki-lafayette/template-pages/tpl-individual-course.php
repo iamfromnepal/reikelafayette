@@ -4,6 +4,30 @@
 get_header();
 ?>
 
+<section class="hero hero-indvCourse container-alt hero-mobile-overlap overlay-mobile overlay-mobile--bottom">
+    <div class="row align-items-center">
+        <picture class="col-md-6 img-block img-fluid">
+            <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/individual-course-hero-feature.webp" type="image/webp">
+            <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/individual-course-hero-feature.jpg" type="image/jpg">
+            <source srcset="<?php echo site_url(); ?>/media/individual-course-hero-feature-mobile.webp" type="image/webp">
+            <source srcset="<?php echo site_url(); ?>/media/individual-course-hero-feature-mobile.jpg" type="image/jpg">
+            <img src="<?php echo site_url(); ?>/media/individual-course-hero-feature.jpg" alt="Home Hero Background" width="706" height="863" loading="lazy">
+        </picture>
+        <div class="col-md-6 content-block text-center">
+            <div class="font-nelphim font-size-lg block-width-350 mx-auto">
+                <div class="box-text mb-1 mb-lg-2">
+                    <span class="box-text__off">Reiki I</span>
+                    <h1 class="heading-primary">
+                        <span>Awaken</span>
+                        Your inner Healer
+                    </h1> <!-- /.heading-primary -->
+                </div>
+                <p>You’ve heard the call for some time now. You’ve been meditating, diving into your spiritual work and you’re fascinated. The next step is now clear: awaken the healer in you, learn more about energy in an experiential way, find out how it all works… and maybe, just maybe learn to help others heal too.</p>
+            </div>
+        </div>
+    </div>
+</section> <!-- /.hero -->
+
 <section class="container py-xl-6 py-lg-4 py-sm-3 py-2">
     <div class="title-has-bg text-center text-primary pt-3 pb-2 mb-sm-2 mb-1">
         <h2 class="h4 max-width-330 mx-auto">Within Reiki I, you will awaken your inner healer through:</h2>

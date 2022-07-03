@@ -26,24 +26,26 @@ get_header();
     </div>
 </section> <!-- /.hero -->
 
-<section class="container block-width-625 title-h2-25 pt-3 pt-xl-5 pb-2 px-2">
-    <h2>It’s so good to meet you.</h2>
-    <p>If there’s one thing I’ve learned on my journey of creating Reiki Montreal journey it’s this:<br>
-        The absolute best part of it has been the people I’ve met on the way. You’re now one of those people. Hi.</p>
+<section class="aboutInge-info container title-h2-25 pt-3 pt-xl-5 pb-2 pb-xl-4">
+    <div class="content-block block-width-625 mx-auto font-size-lg mobile-px">
+        <h2>It’s so good to meet you.</h2>
+        <p>If there’s one thing I’ve learned on my journey of creating Reiki Montreal journey it’s this:<br>
+            The absolute best part of it has been the people I’ve met on the way. You’re now one of those people. Hi.</p>
 
-    <h2>I’ll admit it –</h2>
-    <p>When I started my healing journey back in 2010, I had no clue what I was getting myself into.</p>
+        <h2>I’ll admit it –</h2>
+        <p>When I started my healing journey back in 2010, I had no clue what I was getting myself into.</p>
 
-    <p>I knew I was dissatisfied, lost, angry-restless and looking for an elusive “something more”, but beyond that? Or how to “stop feeling that way”? I had no clue. I was looking in all the typical places a 22-year old looks: school (a bachelors in psychology from a top University should help, no?), travels, (bad) relationships, crazy conversations at 3am with friends after nights out, self-help books, you name it...</p>
+        <p>I knew I was dissatisfied, lost, angry-restless and looking for an elusive “something more”, but beyond that? Or how to “stop feeling that way”? I had no clue. I was looking in all the typical places a 22-year old looks: school (a bachelors in psychology from a top University should help, no?), travels, (bad) relationships, crazy conversations at 3am with friends after nights out, self-help books, you name it...</p>
 
-    <p>But the connection I was looking for? The real deal connection with myself? The one that feels like self-acceptance and inner peace and humor and joy and creativity and awe all rolled into one? That one was buried far underneath patterns of social anxiety, perfectionism, codependency, anxiety and depression.</p>
+        <p>But the connection I was looking for? The real deal connection with myself? The one that feels like self-acceptance and inner peace and humor and joy and creativity and awe all rolled into one? That one was buried far underneath patterns of social anxiety, perfectionism, codependency, anxiety and depression.</p>
 
-    <p>Luckily, as blocked as I was, there was always that tiny little intuitive voice guiding me.</p>
+        <p>Luckily, as blocked as I was, there was always that tiny little intuitive voice guiding me.</p>
 
-    <p>And in 2010 she said: “Sign up for this Vipassana 10-day meditation thing. I don’t care you don’t know what meditation is. Just do it.” </p>
+        <p>And in 2010 she said: “Sign up for this Vipassana 10-day meditation thing. I don’t care you don’t know what meditation is. Just do it.” </p>
 
-    <h2>So I did.</h2>
-    <p>… and I haven’t stopped since. Someone I met at that retreat told me about chakras, which led me to learn about the mind-body connection, which led me to learn about Reiki, which led me to start undoing those patterns of perfectionism & social anxiety, which led me to committing to an entire certificate in Energy Medicine, which led me to… You get the idea. </p>
+        <h2>So I did.</h2>
+        <p>… and I haven’t stopped since. Someone I met at that retreat told me about chakras, which led me to learn about the mind-body connection, which led me to learn about Reiki, which led me to start undoing those patterns of perfectionism & social anxiety, which led me to committing to an entire certificate in Energy Medicine, which led me to… You get the idea. </p>
+    </div>
 </section> <!-- /.section -->
 
 <section class="has-bg-img container-alt pt-xl-8 pb-xl-6 pt-md-5 pb-md-2 pt-2 pb-1">
@@ -69,13 +71,15 @@ get_header();
     </div>
 </section> <!-- /section -->
 
-<section class="container block-width-625 text-sm-center pt-xl-8 pb-xl-6 pt-md-5 pb-md-2 pt-2 pb-1 font-size-lg">
-    <h2 class="h3 mb-2 mb-xl-4">Now, let me circle back.</h2>
-    <p>I said I gained a LOT through my healing journey. I healed so much (perfectionism, social anxiety (mostly.), so much shame, self-doubt (also mostly), I move through periods of situational depression so much faster now, my creativity wounds, codependent patterns in relationship, and so much more…). I can honestly say I love myself. I found my voice. I live an incredibly creative life (creating courses is my jam!). I travel a good 4 months out of the year. I have an incredible solid relationship with my partner Sean (and we’re about to become parents for the first time!). </p>
-    <p>… and yet… with all of that good stuff, I can still say that what’s been MOST fulfilling to me on this journey is the people I get to meet. There’s nothing quite like watching people radiantly, truly become who they are. That truly opens my heart, puts a big smile on my face and it’s why I do this work day in day out.</p>
+<section class="container pt-xl-8 pt-4 pb-xl-6 pb-md-2 pb-1">
+    <div class="block-width-625 mx-auto text-sm-center font-size-lg mobile-px">
+        <h2 class="h3 mb-2 mb-xl-4">Now, let me circle back.</h2>
+        <p>I said I gained a LOT through my healing journey. I healed so much (perfectionism, social anxiety (mostly.), so much shame, self-doubt (also mostly), I move through periods of situational depression so much faster now, my creativity wounds, codependent patterns in relationship, and so much more…). I can honestly say I love myself. I found my voice. I live an incredibly creative life (creating courses is my jam!). I travel a good 4 months out of the year. I have an incredible solid relationship with my partner Sean (and we’re about to become parents for the first time!). </p>
+        <p>… and yet… with all of that good stuff, I can still say that what’s been MOST fulfilling to me on this journey is the people I get to meet. There’s nothing quite like watching people radiantly, truly become who they are. That truly opens my heart, puts a big smile on my face and it’s why I do this work day in day out.</p>
+    </div>
 </section> <!-- /section -->
 
-<section class="container-alt bg-primary py-3 flower-bg-1">
+<section class="aboutInge-bleeding container-alt bg-primary">
     <div class="container">
         <div class="box-quote box-quote--md box-quote--pri mx-auto text-center">
             <p>"Stop acting so small. You are the universe in ecstatic motion."</p>
@@ -84,24 +88,25 @@ get_header();
     </div>
 </section> <!-- /section -->
 
-<section class="container-alt py-3">
+<section class="aboutInge-columns container-alt pt-xl-9 pt-4 pb-sm-2">
     <div class="container">
-        <div class="row mb-xl-8 mb-md-6 mb-3">
+        <div class="row mb-xl-8 mb-md-6 offset-columns">
             <div class="offset-lg-6 col-lg-6">
-                <div class="max-width-510 font-avenir font-size-lg font-300 pl-xl-5">
-                    <h2 class="h3 mb-1 mb-lg-2">At this time, I’m only<br>
+                <div class="max-width-510 content-block font-avenir font-size-lg font-300 pl-xl-5 mobile-px">
+                    <h2 class="h3 mb-1 mb-lg-2">
+                        At this time, I’m only<br>
                         working with:</h2>
                     <p>After 8 years of working with over a thousand clients one-on-one, I’m taking a pause from one-on-one work and putting my full focus on teaching new energy healers + mentoring the healers featured here <a href="#">(link)</a>. When you work with them, you work with me and benefit from my know-how and experience as well as theirs. <a href="#">(link to work with me page)</a></p>
                 </div>
             </div>
         </div>
     </div>
-    <picture class="d-sm-none">
+    <picture class="row mb-1 d-sm-none">
         <source srcset="<?php echo site_url(); ?>/media/about-feature01-mobile.webp" type="image/webp">
         <source srcset="<?php echo site_url(); ?>/media/about-feature01-mobile.jpg" type="image/jpg">
         <img width="414" height="385" src="<?php echo site_url(); ?>/media/about-feature01-mobile.jpg" loading="lazy" alt="About Feature">
     </picture>
-    <div class="row align-items-center mb-3 mb-xl-6">
+    <div class="row align-items-center two-columns mb-5 mb-xl-6">
         <div class="col-lg-6">
             <div class="block-width-350 py-2 mx-lg-auto font-avenir font-size-lg font-300">
                 <h2 class="heading-secondary heading-secondary--sm text-center mb-1 mb-lg-2">
@@ -115,7 +120,7 @@ get_header();
                 </ul>
             </div>
         </div>
-        <div class="col-lg-6 has-bg-img py-2 py-xl-3">
+        <div class="col-lg-6 has-bg-img">
             <picture class="bg-img">
                 <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-professional-stuff-bg.webp" type="image/webp">
                 <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-professional-stuff-bg.jpg" type="image/jpg">
@@ -124,8 +129,8 @@ get_header();
                 <img width="724" height="532" src="<?php echo site_url(); ?>/media/about-professional-stuff-bg.jpg" loading="lazy" alt="Background Image">
             </picture>
 
-            <div class="max-width-510 font-avenir font-size-lg font-300 pl-xl-4">
-                <h2 class="h3 mb-1 mb-xl-2">The Professional Stuff</h2>
+            <div class="content-list font-avenir font-size-lg font-300 pl-xl-4">
+                <h2 class="h3 mb-1 mb-xl-2 text-center text-sm-left">The Professional Stuff</h2>
                 <ul>
                     <li>Over 8 years of experience as a full time energy healer</li>
                     <li>2500 healing sessions facilitated.</li>
@@ -148,13 +153,13 @@ get_header();
             <li>We’re expecting our first child in August 2021!</li>
         </ul>
     </div>
-    <div class="d-block d-sm-none font-avenir font-size-lg font-300 mb-2">
-        <h2 class="h3 mb-1 mb-xl-2 text-center">What’s next?</h2>
+    <div class="d-block d-sm-none font-avenir font-size-lg font-300 mb-2 mobile-px">
+        <h2 class="h3 mb-2 text-center">What’s next?</h2>
         <p>I’d love to get to work with you and meet you, either through one of my healers, getting to teach you or meeting you at an event. <a href="#">(links)</a>.</p>
     </div>
 </section> <!-- /section -->
 
-<section class="has-bg-img container-alt pt-3 pb-4 pb-lg-6 mt-1">
+<section class="aboutInge-form has-bg-img container-alt py-4 pt-xl-5 pb-xl-8 pb-md-6">
     <picture class="bg-img">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-footer-bg.webp" type="image/webp">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-footer-bg.jpg" type="image/jpg">
@@ -163,9 +168,9 @@ get_header();
         <img src="<?php echo site_url(); ?>/media/about-footer-bg.jpg" alt="Home Hero Background" width="1440" height="808" loading="lazy">
     </picture>
     <div class="container">
-        <div class="d-flex flex-column justify-content-md-center mh-700 block-width-625 mx-auto font-500 text-center">
-            <div class="d-none d-sm-block mb-2">
-                <h2 class="h3 mb-1 mb-xl-2">What’s next?</h2>
+        <div class="d-flex flex-column justify-content-md-center block-width-625 mx-auto font-500 text-center content-block mobile-px">
+            <div class="d-none d-sm-block mb-1 font-avenir font-300 font-size-lg">
+                <h2 class="h3">What’s next?</h2>
                 <p>I’d love to get to work with you and meet you, either through one of my healers, getting to teach you or meeting you at an event. <a href="#">(links)</a>.</p>
             </div>
             <div class="box-light box-light--mb">

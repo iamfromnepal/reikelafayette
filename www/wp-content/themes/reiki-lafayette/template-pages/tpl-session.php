@@ -33,7 +33,7 @@ get_header();
 
 <section class="session-about py-3 py-xl-6">
     <div class="container">
-        <div class="block-width-612 mx-auto text-md-center">
+        <div class="block-width-612 mx-auto text-md-center mobile-px">
             <div class="box-quote box-quote--md mx-auto text-center font-size-lg mb-3">
                 <p>Become who you are with Reiki & Energy Healing</p>
             </div>

@@ -70,7 +70,8 @@
                 }
             }
 
-            .box-quote {
+            .box-quote,
+            .box-text {
                 @include media-breakpoint-down(sm) {
                     color: $white;
                     border-color: $white;
@@ -81,6 +82,14 @@
                         color: $white;
                         background-color: transparent;
                     }
+                }
+            }
+        }
+
+        &.hero-indvCourse {
+            .content-block {
+                @include media-breakpoint-down(sm) {
+                    padding-bottom: 1.375rem;
                 }
             }
         }

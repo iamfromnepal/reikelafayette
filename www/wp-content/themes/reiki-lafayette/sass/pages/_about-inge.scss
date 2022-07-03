@@ -1,0 +1,77 @@
+.aboutInge-info {
+
+    .content-block {
+
+        h2 {
+            margin-bottom: 1.875rem;
+        }
+
+        p:not(:last-of-type) {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.aboutInge-bleeding {
+    padding-top: 2.625rem;
+    padding-bottom: 2.625rem;
+    background: url('#{$image-path}/flower-bg01.png') no-repeat;
+    background-position: 53% 100%;
+    background-size: 287px;
+
+    .box-quote {
+        max-width: 326px;
+        padding: 1rem 2.375rem 0.5rem;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        cite {
+            line-height: 1.1;
+        }
+    }
+}
+
+.aboutInge-columns {
+    padding-bottom: 0.25rem;
+
+    .offset-columns {
+        margin-bottom: .5rem;
+    }
+
+    .content-block {
+        @include media-breakpoint-down(xs) {
+            padding-left: 0.75rem;
+        }
+    }
+
+    .two-columns {
+
+        .content-list {
+            max-width: 34.75rem;
+            padding-top: 3.5rem;
+            padding-bottom: 3.5rem;
+
+            @include media-breakpoint-up(xl) {
+                padding-bottom: 6.875rem;
+            }
+        }
+    }
+}
+
+.aboutInge-form {
+
+    .content-block {
+
+        .h3 {
+            margin-bottom: 2.625rem;
+        }
+
+        .box-light--mb {
+            @include media-breakpoint-down(xs) {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
