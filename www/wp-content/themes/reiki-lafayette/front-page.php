@@ -63,7 +63,7 @@ get_header();
 	</div>
 </section> <!-- /.hero -->
 
-<section class="has-bg-img container-alt pt-3 pb-4 pb-lg-6 mt-1">
+<section class="has-bg-img container-alt pt-xl-5 pt-3 pb-7 pb-xl-10 mt-1">
 	<picture class="bg-img">
 		<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-form-feature-bg.webp" type="image/webp">
 		<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-form-feature-bg.jpg" type="image/jpg">
@@ -72,15 +72,18 @@ get_header();
 		<img src="<?php echo site_url(); ?>/media/home-form-feature-bg.jpg" alt="Home Hero Background" width="1440" height="702" loading="lazy">
 	</picture>
 	<div class="container">
-		<div class="d-flex flex-column justify-content-md-center mh-700">
-			<div class="box-light block-width-625 font-500 text-center">
+		<div class="block-width-625 mx-auto">
+			<div class="box-light box-light--mb font-500 text-center">
 				<h2 class="heading-tertiary text-center mb-2 m-md-0">
 					When we say <br>your energy healing journey starts here,
 					<span>We Mean it.</span>
 				</h2>
 				<p>We have a year’s worth of FREE resources available for you via our newsletter. You’ll get highly valuable and easy to digest content every week delivered straight to your inbox.</p>
+			</div> <!-- /.box-light -->
+			<div class="form-primary">
+				<?php echo do_shortcode('[gravityform id=1 title=false description=false ajax=true]'); ?>
 			</div>
-		</div>
+		</div> <!-- /.block-width-625 -->
 	</div>
 </section> <!-- /section -->
 
@@ -137,7 +140,7 @@ get_header();
 			</div>
 		</div>
 	</div> <!-- /.home-slider -->
-</section>
+</section> <!-- /section -->
 
 <?php
 get_footer();

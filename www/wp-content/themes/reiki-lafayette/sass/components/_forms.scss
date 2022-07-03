@@ -1,1 +1,362 @@
 // Forms
+// Forms
+.gform {
+    &_fields {
+        @extend .row;
+
+        .gfield {
+            @extend .col;
+            flex: 0 0 100%;
+            max-width: 100%;
+            position: relative;
+            margin-bottom: 0.75rem;
+
+            &_label {
+                @include font-size(1rem);
+                color: $gray-700;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+
+            &.hidden_label {
+
+                label,
+                legend {
+                    display: none;
+                }
+            }
+
+            &.hide-legend {
+                legend {
+                    display: none;
+                }
+            }
+
+            .screen-reader-text {
+                display: none;
+            }
+
+            &.spacer {
+                display: none;
+            }
+
+            &--width-half {
+                @include media-breakpoint-up(md) {
+                    flex: 0 0 50%;
+                    max-width: 50%;
+                }
+            }
+
+            &--width-third,
+            &.one-third {
+                @include media-breakpoint-up(md) {
+                    flex: 0 0 33.33%;
+                    max-width: 33.33%;
+                }
+            }
+
+            &--width-full {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            &.two-third {
+                @include media-breakpoint-up(md) {
+                    flex: 0 0 66.67%;
+                    max-width: 66.67%;
+                }
+            }
+
+            &.half-width-onlyMd {
+                @media (min-width: 768px) and (max-width: 991px) {
+                    flex: 0 0 50%;
+                    max-width: 50%;
+                }
+            }
+
+            &_checkbox {
+                .gchoice {
+                    position: relative;
+                    padding-left: 1.4375rem;
+                    @include font-size(0.875rem);
+                    line-height: 1;
+                    margin-bottom: 0.5rem;
+
+                    @include media-breakpoint-up(xl) {
+                        padding-left: 2.1875rem;
+                        @include font-size(1rem);
+                    }
+
+                    label {
+                        margin: 0;
+
+                        @include media-breakpoint-up(xl) {
+                            margin: 0.3125rem 0 0;
+                        }
+
+                        &:after {
+                            content: "";
+                            background: $white;
+                            width: 0.9375rem;
+                            height: 0.9375rem;
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            z-index: 0;
+                            border: 1px solid $gray-400;
+                            border-radius: 0.1875rem;
+
+                            @include media-breakpoint-up(xl) {
+                                width: 1.5625rem;
+                                height: 1.5625rem;
+                            }
+                        }
+
+                        &:before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            width: 4px;
+                            height: 9px;
+                            border: solid $primary;
+                            border-width: 0 1px 1px 0;
+                            left: 6px;
+                            top: 4px;
+                            transform: rotate(45deg);
+                            opacity: 0;
+                            z-index: 1;
+                            transition: all 100ms;
+
+                            @include media-breakpoint-up(xl) {
+                                left: 0.5625rem;
+                                width: 0.5rem;
+                                height: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            input[type="checkbox"] {
+                opacity: 0;
+                outline: none;
+                z-index: 100;
+                width: 0.9375rem;
+                height: 0.9375rem;
+                top: 0;
+                left: 0;
+                position: absolute;
+                appearance: none;
+                cursor: pointer;
+
+                @include media-breakpoint-up(xl) {
+                    width: 1.625rem;
+                    height: 1.625rem;
+                }
+
+                +label {
+                    cursor: pointer;
+                }
+
+                &:checked+label {
+                    color: $black;
+
+                    &:before {
+                        opacity: 1;
+                        top: 2px;
+                    }
+                }
+            }
+
+            &_description {
+                margin-top: 0.75rem;
+            }
+        }
+    }
+
+    &_body {
+
+        input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.75rem 1.5rem;
+            height: 2.75rem;
+            line-height: 1.5;
+            border: 0;
+            border-bottom: 1px solid $white;
+            background-color: $white;
+            @include font-size(1rem);
+            color: $body-color;
+            transition: all .2s;
+            font-family: $font-avenir;
+            font-weight: 300;
+
+            @include media-breakpoint-up(xl) {
+                padding: 0.75rem 3rem;
+            }
+
+            &::-webkit-input-placeholder {
+                color: $gray-600;
+                opacity: 1;
+            }
+
+            &::-moz-placeholder {
+                color: $gray-600;
+                opacity: 1;
+            }
+
+            &:-ms-input-placeholder {
+                color: $gray-600;
+                opacity: 1;
+            }
+
+            &::placeholder {
+                color: $gray-600;
+                opacity: 1;
+            }
+
+            &:focus,
+            &:active {
+                outline: none;
+            }
+        }
+
+        select {
+            appearance: none;
+            -ms-appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            background-image: url("#{$image-path}/down-arrow.png");
+            background-position: calc(100% - 10px) 50%;
+            background-repeat: no-repeat;
+            background-size: 8px;
+            padding-right: 2rem !important;
+
+            @include media-breakpoint-up(xl) {
+                padding-right: 3rem !important;
+                background-position: calc(100% - 19px) 50%;
+            }
+
+            &::-ms-expand {
+                display: none;
+            }
+
+            &>option {
+                color: $black;
+            }
+        }
+
+        textarea {
+            resize: none;
+            vertical-align: top;
+        }
+
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active {
+            box-shadow: 0 0 0 50px $white inset !important;
+            -webkit-box-shadow: 0 0 0 50px $white inset !important;
+        }
+
+        input:-webkit-autofill {
+            -webkit-text-fill-color: $black  !important;
+        }
+
+        .validation_message {
+            display: none;
+            @include font-size(1rem);
+        }
+
+        .gfield_error {
+
+            input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+            select,
+            textarea {
+                border-color: $red !important;
+
+                &::-webkit-input-placeholder {
+                    color: $red;
+                    opacity: 1;
+                }
+
+                &::-moz-placeholder {
+                    color: $red;
+                    opacity: 1;
+                }
+
+                &:-ms-input-placeholder {
+                    color: $red;
+                    opacity: 1;
+                }
+
+                &::placeholder {
+                    color: $red;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .ginput {
+            &_recaptcha {
+                iframe {
+                    @include media-breakpoint-down(xs) {
+                        transform: scale(0.85);
+                        transform-origin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &_footer {
+        position: relative;
+        text-align: center;
+
+        .gform_ajax_spinner {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 1rem;
+            display: block !important;
+        }
+    }
+
+    &_button {
+        @extend .btn;
+        @extend .btn-primary;
+        @extend .btn-block;
+    }
+
+    &_confirmation {
+        &_wrapper {
+            text-align: center;
+        }
+
+        &_message {
+            display: inline-block;
+            background-color: $primary;
+            line-height: 1.5;
+            padding: 1rem;
+            @include font-size(1rem);
+            color: $white;
+            border-radius: 0.375rem;
+        }
+    }
+
+    &_validation_errors {
+        text-align: center;
+
+        .gform_submission_error {
+            display: inline-block;
+            color: $white;
+            @include font-size(1rem);
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            background-color: $red;
+            padding: 1rem;
+            border-radius: 0.3125rem;
+        }
+    }
+}

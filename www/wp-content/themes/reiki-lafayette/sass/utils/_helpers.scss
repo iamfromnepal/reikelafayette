@@ -522,3 +522,12 @@ picture {
 		background-repeat: no-repeat;
 	}
 }
+
+//z-indexes
+.z-index-inherit {
+	z-index: inherit !important;
+}
+
+.z-index-0 {
+	z-index: 0;
+}

@@ -142,5 +142,9 @@
         @include media-breakpoint-up(md) {
             padding: 2.875rem 2.875rem 3.5rem;
         }
+
+        &--mb {
+            margin-bottom: 0.75rem;
+        }
     }
 }
