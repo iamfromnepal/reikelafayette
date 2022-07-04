@@ -1,4 +1,10 @@
 // Navigation
+body{
+    &.menuOpen {
+        overflow: hidden;
+    }
+}
+
 .site-header {
 
     .navbar {
@@ -362,35 +368,35 @@
 
         &-collapse {
             @include media-breakpoint-down(md) {
-
                 background-color: $white;
                 position: fixed;
-                top: 0;
-                bottom: 99999px;
+                top: -100%;
+                // bottom: 100%;
                 left: 0;
                 right: 0;
-                height: 100% !important;
-                visibility: hidden;
+                height: 100vh !important;
                 width: 100%;
                 transition: 0.3s all ease;
                 overflow-y: auto;
                 overflow-x: hidden;
                 text-align: center;
-                max-height: 0;
+                // max-height: 0;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding-left: 15px;
-                padding-right: 15px;
+                padding: 16rem 15px;
                 z-index: 999;
+                opacity: 0;
+                visibility: hidden;
             }
 
             &.show {
                 @include media-breakpoint-down(md) {
-                    bottom: 0;
+                    // bottom: 0;
+                    top: 0;
+                    opacity: 1;
                     visibility: visible;
-                    max-height: 100vh;
                 }
             }
         }
