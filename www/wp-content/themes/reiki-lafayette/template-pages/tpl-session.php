@@ -31,7 +31,7 @@ get_header();
     </div>
 </section> <!-- /.hero -->
 
-<section class="session-about py-3 py-xl-6">
+<section class="session-about pt-3 py-xl-6 pb-7">
     <div class="container">
         <div class="block-width-612 mx-auto text-md-center mobile-px">
             <div class="box-quote box-quote--md mx-auto text-center font-size-lg mb-3">
@@ -62,6 +62,29 @@ get_header();
         </div>
     </div>
 </section> <!-- /.session-about -->
+
+<section class="session-info">
+    <div class="container">
+        <div class="content-block mx-auto counter-list text-center">
+            <h2 class="heading-secondary">
+                Our
+                <span>Philosophy</span>
+            </h2>
+            <p>At Reiki Montreal, we all:</p>
+
+            <ul class="row justify-content-between">
+                <li class="col-md-3">Practice Reiki</li>
+                <li class="col-md-5">Use energy healing in our sessions with you (sometimes in combination with our other modalities such as osteopathy, massage, intuitive readings, coaching & more).</li>
+                <li class="col-md-3">Have the experience of transforming stuck energy into personal growth.</li>
+                <li class="col-md-6">Work with you to help you become the most whole version of yourself again.</li>
+                <li class="col-md-6">Receive mentoring in view of giving you the best of ourselves.</li>
+            </ul>
+
+            <h3>As for the rest?</h3>
+            <p>We’re all different people, with different sensitivities, styles & specialties.</p>
+        </div>
+    </div>
+</section> <!-- /.session-info -->
 
 <?php
 get_footer();
