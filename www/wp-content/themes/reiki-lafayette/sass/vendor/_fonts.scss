@@ -82,18 +82,17 @@
 // icomoon
 @font-face {
 	font-family: 'icomoon';
-	src:  url('#{$font-path}/icomoon.eot?v9ne12');
-	src:  url('#{$font-path}/icomoon.eot?v9ne12#iefix') format('embedded-opentype'),
-	  url('#{$font-path}/icomoon.ttf?v9ne12') format('truetype'),
-	  url('#{$font-path}/icomoon.woff?v9ne12') format('woff'),
-	  url('#{$font-path}/icomoon.svg?v9ne12#icomoon') format('svg');
+	src:  url('#{$font-path}/icomoon.eot?m95gf5');
+	src:  url('#{$font-path}/icomoon.eot?m95gf5#iefix') format('embedded-opentype'),
+	  url('#{$font-path}/icomoon.ttf?m95gf5') format('truetype'),
+	  url('#{$font-path}/icomoon.woff?m95gf5') format('woff'),
+	  url('#{$font-path}/icomoon.svg?m95gf5#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
   }
-
-[class^="icon-"],
-[class*=" icon-"] {
+  
+  [class^="icon-"], [class*=" icon-"] {
 	/* use !important to prevent issues with browser extensions that change fonts */
 	font-family: 'icomoon' !important;
 	speak: never;
@@ -102,56 +101,49 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
+  
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon-facebook:before {
+  }
+  
+  .icon-facebook:before {
 	content: "\e904";
-}
-
-.icon-instagram:before {
+  }
+  .icon-instagram:before {
 	content: "\e905";
-}
-
-.icon-quot-o:before {
+  }
+  .icon-quot-o:before {
 	content: "\e906";
-}
-
-.icon-hamburger:before {
+  }
+  .icon-hamburger:before {
 	content: "\e902";
-}
-
-.icon-close:before {
+  }
+  .icon-close:before {
 	content: "\e903";
-}
-
-.icon-caret-up:before {
+  }
+  .icon-caret-up:before {
 	content: "\e907";
-}
-
-.icon-caret-down:before {
+  }
+  .icon-caret-down:before {
 	content: "\e908";
-}
-
-.icon-arrow-left:before {
+  }
+  .icon-arrow-left:before {
 	content: "\e900";
-}
-
-.icon-arrow-right:before {
+  }
+  .icon-arrow-right:before {
 	content: "\e901";
-}
-
-.icon-courses:before {
+  }
+  .icon-courses:before {
 	content: "\e909";
-}
-
-.icon-sessions:before {
+  }
+  .icon-sessions:before {
 	content: "\e90a";
-}
-
-.icon-event:before {
+  }
+  .icon-event:before {
 	content: "\e90b";
-}
+  }
+  .icon-search:before {
+	content: "\e90c";
+  }
+  

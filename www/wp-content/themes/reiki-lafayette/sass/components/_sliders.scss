@@ -66,7 +66,62 @@
 			}
 		}
 	}
+}
 
+// .slick-arrow
+.slick {
+	&-arrow {
+		position: absolute;
+		top: auto;
+		bottom: 0;
+		background: transparent;
+		border: none;
+		outline: none;
+		font-size: 0;
+		padding: 0;
+		line-height: 1;
+
+		@include media-breakpoint-up(lg) {
+			top: 50%;
+			bottom: auto;
+			transform: translateY(-50%);
+		}
+
+		@include media-breakpoint-down(md) {
+			margin: 0 0.25rem;
+		}
+
+		&:before {
+			content: '\e908';
+			font-family: 'Icomoon';
+			font-size: 16px;
+		}
+	}
+
+	&-prev {
+		transform: rotate(90deg);
+		right: 50%;
+		left: auto;
+		z-index: 1;
+
+		@include media-breakpoint-up(lg) {
+			left: 0;
+			right: auto;
+			transform: rotate(90deg) translateY(-50%);
+		}
+	}
+
+	&-next {
+		transform: rotate(-90deg);
+		left: 50%;
+		right: auto;
+
+		@include media-breakpoint-up(lg) {
+			transform: rotate(-90deg) translateY(-50%);
+			right: 0;
+			left: auto;
+		}
+	}
 }
 
 .vertical-dots {

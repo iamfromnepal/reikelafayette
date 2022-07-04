@@ -360,3 +360,21 @@
         }
     }
 }
+
+// form-primary
+.form-primary {
+    .gform {
+
+        &_body {
+
+            input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+            select,
+            textarea {
+                border: 1px solid $light-gray-2;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                text-align: center;
+            }
+        }
+    }
+}

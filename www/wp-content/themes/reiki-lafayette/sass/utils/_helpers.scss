@@ -166,6 +166,10 @@ picture {
 }
 
 .max-width {
+	&-300 {
+		max-width: 300px;
+	}
+
 	&-330 {
 		max-width: 330px;
 	}
@@ -223,7 +227,7 @@ picture {
 	h4,
 	h5,
 	h6 {
-		color: $white  !important;
+		color: $white !important;
 	}
 }
 
@@ -235,7 +239,7 @@ picture {
 	h4,
 	h5,
 	h6 {
-		color: $primary  !important;
+		color: $primary !important;
 	}
 }
 

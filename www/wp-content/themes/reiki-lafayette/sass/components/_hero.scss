@@ -264,4 +264,60 @@
             }
         }
     }
+
+    &--alt {
+
+        &:before,
+        &:after {
+            display: none;
+        }
+
+        .banner-primary__inner {
+            position: relative;
+            font-family: $font-avenirLTStd-roman;
+            font-size: 1rem;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 320px;
+                height: 280px;
+                top: auto;
+                bottom: 0;
+                left: auto;
+                right: -150px;
+                background-size: 100%;
+                background-position: top left;
+                background-repeat: no-repeat;
+                background-image: url(#{$image-path}/fleur.png);
+                
+                @include media-breakpoint-up(sm) {
+                    left: -110px;
+                    width: 275px;
+                    height: 250px;
+                    right: auto;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    width: 287px;
+                    height: 270px;
+                }
+
+                @include media-breakpoint-down(xs) {
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
+            a:not(.btn) {
+                color: $white;
+                text-decoration: underline;
+
+                &:hover,
+                &:focus {
+                    opacity: .7;
+                }
+            }
+        }
+    }
 }
