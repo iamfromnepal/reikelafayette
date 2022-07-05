@@ -123,3 +123,214 @@
         }
     }
 }
+
+// info-col
+.info-col {
+    color: $black;
+
+    &__box {
+        padding: 2rem .5rem;
+        border-radius: 2.75rem;
+        box-shadow: 1px 1px 6px rgba($black, .15);
+
+        h4 {
+            margin-bottom: 1.5rem;
+
+            @include media-breakpoint-up(lg) {
+                margin-bottom: 2rem;
+            }
+        }
+
+        li {
+            font-family: $font-avenir;
+
+            &:not(:last-child) {
+                margin-bottom: 1.5rem;
+
+                @include media-breakpoint-up(lg) {
+                    margin-bottom: 2rem;
+                }
+            }
+
+            span {
+                display: block;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__content {
+
+        p {
+            @include media-breakpoint-up(lg) {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
+
+// cta-banner
+.cta-banner {
+    &__content {
+        .heading-secondary {
+            margin-bottom: 1.5rem;
+            font-size: 1.5625rem;
+        }
+
+        .btn {
+            min-width: 290px;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+// banner-primary
+.banner-primary {
+    &__inner {
+        &.bg-center {
+            &:before {
+                left: auto;
+                transform: rotate(20deg);
+                bottom: auto;
+                top: -15px;
+                width: 350px;
+                background-image: url(#{$image-path}/bg-leaf-verticle02-flip.png);
+
+                @include media-breakpoint-up(sm) {
+                    left: 50%;
+                    transform: rotate(20deg) translateX(-50%);
+                    bottom: auto;
+                    top: 60px;
+                    width: 440px;
+                }
+
+                @include media-breakpoint-down(xs) {
+                    right: -140px;
+                }
+            }
+        }
+
+        .text-wrap {
+            p {
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    &--quote {
+        .box-quote {
+            border-color: $white;
+            padding-top: 2rem;
+            padding-bottom: 1.5rem;
+
+            &:before {
+                color: $white;
+                background-color: $primary;
+            }
+        }
+    }
+}
+
+// what-next
+.what-next {
+    &__heading {
+        .btn-wrap {
+            .btn {
+                min-width: 290px;
+            }
+        }
+    }
+
+    &__video {
+        @include media-breakpoint-down(xs) {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            height: 240px;
+
+            @include media-breakpoint-up(sm) {
+                height: 280px;
+            }
+
+            @include media-breakpoint-up(lg) {
+                height: 324px;
+            }
+        }
+    }
+
+    &__info {
+        &.has-border {
+            border-bottom: 1px solid $black;
+        }
+
+        h4 {
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            padding-left: 1.625rem;
+            margin-bottom: 1.5rem;
+
+            li {
+                br {
+                    @media(max-width:374.99px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .btn-wrap {
+            .btn {
+                min-width: 290px;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+    }
+
+    &__author {
+        color: $black;
+
+        h4 {
+            margin-bottom: 1.5rem;
+            color: $black;
+        }
+
+        .author-avatar {
+            margin-top: 1.5rem;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.75rem;
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 290px;
+                height: 1px;
+                background-color: $black;
+                z-index: -1;
+
+                @media(min-width: 375px) {
+                    width: 340px;
+                }
+            }
+
+            img {
+                border-radius: 50%;
+                width: 100%;
+            }
+        }
+    }
+}
