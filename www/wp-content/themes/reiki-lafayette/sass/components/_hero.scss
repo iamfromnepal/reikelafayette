@@ -94,6 +94,20 @@
             }
         }
     }
+
+    &-session {
+        .heading-primary {
+            span {
+                @include font-size(6.25rem);
+            }
+        }
+    }
+
+    &-prac {
+        .content-block {
+            min-height: 784px;
+        }
+    }
 }
 
 // info-banner

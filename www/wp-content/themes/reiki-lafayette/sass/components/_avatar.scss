@@ -24,6 +24,19 @@
                 height: 232px;
                 z-index: -1;
             }
+
+            &.bg-none {
+                background: none;
+
+                &:before {
+                    background: none;
+                }
+            }
+        }
+
+        &--sm {
+            width: 134px;
+            height: 134px;
         }
     }
 }

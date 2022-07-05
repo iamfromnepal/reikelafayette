@@ -1,0 +1,69 @@
+.prac-info {
+
+    .content-block {
+        max-width: 464px;
+
+        .title-h2-25 {
+            margin-bottom: 1.375rem;
+
+            h2 {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .bleeding-block {
+        max-width: 741px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .inner {
+            .btn-holder {
+                margin-bottom: 1.5rem;
+
+                .btn {
+                    min-width: 244px;
+                    margin-bottom: 0.625rem;
+                }
+
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.prac-schedule {
+    .heading-secondary {
+        &.title-bg {
+            display: inline-block;
+            max-width: 389px;
+            width: 100%;
+            height: 258px;
+            padding-left: 8rem;
+            padding-top: 5rem;
+            background: url('#{$image-path}/prac-schedule-title-bg.png') no-repeat;
+            background-position: 100%;
+            background-size: contain;
+
+            small {
+                text-align: right;
+                padding-top: 0.75rem;
+                padding-right: 3rem;
+            }
+        }
+    }
+
+    .two-columns {
+        h3 {
+            margin-bottom: 2.375rem;
+        }
+    }
+}
+
+.prac-bleeding {
+    .content-block {
+        max-width: 886px;
+    }
+}

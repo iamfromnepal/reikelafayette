@@ -15,8 +15,12 @@
             filter: drop-shadow(0px 4px 4px rgba($black, 0.25));
         }
 
+        small,
         span {
             display: block;
+        }
+
+        span {
             margin-bottom: 0.75rem;
             font-family: $font-double-signature;
         }
@@ -47,6 +51,10 @@
 
         span {
             @include font-size(5rem);
+        }
+
+        small {
+            @include font-size(1rem);
         }
 
         &--alt {
@@ -82,6 +90,7 @@
 
 // block-header
 .block-header {
+
     h1,
     h2,
     h3,
