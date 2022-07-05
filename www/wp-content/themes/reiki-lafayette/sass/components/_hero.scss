@@ -237,26 +237,27 @@
         }
     }
 
+    .banner-primary.has-border,
+    &>.container.has-border {
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            bottom: 0;
+            width: 100%;
+            max-width: 330px;
+            transform: translateX(-50%);
+            border: 1px solid;
+            border-color: $white transparent;
+        }
+    }
+
     &__inner {
         font-family: $font-nelphim;
         @include font-size(1.25rem);
-
-        &.has-border {
-            position: relative;
-
-            &:before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 50%;
-                bottom: 0;
-                width: 100%;
-                max-width: 330px;
-                transform: translateX(-50%);
-                border: 1px solid;
-                border-color: $white transparent;
-            }
-        }
 
         p {
             &:last-of-type {

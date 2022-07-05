@@ -1,0 +1,125 @@
+// banner-primary
+.banner-primary {
+    &--guide {
+        overflow: hidden;
+
+        .container {
+            &.has-border {
+                &:before {
+                    @media(max-width: 374.99px) {
+                        max-width: 280px;
+                    }
+                }
+            }
+        }
+
+        .banner-primary__inner {
+            font-family: $font-avenir;
+
+            &:before {
+                background-image: url(#{$image-path}/bg-leaf-verticle02.png);
+                width: 460px;
+                height: 410px;
+                top: -30px;
+                bottom: auto;
+                left: -120px;
+                right: auto;
+                transform: rotate(-21deg);
+
+                @include media-breakpoint-up(sm) {
+                    width: 540px;
+                    height: 500px;
+                    left: -200px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    width: 570px;
+                    height: 530px;
+                    left: -300px;
+                }
+            }
+
+            h2 {
+                margin-bottom: 2rem;
+            }
+
+            p+h2 {
+                padding-top: 1rem;
+            }
+        }
+    }
+}
+
+// basic-guide
+.basic-guide {
+    &__info {
+        color: $black;
+
+        .info-title {
+            display: block;
+            font-size: 1.25rem;
+            margin-bottom: 1.25rem;
+
+            @include media-breakpoint-up(xl) {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    &__infoList {
+        li {
+            &:not(:last-child) {
+                margin-bottom: 1.25rem;
+
+                @include media-breakpoint-up(xl) {
+                    margin-bottom: 2rem;
+                }
+            }
+
+            font-family: $font-avenir;
+            font-weight: 300;
+
+            .list-title {
+                color: $black;
+                font-weight: 400;
+                display: block;
+                font-family: $font-avenirLTStd-book;
+            }
+        }
+    }
+}
+
+// banner-secondary
+.banner-secondary {
+    min-height: 485px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    @include media-breakpoint-up(sm) {
+        min-height: 500px;
+        align-items: center;
+    }
+
+    @include media-breakpoint-up(lg) {
+        min-height: 550px;
+    }
+
+    @media(min-width: 1440px) {
+        min-height: 643px;
+    }
+
+    @media screen and (min-width:0\0) {
+        height: 643px;
+    }
+
+    &__inner {
+        .heading-secondary {
+            font-size: 1.25rem;
+
+            span {
+                font-size: 5rem;
+            }
+        }
+    }
+}

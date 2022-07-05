@@ -125,6 +125,13 @@ picture {
 	}
 }
 
+// hidden-title
+.hidden-title {
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+}
+
 .block {
 	&-width {
 		&-1150 {
@@ -192,6 +199,10 @@ picture {
 
 	&-510 {
 		max-width: 510px;
+	}
+
+	&-550 {
+		max-width: 550px;
 	}
 
 	&-580 {
@@ -561,5 +572,18 @@ picture {
 
 	@media (max-width: 413px) {
 		padding-left: 1rem;
+	}
+}
+
+// .text-block
+.text-block {
+	font-weight: 300;
+	font-size: 1.25rem;
+	font-family: $font-avenir;
+
+	p {
+		&:last-of-type {
+			margin-bottom: 0;
+		}
 	}
 }
