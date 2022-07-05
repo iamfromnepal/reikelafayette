@@ -69,6 +69,10 @@
         justify-content: flex-end;
         align-items: center;
 
+        @include media-breakpoint-down(xs) {
+            min-height: 334px;
+        }
+
         h2 {
             @include font-size(1.875rem);
             line-height: .7;
@@ -102,6 +106,12 @@
         max-width: 472px;
         padding-left: 1.25rem;
         padding-right: 1.25rem;
+
+        @include media-breakpoint-down(xs) {
+            max-width: 306px;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
     }
 }
 
@@ -127,6 +137,11 @@
             padding-right: 3.25rem;
             padding-bottom: 0.75rem;
 
+            @include media-breakpoint-down(xs) {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+
             h3 {
                 line-height: .8;
                 @include font-size(1.875rem);
@@ -143,6 +158,8 @@
 }
 
 .session-founderInfo {
+    padding-top: 2.625rem;
+
     .content-block {
         p:not(:last-of-type) {
             margin-bottom: 2rem;
@@ -157,6 +174,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @include media-breakpoint-down(xs) {
+            min-height: 314px;
+        }
 
         h2 {
             @include font-size(1.875rem);

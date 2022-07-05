@@ -4,14 +4,14 @@
 get_header();
 ?>
 
-<section class="hero hero-mobile-overlap container-alt overlay-mobile overlay-mobile--bottom overlay-mobile--top">
+<section class="hero hero-session hero-mobile-overlap container-alt overlay-mobile overlay-mobile--bottom overlay-mobile--top">
     <div class="row align-items-center">
         <picture class="col-md-6 img-block img-fluid">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-hero-feature.webp" type="image/webp">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-hero-feature.jpg" type="image/jpg">
             <source srcset="<?php echo site_url(); ?>/media/session-hero-feature-mobile.webp" type="image/webp">
             <source srcset="<?php echo site_url(); ?>/media/session-hero-feature-mobile.jpg" type="image/jpg">
-            <img src="<?php echo site_url(); ?>/media/session-hero-feature.jpg" alt="Home Hero Background" width="718" height="865" loading="lazy">
+            <img src="<?php echo site_url(); ?>/media/session-hero-feature.jpg" alt="Session Hero Background" width="718" height="865" loading="lazy">
         </picture>
         <div class="col-md-6 content-block content-block--alt text-center">
             <div class="block-width-460 mx-auto">
@@ -69,7 +69,7 @@ get_header();
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-info-bg.jpg" type="image/jpg">
         <source srcset="<?php echo site_url(); ?>/media/session-info-bg-mobile.webp" type="image/webp">
         <source srcset="<?php echo site_url(); ?>/media/session-info-bg-mobile.jpg" type="image/jpg">
-        <img src="<?php echo site_url(); ?>/media/session-info-bg.jpg" alt="Home Hero Background" width="1440" height="669" loading="lazy">
+        <img src="<?php echo site_url(); ?>/media/session-info-bg.jpg" alt="Session Info Background" width="1440" height="669" loading="lazy">
     </picture>
     <div class="container">
         <div class="content-block mx-auto counter-list text-center">
@@ -95,21 +95,24 @@ get_header();
     </div>
 </section> <!-- /.session-info -->
 
-<div class="session-mini-block container pt-6 pb-10">
+<div class="session-mini-block container pt-6 pb-7 pb-xl-10">
     <div class="mini-block">
         <p>Find your healing ally by answering the questions below or by browsing our team.</p>
     </div>
 </div> <!-- /.session-mini-block -->
 
-<section class="session-team has-bg-img container-alt pt-3 pb-5">
-    <picture class="bg-img">
+<section class="session-team has-bg-img container-alt has-bg-img mb-2 mb-sm-0 pt-3 pb-1 pb-xl-5">
+    <picture class="bg-img overlay overlay-80--bottom">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-team-bg.webp" type="image/webp">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-team-bg.jpg" type="image/jpg">
         <source srcset="<?php echo site_url(); ?>/media/session-team-bg-mobile.webp" type="image/webp">
         <source srcset="<?php echo site_url(); ?>/media/session-team-bg-mobile.jpg" type="image/jpg">
-        <img src="<?php echo site_url(); ?>/media/session-team-bg.jpg" alt="Home Hero Background" width="1440" height="669" loading="lazy">
+        <img src="<?php echo site_url(); ?>/media/session-team-bg.jpg" alt="Session Team Background" width="1440" height="669" loading="lazy">
     </picture>
-    <div class="content-block text-white text-center">
+    <div class="d-flex d-sm-none content-block text-white text-center">
+        <h2>Our <span>Team</span></h2>
+    </div>
+    <div class="d-none d-sm-flex content-block text-white text-center">
         <h2>Our <span>Team</span></h2>
         <p>Finding the right practitioner for you is almost everything. Working with someone who really gets you is a gift you give yourself potentially for years to come. Trust your intuition while browsing the practitioners on our team.</p>
         <p>… but right now you just want to try Reiki and you don’t REALLY care with whom? As long as it’s in the right price range, neighborhood? We’ve got you covered there too.</p>
@@ -118,7 +121,16 @@ get_header();
     </div>
 </section> <!-- /.session-team -->
 
-<section class="session-bleeding container-alt bg-primary pt-4 pb-3">
+<div class="session-team-mobile container pb-3">
+    <div class="d-block d-sm-none content-block text-center mobile-px">
+        <p>Finding the right practitioner for you is almost everything. Working with someone who really gets you is a gift you give yourself potentially for years to come. Trust your intuition while browsing the practitioners on our team.</p>
+        <p>… but right now you just want to try Reiki and you don’t REALLY care with whom? As long as it’s in the right price range, neighborhood? We’ve got you covered there too.</p>
+
+        <a href="#" class="btn btn-primary">Click Here</a>
+    </div>
+</div>
+
+<section class="session-bleeding container-alt bg-primary pt-3 pt-sm-4 pb-2 pb-sm-3">
     <div class="container">
         <div class="box-quote box-quote--pri mx-auto text-center">
             <p>We do our best to show up as our best selves so you can too</p>
@@ -126,7 +138,7 @@ get_header();
     </div>
 </section> <!-- /section-bleeding -->
 
-<section class="session-founder pt-3">
+<section class="session-founder pt-2 pt-sm-3">
     <div class="container">
         <h2 class="heading-secondary text-center mb-2">
             All our practitioners
@@ -139,7 +151,7 @@ get_header();
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-founder-bg.jpg" type="image/jpg">
             <source srcset="<?php echo site_url(); ?>/media/session-founder-bg-mobile.webp" type="image/webp">
             <source srcset="<?php echo site_url(); ?>/media/session-founder-bg-mobile.jpg" type="image/jpg">
-            <img src="<?php echo site_url(); ?>/media/session-founder-bg.jpg" alt="Home Hero Background" width="1438" height="435" loading="lazy">
+            <img src="<?php echo site_url(); ?>/media/session-founder-bg.jpg" alt="Session Founder Background" width="1438" height="435" loading="lazy">
         </picture>
         <div class="inner text-white text-center mx-auto">
             <h3>
@@ -151,11 +163,11 @@ get_header();
     </div>
 </section> <!-- /.section-founder -->
 
-<section class="session-founderInfo container pt-5 pb-4">
+<section class="session-founderInfo container pt-sm-5 pn-2 pb-sm-4">
     <div class="content-block block-width-625 mx-auto text-center">
         <p>Since founding Reiki Montreal in 2013, Inge has worked with thousands of clients and trained hundreds of Reiki practitioners.</p>
 
-        <div class="box-quote box-quote--md mx-auto text-center mb-1">
+        <div class="box-quote box-quote--md mx-auto text-center mb-2 mb-sm-1">
             <p>She’s seen miracles unfold and receives deep satisfaction in knowing how many lives she’s been able to touch.</p>
         </div>
 
@@ -167,11 +179,11 @@ get_header();
 
 <section class="session-healing container-alt has-bg-img py-2">
     <picture class="bg-img">
-        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-healing-bg-.webp" type="image/webp">
-        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-healing-bg-.jpg" type="image/jpg">
-        <source srcset="<?php echo site_url(); ?>/media/session-healing-bg--mobile.webp" type="image/webp">
-        <source srcset="<?php echo site_url(); ?>/media/session-healing-bg--mobile.jpg" type="image/jpg">
-        <img src="<?php echo site_url(); ?>/media/session-healing-bg-.jpg" alt="Home Hero Background" width="1438" height="712" loading="lazy">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-healing-bg.webp" type="image/webp">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-healing-bg.jpg" type="image/jpg">
+        <source srcset="<?php echo site_url(); ?>/media/session-healing-bg-mobile.webp" type="image/webp">
+        <source srcset="<?php echo site_url(); ?>/media/session-healing-bg-mobile.jpg" type="image/jpg">
+        <img src="<?php echo site_url(); ?>/media/session-healing-bg.jpg" alt="Session Healing Background" width="1438" height="712" loading="lazy">
     </picture>
     <div class="inner text-center mx-auto">
         <h2>What is <br>Energy Healing</h2>

@@ -33,22 +33,6 @@ get_header();
     <hr>
     <hr>
 
-    <!-- Banner v -->
-    <section class="hero container-alt">
-        <div class="overlay overlay-80 overlay-80--top overlay-80--bottom">
-            <picture class="img-fluid">
-                <img src="https://via.placeholder.com/1440x865.jpg/a59090/000000?Text=1440x865" alt="Home Hero Background" width="1440" height="865" loading="lazy">
-            </picture>
-            <picture class="img-fluid">
-                <source srcset="<?php echo site_url(); ?>/media/practitioner-hero-bg.webp" type="image/webp">
-                <source srcset="<?php echo site_url(); ?>/media/practitioner-hero-bg.jpg" type="image/jpg">
-                <img src="<?php echo site_url(); ?>/media/practitioner-hero-bg.jpg" alt="Home Hero Background" width="1440" height="865" loading="lazy">
-            </picture>
-        </div>
-    </section> <!-- /.hero -->
-    <hr>
-    <hr>
-    
     <div class="container">
         <h1>This is Heading One.</h1>
         <h2>This is Heading Two.</h2>
