@@ -95,12 +95,33 @@
         }
     }
 
-    &-home {
+    &-home,
+    &-resources {
         .content-block {
             min-height: 660px;
 
             @include media-breakpoint-up(xl) {
                 min-height: 792px;
+            }
+        }
+    }
+
+    &-resources {
+        .content-block {
+
+            .heading-primary {
+
+                @include media-breakpoint-up(lg) {
+                    margin-top: 25%;
+                }
+            }
+
+            .desc {
+                font-family: $font-nelphim;
+                @include font-size(1.25rem);
+                max-width: 542px;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     }
@@ -158,7 +179,8 @@
         }
     }
 
-    &-about {
+    &-about,
+    &-cGuide {
         .content-block {
             max-width: 334px;
             margin-left: auto;
@@ -170,6 +192,12 @@
             // @include media-breakpoint-down(xs) {
             //     min-height: 679px;
             // }
+        }
+    }
+
+    &-cGuide {
+        .content-block {
+            max-width: 625px;
         }
     }
 

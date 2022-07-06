@@ -4,6 +4,28 @@
 get_header();
 ?>
 
+<section class="hero hero-resources has-bg-img container-alt overlay overlay-80--bottom py-3">
+    <picture class="bg-img">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/resources-hero-bg.webp" type="image/webp">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/resources-hero-bg.jpg" type="image/jpg">
+        <source srcset="<?php echo site_url(); ?>/media/resources-hero-bg-mobile.webp" type="image/webp">
+        <source srcset="<?php echo site_url(); ?>/media/resources-hero-bg-mobile.jpg" type="image/jpg">
+        <img src="<?php echo site_url(); ?>/media/resources-hero-bg.jpg" alt="Resources Hero Background" width="1440" height="862" loading="lazy">
+    </picture>
+    <div class="container">
+        <div class="content-block d-flex flex-column justify-content-end justify-content-lg-between text-white text-center">
+            <h1 class="heading-primary mb-2 mb-lg-3">
+                <span>Heal Yourself,</span>
+                Heal the world.
+            </h1> <!-- /.heading-primary -->
+
+            <div class="desc">
+                <p>Here you’ll find an abundance of resources to soak up every last drop of wisdom from your classes, to make the best of your one-on-one healing sessions and to self-heal your way to the life of your dreams.</p>
+            </div>
+        </div>
+    </div>
+</section> <!-- /.hero -->
+
 <section class="resources-intro container max-width-510 py-lg-4 py-sm-3 py-2">
     <header class="resources-intro__heading title-has-bg text-center">
         <h2 class="heading-secondary text-center">

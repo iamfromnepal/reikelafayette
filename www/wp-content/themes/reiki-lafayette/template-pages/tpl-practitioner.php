@@ -4,7 +4,7 @@
 get_header();
 ?>
 
-<section class="hero hero-prac container-alt has-bg-img overlay overlay-80 overlay-80--top overlay-80--bottom pt-4 pt-sm-5">
+<section class="hero hero-prac container-alt has-bg-img overlay overlay-80--top overlay-80--bottom pt-4 pt-sm-5">
     <picture class="bg-img">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/practitioner-hero-bg.webp" type="image/webp">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/practitioner-hero-bg.jpg" type="image/jpg">

@@ -359,6 +359,7 @@ picture {
 //overlays
 .overlay {
 	position: relative;
+	z-index: 1;
 
 	&:before,
 	&:after {
@@ -367,6 +368,7 @@ picture {
 		left: 0;
 		right: 0;
 		width: 100%;
+		z-index: -1;
 	}
 
 	&-80 {

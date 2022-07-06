@@ -4,6 +4,22 @@
 get_header();
 ?>
 
+<section class="hero hero-cGuide container-alt has-bg-img overlay overlay-53--bottom py-3">
+    <picture class="bg-img">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/chakra-guide-hero-bg.webp" type="image/webp">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/chakra-guide-hero-bg.jpg" type="image/jpg">
+        <source srcset="<?php echo site_url(); ?>/media/chakra-guide-hero-bg-mobile.webp" type="image/webp">
+        <source srcset="<?php echo site_url(); ?>/media/chakra-guide-hero-bg-mobile.jpg" type="image/jpg">
+        <img src="<?php echo site_url(); ?>/media/chakra-guide-hero-bg.jpg" alt="Chakra Guide Hero Background" width="1440" height="865" loading="lazy">
+    </picture>
+    <div class="container content-block d-flex flex-column justify-content-end align-items-center text-white">
+        <h1 class="heading-primary text-center">
+            <span>A guide</span>
+            to the 7 Chakras for beginners
+        </h1>
+    </div>
+</section> <!-- /.hero -->
+
 <section class="text-block text-sm-center text-left container max-width-650 py-lg-4 py-sm-3 py-2">
     <?php the_title('<h2 class="hidden-title">', '</h2>'); ?>
     <p>I vividly remember the moment someone told me about the chakras for the first time. It was at the end of a meditation retreat way back in October 2010 and it blew my mind. What was it for you? A mention in a yoga class? A Reiki practitioner giving you a pretty spot on assessment of … well… everything in your life based on these chakras? (haven’t had the pleasure of receiving a Reiki session yet? Book here). Whatever it is that got you researching, I hope to have you covered here.</p>
