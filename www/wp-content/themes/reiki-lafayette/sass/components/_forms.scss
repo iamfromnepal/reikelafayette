@@ -274,7 +274,7 @@
             input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
             select,
             textarea {
-                border-color: $red !important;
+                border-color: $red  !important;
 
                 &::-webkit-input-placeholder {
                     color: $red;
@@ -374,6 +374,19 @@
                 padding-left: 1rem;
                 padding-right: 1rem;
                 text-align: center;
+            }
+        }
+    }
+
+    &--left {
+        .gform {
+            &_body {
+
+                input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+                select,
+                textarea {
+                    text-align: left;
+                }
             }
         }
     }

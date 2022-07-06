@@ -93,7 +93,7 @@
 
 		&:before {
 			content: '\e908';
-			font-family: 'Icomoon';
+			font-family: 'icomoon';
 			font-size: 16px;
 		}
 	}
@@ -120,6 +120,43 @@
 			transform: rotate(-90deg) translateY(-50%);
 			right: 0;
 			left: auto;
+		}
+	}
+
+	&-disabled {
+		opacity: .5;
+	}
+
+	&-xl-arrow {
+		.slick-arrow {
+			transform: none;
+
+			&:before {
+				color: $white;
+				@include font-size(1.25rem);
+
+				@include media-breakpoint-up(lg) {
+					@include font-size(4.375rem);
+				}
+			}
+
+			&.slick-prev {
+				left: 0;
+				right: auto;
+
+				&:before {
+					content: "\e90d";
+				}
+			}
+
+			&.slick-next {
+				right: 0;
+				left: auto;
+				
+				&:before {
+					content: "\e90e";
+				}
+			}
 		}
 	}
 }
@@ -155,7 +192,7 @@
 	@extend .align-items-center;
 	@extend .justify-content-center;
 
-	&__item {}
+	// &__item {}
 
 	&__content {
 		font-family: $font-nelphim;

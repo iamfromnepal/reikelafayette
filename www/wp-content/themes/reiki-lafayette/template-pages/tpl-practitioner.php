@@ -10,7 +10,7 @@ get_header();
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/practitioner-hero-bg.jpg" type="image/jpg">
         <source srcset="<?php echo site_url(); ?>/media/practitioner-hero-bg-mobile.webp" type="image/webp">
         <source srcset="<?php echo site_url(); ?>/media/practitioner-hero-bg-mobile.jpg" type="image/jpg">
-        <img src="<?php echo site_url(); ?>/media/practitioner-hero-bg.jpg" alt="Home Hero Background" width="1440" height="865" loading="lazy">
+        <img src="<?php echo site_url(); ?>/media/practitioner-hero-bg.jpg" alt="Practitioner Hero Background" width="1440" height="865" loading="lazy">
     </picture>
     <div class="container content-block d-flex flex-column">
         <h1 class="heading-primary text-center text-white">
@@ -75,7 +75,7 @@ get_header();
         <span>Their</span>
         Schedule
     </h2>
-    <div class="row align-items-center justify-content-center two-columns">
+    <div class="row align-items-center justify-content-center two-columns text-center">
         <div class="col-lg-4 mb-1">
             <h3 class="heading-secondary title-bg">
                 <span>About</span>
@@ -83,7 +83,7 @@ get_header();
                 <small>| In their words</small>
             </h3>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4">
             <h3>Their Journey</h3>
             <p>Aenean lacinia facilisis. Bibendum fusce. Ut turpis facilisi maecenas. Natoque mi, primis praesent. Facilisi feugiat torquent cras consequat dignissim habitant. Quam pharetra eu lobortis.<br>
                 Eu semper proin mollis litora dui. Feugiat morbi nulla elementum per justo lectus est purus magna. Dis nostra sodales Sollicitudin consectetuer et quam quam sollicitudin elementum luctus adipiscing quam sociis placerat sollicitudin placerat. Dignissim auctor morbi.<br>
@@ -92,7 +92,7 @@ get_header();
     </div>
 </section> <!-- /.prac-schedule -->
 
-<section class="prac-bleeding container-alt has-bg-img pt-5 pb-2 pb-sm-3">
+<div class="prac-bleeding container-alt has-bg-img pt-5 pb-2 pb-sm-3">
     <picture class="bg-img">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/prac-bleeding-bg01-mobile.webp" type="image/webp">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/prac-bleeding-bg01-mobile.jpg" type="image/jpg">
@@ -106,7 +106,7 @@ get_header();
             Suscipit suspendisse sem.<br>
             Nisi nisi fames integer semper urna metus conubia bibendum hac, ut, consequat congue egestas, adipiscing.</p>
     </div>
-</section> <!-- /.parc-bleeding -->
+</div> <!-- /.parc-bleeding -->
 
 <section class="prac-bottom container pt-9 pt-sm-7 pb-4">
     <div class="content-block text-center block-width-625 mx-auto">

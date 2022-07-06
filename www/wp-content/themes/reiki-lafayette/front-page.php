@@ -80,7 +80,7 @@ get_header();
 				</h2>
 				<p>We have a year’s worth of FREE resources available for you via our newsletter. You’ll get highly valuable and easy to digest content every week delivered straight to your inbox.</p>
 			</div> <!-- /.box-light -->
-			<div class="form-primary">
+			<div class="form-primary form-primary--left">
 				<?php echo do_shortcode('[gravityform id=1 title=false description=false ajax=true]'); ?>
 			</div>
 		</div> <!-- /.block-width-625 -->

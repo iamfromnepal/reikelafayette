@@ -1,0 +1,203 @@
+.about-bleeding {
+    background: url('#{$image-path}/flower-bg02.png') no-repeat;
+    background-size: 458px;
+    background-position: 8% 180px;
+
+    @include media-breakpoint-down(xs) {
+        background-position: -48px 50%;
+    }
+
+    .content-block {
+        h3 {
+            margin-bottom: 1.375rem;
+        }
+
+        p {
+            margin-bottom: 2.625rem;
+        }
+
+        ul {
+            display: inline-block;
+            max-width: 424px;
+
+            li {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.about-info {
+    .content-block {
+        h3 {
+            margin-bottom: 2rem;
+        }
+
+        p {}
+
+        .box-quote {
+            max-width: 300px;
+            font-weight: 400;
+            padding-bottom: 1rem;
+
+            p {
+                margin: 0;
+            }
+
+            cite {
+                font-style: normal;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.about-blockquote {
+    position: relative;
+
+    @include media-breakpoint-down(xs) {
+        margin-bottom: 2rem;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 15px;
+        bottom: 0;
+        background: url('#{$image-path}/slider-vertical-bg01.jpg') no-repeat;
+        background-size: 100% 100%;
+        width: 25px;
+    }
+
+    .verticalSlider-col-1 {
+        display: flex;
+
+        .slide-item {
+            border: 0;
+        }
+    }
+
+    .vertical-dots {
+        .slick-dots {
+            max-width: 25px;
+            justify-content: center;
+            margin-right: 0;
+
+            li {
+                &+li {
+                    margin-top: 1rem;
+                }
+            }
+
+            button {
+                width: 5px;
+                height: 5px;
+                background-color: $white;
+            }
+
+            .slick-active {
+                button {
+                    width: 9px;
+                    height: 9px;
+                }
+            }
+        }
+    }
+
+    .blockquote {
+        max-width: 672px;
+        @extend .container;
+
+        q:before,
+        q:after {
+            content: '';
+        }
+
+        cite {
+            display: block;
+            font-family: $font-double-signature;
+            @include font-size(3.75rem);
+        }
+    }
+}
+
+.about-visual {
+    .slick-xl-arrow {
+        .slick-arrow {
+            top: auto;
+            bottom: 10%;
+
+            @include media-breakpoint-down(xs) {
+                bottom: 4%;
+            }
+        }
+    }
+
+    .slick-track {
+        display: flex;
+    }
+
+    .slick-slide {
+        height: inherit;
+    }
+
+    .has-bg-img {
+        @include media-breakpoint-down(xs) {
+            min-height: 345px;
+        }
+    }
+}
+
+.about-more {
+    .heading-secondary {
+        @extend .h3;
+
+        &.title-bg {
+            display: flex;
+            align-items: flex-end;
+            max-width: 389px;
+            width: 100%;
+            height: 258px;
+            padding: 2rem 1rem 4rem 5rem;
+            background: url('#{$image-path}/prac-schedule-title-bg.png') no-repeat;
+            background-position: 100%;
+            background-size: contain;
+            margin: 0 auto 1.5rem;
+
+            @include media-breakpoint-down(xs) {
+                margin-left: -10%;
+            }
+
+            // small {
+            //     text-align: right;
+            //     padding-top: 0.75rem;
+            //     padding-right: 3rem;
+            // }
+        }
+    }
+
+    .content-block {
+        font-family: $font-avenir;
+        font-weight: 300;
+        @include font-size($font-size-lg);
+    }
+}
+
+.about-timeline {
+    background: url('#{$image-path}/flower-bg02.png') no-repeat;
+    background-size: 458px;
+    background-position: 22% 96%;
+
+    @include media-breakpoint-down(xs) {
+        background-position: 192% 56%;
+    }
+}
+
+.about-bottom {
+    .btn {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        min-width: 292px;
+    }
+}
