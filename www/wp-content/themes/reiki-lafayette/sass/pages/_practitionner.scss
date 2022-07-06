@@ -67,3 +67,13 @@
         max-width: 886px;
     }
 }
+
+.prac-bottom {
+    background: url('#{$image-path}/bg-leaf03.png') no-repeat;
+    background-size: 340px;
+    background-position: 50% 0%;;
+
+    @include media-breakpoint-down(xs) {
+        background-position: 0% 0%;
+    }
+}

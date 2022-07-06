@@ -106,6 +106,17 @@
     &-prac {
         .content-block {
             min-height: 784px;
+
+            @include media-breakpoint-down(xs) {
+                min-height: 679px;
+            }
+
+            .heading-primary {
+                @include media-breakpoint-down(xs) {
+                    padding-top: 1.25rem;
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 }
@@ -305,7 +316,7 @@
                 background-position: top left;
                 background-repeat: no-repeat;
                 background-image: url(#{$image-path}/fleur.png);
-                
+
                 @include media-breakpoint-up(sm) {
                     left: -110px;
                     width: 275px;
