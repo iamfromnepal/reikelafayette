@@ -1,0 +1,29 @@
+.events-info {
+    .title-bg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        max-width: 389px;
+        width: 100%;
+        height: 258px;
+        padding: 2rem;
+        background: url('#{$image-path}/bg-leaf-alt.png') no-repeat;
+        background-position: 100%;
+        background-size: contain;
+        margin: 0 auto 10rem;
+
+        @include media-breakpoint-down(xs) {
+            margin-bottom: 4rem;
+        }
+
+        span {
+            line-height: .7;
+            margin-right: -100px;
+        }
+    }
+
+    .content-holder {
+        max-width: 350px;
+    }
+}

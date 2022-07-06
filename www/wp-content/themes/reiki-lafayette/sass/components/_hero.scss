@@ -134,6 +134,46 @@
             // }
         }
     }
+
+    &-events {
+
+        &.hero-mobile-overlap {
+            .content-block {
+                @include media-breakpoint-down(sm) {
+                    padding: 2rem 2rem 1rem;
+                    min-height: 745px;
+                }
+            }
+        }
+
+        .block-width-top {
+            max-width: 320px;
+        }
+
+        h1 {
+            line-height: 1.2;
+        }
+
+        .heading-wrap {
+            @include font-size(1.25rem);
+
+            @include media-breakpoint-down(sm) {
+                color: $white;
+            }
+
+            span {
+                @include font-size(5rem);
+                font-family: $font-double-signature;
+                line-height: .6;
+                vertical-align: bottom;
+            }
+        }
+
+        .block-width-bottom {
+            max-width: 278px;
+            line-height: 1.2;
+        }
+    }
 }
 
 // info-banner
