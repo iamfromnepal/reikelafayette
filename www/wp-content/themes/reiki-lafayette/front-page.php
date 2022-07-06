@@ -108,7 +108,8 @@ get_header();
 			<p>When I took my first Reiki class back in 2010, I had my arms crossed, a scowl on my face and the thoughts: “This doesn’t make sense” running rampant through my head. Yet, something deeply intuitive in me kept having me show up.</p>
 			<div class="box-quote box-quote--lg mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2">
 				<p>I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey. </p>
-			</div>
+			</div>		
+
 			<p>Wherever you are on your healing path, know this: You are welcome here. My vision is that this be a place for you to heal, to learn, to connect and above all: to become who you are. </p>
 		</div>
 	</div>

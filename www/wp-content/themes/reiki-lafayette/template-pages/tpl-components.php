@@ -117,34 +117,32 @@ get_header();
         <hr>
 
         <h2>[.box-quote.box-quote--md]</h2>
-        <div class="box-quote box-quote--md mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2">
-            <p>I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey. </p>
-        </div>
+        Shortcode = [contentbox classes="" paragraph=""]
+        <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2" paragraph="I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey."]'); ?>
         <hr>
         <hr>
 
         <h2>[.box-quote.box-quote--lg]</h2>
-        <div class="box-quote box-quote--lg mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2">
-            <p>I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey. </p>
-        </div>
+        Shortcode = [contentbox classes="" paragraph=""]
+        <?php echo do_shortcode('[contentbox classes="box-quote box-quote--lg mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2" paragraph="I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey."]'); ?>
         <hr>
         <hr>
 
         <h2>[.box-quote]</h2>
-        <div class="box-quote mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2">
-            <p>I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey. </p>
-        </div>
+        Shortcode = [contentbox classes="" paragraph=""]
+        <?php echo do_shortcode('[contentbox classes="box-quote mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2" paragraph="I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey."]'); ?>
         <hr>
         <hr>
 
-        <h2>[.box-text]</h2>
-        <div class="box-text text-center mb-2">
-            <span class="box-text__off">Reiki I</span>
-            <h1 class="heading-primary">
-                <span>Awaken</span>
-                Your inner Healer
-            </h1> <!-- /.heading-primary -->
-        </div>
+        <div class="mb-2"><h2>[.box-text]</h2>
+        Shortcode = [contentbox classes="" offtext="" headingsig="" heading="" paragraph=""]</div>
+        <?php echo do_shortcode('[contentbox classes="box-text text-center mb-2" offtext="Reiki I" headingsig="Awaken" heading="Your inner Healer" paragraph="I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey."]'); ?>
+        <hr>
+        <hr>
+
+        <div class="mb-2"><h2>[.box-text]</h2>
+        Shortcode = [contentbox classes="" offtext="" headingsig="" heading=""]</div>
+        <?php echo do_shortcode('[contentbox classes="box-text text-center mb-2" offtext="Reiki I" headingsig="Awaken" heading="Your inner Healer"]'); ?>
         <hr>
         <hr>
     </div>
