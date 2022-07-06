@@ -121,6 +121,200 @@ get_header();
     </div>
 </section> <!-- /.session-team -->
 
+<section class="container py-xl-6 py-lg-4 py-sm-3 py-2 block-width-950 px-sm-1 px-0">
+    <div class="accordion accordion-reverse" id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0 has-bg-img">
+                    <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg01.jpg" alt="Background Image" width="914" height="78" loading="lazy">
+                    <button class="accordion-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="accordion-btn__info">
+                            <span class="img-wrap">
+                                <img src="<?php echo site_url(); ?>/media/teacher-avatar.png" alt="Headshot" width="166" height="162" loading="lazy">
+                            </span>
+                            <span class="title-wrap">
+                                <strong>Inge Broer</strong><br>
+                                The Alchemical Creatrix
+                            </span>
+                        </span>
+                        <i class="icon-caret-down"></i>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body text-center">
+                    <p> Founder of Reiki Montreal & Energy School, Inge is a passionate explorer of the creative life and she specializes in helping her beloved 1:1 clients heal their way to the life of their dreams.</p>
+                    <p>With her guidance, they learn the tools to live a life of deep fulfillment, clarity & trust in their intuition.</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div> <!-- /.card -->
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0 has-bg-img">
+                    <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg02.jpg" alt="Background Image" width="914" height="78" loading="lazy">
+                    <button class="accordion-btn" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <span class="accordion-btn__info">
+                            <span class="img-wrap">
+                                <img src="<?php echo site_url(); ?>/media/author-avatar01.png" alt="Headshot" width="80" height="80" loading="lazy">
+                            </span>
+                            <span class="title-wrap">
+                                <strong>Inge Broer</strong><br>
+                                The Alchemical Creatrix
+                            </span>
+                        </span>
+                        <i class="icon-caret-down"></i>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body text-center">
+                    <p> Founder of Reiki Montreal & Energy School, Inge is a passionate explorer of the creative life and she specializes in helping her beloved 1:1 clients heal their way to the life of their dreams.</p>
+                    <p>With her guidance, they learn the tools to live a life of deep fulfillment, clarity & trust in their intuition.</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div> <!-- /.card -->
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0 has-bg-img">
+                    <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg03.jpg" alt="Background Image" width="914" height="78" loading="lazy">
+                    <button class="accordion-btn" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        <span class="accordion-btn__info">
+                            <span class="img-wrap">
+                                <img src="<?php echo site_url(); ?>/media/author-avatar01.png" alt="Headshot" width="80" height="80" loading="lazy">
+                            </span>
+                            <span class="title-wrap">
+                                <strong>Inge Broer</strong><br>
+                                The Alchemical Creatrix
+                            </span>
+                        </span>
+                        <i class="icon-caret-down"></i>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body text-center">
+                    <p> Founder of Reiki Montreal & Energy School, Inge is a passionate explorer of the creative life and she specializes in helping her beloved 1:1 clients heal their way to the life of their dreams.</p>
+                    <p>With her guidance, they learn the tools to live a life of deep fulfillment, clarity & trust in their intuition.</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div> <!-- /.card -->
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h5 class="mb-0 has-bg-img">
+                    <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg04.jpg" alt="Background Image" width="914" height="78" loading="lazy">
+                    <button class="accordion-btn" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        <span class="accordion-btn__info">
+                            <span class="img-wrap">
+                                <img src="<?php echo site_url(); ?>/media/author-avatar01.png" alt="Headshot" width="80" height="80" loading="lazy">
+                            </span>
+                            <span class="title-wrap">
+                                <strong>Inge Broer</strong><br>
+                                The Alchemical Creatrix
+                            </span>
+                        </span>
+                        <i class="icon-caret-down"></i>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body text-center">
+                    <p> Founder of Reiki Montreal & Energy School, Inge is a passionate explorer of the creative life and she specializes in helping her beloved 1:1 clients heal their way to the life of their dreams.</p>
+                    <p>With her guidance, they learn the tools to live a life of deep fulfillment, clarity & trust in their intuition.</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div> <!-- /.card -->
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <h5 class="mb-0 has-bg-img">
+                    <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg05.jpg" alt="Background Image" width="914" height="78" loading="lazy">
+                    <button class="accordion-btn" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        <span class="accordion-btn__info">
+                            <span class="img-wrap">
+                                <img src="<?php echo site_url(); ?>/media/author-avatar01.png" alt="Headshot" width="80" height="80" loading="lazy">
+                            </span>
+                            <span class="title-wrap">
+                                <strong>Inge Broer</strong><br>
+                                The Alchemical Creatrix
+                            </span>
+                        </span>
+                        <i class="icon-caret-down"></i>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="card-body text-center">
+                    <p> Founder of Reiki Montreal & Energy School, Inge is a passionate explorer of the creative life and she specializes in helping her beloved 1:1 clients heal their way to the life of their dreams.</p>
+                    <p>With her guidance, they learn the tools to live a life of deep fulfillment, clarity & trust in their intuition.</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div> <!-- /.card -->
+        <div class="card">
+            <div class="card-header" id="headingSix">
+                <h5 class="mb-0 has-bg-img">
+                    <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg06.jpg" alt="Background Image" width="914" height="78" loading="lazy">
+                    <button class="accordion-btn" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                        <span class="accordion-btn__info">
+                            <span class="img-wrap">
+                                <img src="<?php echo site_url(); ?>/media/author-avatar01.png" alt="Headshot" width="80" height="80" loading="lazy">
+                            </span>
+                            <span class="title-wrap">
+                                <strong>Inge Broer</strong><br>
+                                The Alchemical Creatrix
+                            </span>
+                        </span>
+                        <i class="icon-caret-down"></i>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="card-body text-center">
+                    <p> Founder of Reiki Montreal & Energy School, Inge is a passionate explorer of the creative life and she specializes in helping her beloved 1:1 clients heal their way to the life of their dreams.</p>
+                    <p>With her guidance, they learn the tools to live a life of deep fulfillment, clarity & trust in their intuition.</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div> <!-- /.card -->
+        <div class="card">
+            <div class="card-header" id="headingSeven">
+                <h5 class="mb-0 has-bg-img">
+                    <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg07.jpg" alt="Background Image" width="914" height="78" loading="lazy">
+                    <button class="accordion-btn" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                        <span class="accordion-btn__info">
+                            <span class="img-wrap">
+                                <img src="<?php echo site_url(); ?>/media/author-avatar01.png" alt="Headshot" width="80" height="80" loading="lazy">
+                            </span>
+                            <span class="title-wrap">
+                                <strong>Inge Broer</strong><br>
+                                The Alchemical Creatrix
+                            </span>
+                        </span>
+                        <i class="icon-caret-down"></i>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                <div class="card-body text-center">
+                    <p> Founder of Reiki Montreal & Energy School, Inge is a passionate explorer of the creative life and she specializes in helping her beloved 1:1 clients heal their way to the life of their dreams.</p>
+                    <p>With her guidance, they learn the tools to live a life of deep fulfillment, clarity & trust in their intuition.</p>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div> <!-- /.card -->
+    </div> <!-- /.accordion -->
+</section>
+
 <div class="session-team-mobile container pb-3">
     <div class="d-block d-sm-none content-block text-center mobile-px">
         <p>Finding the right practitioner for you is almost everything. Working with someone who really gets you is a gift you give yourself potentially for years to come. Trust your intuition while browsing the practitioners on our team.</p>

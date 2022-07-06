@@ -140,6 +140,12 @@ picture {
 			}
 		}
 
+		&-950 {
+			@include media-breakpoint-up(lg) {
+				max-width: 950px;
+			}
+		}
+
 		&-612 {
 			@include media-breakpoint-up(lg) {
 				max-width: 612px;

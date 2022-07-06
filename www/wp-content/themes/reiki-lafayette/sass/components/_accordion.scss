@@ -40,7 +40,7 @@
         position: relative;
         padding: 1.0625rem 1rem;
 
-        span {
+        &>span {
             margin-right: 1.5rem;
             display: inline-block;
         }
@@ -77,6 +77,122 @@
                 padding-right: 2.125rem;
                 font-weight: 400;
                 font-family: $font-avenirLTStd-roman;
+            }
+        }
+    }
+
+    &-reverse {
+        .accordion {
+            &-btn {
+                color: $white;
+                font-size: 1rem;
+                text-align: left;
+                font-family: $font-avenir;
+                max-width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: .5rem;
+                padding-bottom: .5rem;
+
+                &__info {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 1rem;
+
+                    @include media-breakpoint-up(lg) {
+                        margin-right: 1.5rem;
+                    }
+
+                    .img-wrap {
+                        width: 62px;
+                        height: 62px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        margin-right: 0.75rem;
+                    }
+
+                    .title-wrap {
+                        font-style: italic;
+
+                        strong {
+                            font-size: 1.25rem;
+                            font-family: $font-nelphim;
+                            font-style: normal;
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                i {
+                    position: unset;
+                }
+            }
+        }
+
+        .card {
+            &:not(:last-child) {
+                margin-bottom: 0;
+            }
+
+            &:nth-child(even) {
+                .accordion-btn {
+                    flex-direction: row-reverse;
+
+                    &__info {
+                        margin-left: 1rem;
+                        margin-right: 0;
+                        flex-direction: row-reverse;
+
+                        @include media-breakpoint-up(lg) {
+                            margin-left: 1.5rem;
+                        }
+
+                        .img-wrap {
+                            margin-right: 0;
+                            margin-left: .75rem;
+                        }
+
+                        .title-wrap {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+
+            &-header {
+                .has-bg-img {
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(180deg, rgba($black, 0) 0%, rgba($black, .78) 100%);
+                        opacity: 0.7;
+                    }
+                }
+            }
+
+            &-body {
+                max-width: 310px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 1.5rem;
+                padding-bottom: 0.25rem;
+
+                @include media-breakpoint-up(sm) {
+                    padding-top: 2rem;
+                    padding-bottom: .5rem;
+                    max-width: 500px;
+                }
+
+                a.btn {
+                    margin-top: 1rem;
+                }
             }
         }
     }
