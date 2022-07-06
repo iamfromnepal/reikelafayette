@@ -17,7 +17,7 @@ get_header();
 ?>
 
 <!-- Home Banner -->
-<section class="hero has-bg-img container-alt py-3">
+<section class="hero hero-home has-bg-img container-alt py-3">
 	<picture class="bg-img">
 		<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-hero-bg.webp" type="image/webp">
 		<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-hero-bg.jpg" type="image/jpg">
@@ -26,7 +26,7 @@ get_header();
 		<img src="<?php echo site_url(); ?>/media/home-hero-bg.jpg" alt="Home Hero Background" width="1440" height="862" loading="lazy">
 	</picture>
 	<div class="container">
-		<div class="d-flex flex-column justify-content-between justify-content-lg-center mh-sm mh-lg mh-xl">
+		<div class="conten-block d-flex flex-column justify-content-between justify-content-lg-center">
 			<h1 class="heading-primary text-center text-white mb-2 mb-lg-3">
 				Your
 				<span>Energy Healing Journey</span>
@@ -114,31 +114,46 @@ get_header();
 	</div>
 </section> <!-- /section -->
 
-<section class="has-bg-img container-alt home-slider-section py-2">
-	<picture class="bg-img overlay overlay-53--top overlay-53--bottom">
-		<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-slides-bg.webp" type="image/webp">
-		<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-slides-bg.jpg" type="image/jpg">
-		<source srcset="<?php echo site_url(); ?>/media/home-slides-bg-mobile.webp" type="image/webp">
-		<source srcset="<?php echo site_url(); ?>/media/home-slides-bg-mobile.jpg" type="image/jpg">
-		<img src="<?php echo site_url(); ?>/media/home-slides-bg.jpg" alt="Home Hero Background" width="1440" height="702" loading="lazy">
-	</picture>
-	<h2 class="heading-secondary text-white text-center">
-		<span>Who is</span>
-		Reiki Montreal
-	</h2>
-	<div class="home-slider slider-col-1 hide-arrow vertical-dots mh-446 mh-lg-784">
-		<div class="home-slider__item text-center">
-			<div class="home-slider__content text-white d-inline-block text-right py-3 px-2">
-				<span class="home-slider__count">01</span>
-				<p>An energy healing school</p>
+<section class="container-alt home-slider-section">
+	<div class="home-slider verticalSlider-col-1 hide-arrow vertical-dots">
+		<div class="home-slider__item has-bg-img text-center">
+			<picture class="bg-img overlay overlay-53--top overlay-53--bottom">
+				<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-slides-bg.webp" type="image/webp">
+				<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-slides-bg.jpg" type="image/jpg">
+				<source srcset="<?php echo site_url(); ?>/media/home-slides-bg-mobile.webp" type="image/webp">
+				<source srcset="<?php echo site_url(); ?>/media/home-slides-bg-mobile.jpg" type="image/jpg">
+				<img src="<?php echo site_url(); ?>/media/home-slides-bg.jpg" alt="Home Hero Background" width="1440" height="702" loading="lazy">
+			</picture>
+			<div class="content-wrap pt-sm-5 pt-2">
+				<h2 class="heading-secondary text-white text-center">
+					<span>Who is</span>
+					Reiki Montreal
+				</h2>
+				<div class="home-slider__content text-white d-inline-block text-right py-3 px-2">
+					<span class="home-slider__count">01</span>
+					<p>An energy healing school</p>
+				</div>
 			</div>
-		</div>
-		<div class="home-slider__item text-center">
-			<div class="home-slider__content text-white d-inline-block text-right py-3 px-2">
-				<span class="home-slider__count">02</span>
-				<p>An energy healing school</p>
+		</div> <!-- /.home-slider__item -->
+		<div class="home-slider__item has-bg-img text-center">
+			<picture class="bg-img overlay overlay-53--top overlay-53--bottom">
+				<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-slides-bg.webp" type="image/webp">
+				<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-slides-bg.jpg" type="image/jpg">
+				<source srcset="<?php echo site_url(); ?>/media/home-slides-bg-mobile.webp" type="image/webp">
+				<source srcset="<?php echo site_url(); ?>/media/home-slides-bg-mobile.jpg" type="image/jpg">
+				<img src="<?php echo site_url(); ?>/media/home-slides-bg.jpg" alt="Home Hero Background" width="1440" height="702" loading="lazy">
+			</picture>
+			<div class="content-wrap pt-5">
+				<h2 class="heading-secondary text-white text-center">
+					<span>Who is</span>
+					Reiki Montreal
+				</h2>
+				<div class="home-slider__content text-white d-inline-block text-right py-3 px-2">
+					<span class="home-slider__count">01</span>
+					<p>An energy healing school</p>
+				</div>
 			</div>
-		</div>
+		</div> <!-- /.home-slider__item -->
 	</div> <!-- /.home-slider -->
 </section> <!-- /section -->
 

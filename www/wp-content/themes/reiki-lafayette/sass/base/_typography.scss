@@ -3,11 +3,6 @@
 .heading {
 
     &-primary,
-    &-secondary {
-        line-height: .7;
-    }
-
-    &-primary,
     &-secondary,
     &-tertiary {
 
@@ -21,6 +16,7 @@
         }
 
         span {
+            line-height: .7;
             margin-bottom: 0.75rem;
             font-family: $font-double-signature;
         }

@@ -2,7 +2,6 @@
 
 .home-slider-section {
     position: relative;
-    z-index: 1;
 
     &:after {
         content: '';
@@ -13,9 +12,68 @@
         background-color: $dark-green-100;
         width: 26px;
         height: 100%;
+        z-index: 1;
 
         @include media-breakpoint-up(sm) {
             width: 46px;
+        }
+    }
+
+    .verticalSlider-col-1 {
+        display: flex;
+
+        .slick-slide {
+            border: 0;
+        }
+
+        .slick-dots {
+            justify-content: center;
+            z-index: 2;
+        }
+    }
+}
+
+.home-slider {
+    .content-wrap {
+        min-height: 784px;
+
+        @include media-breakpoint-down(xs) {
+            min-height: 444px;
+        }
+
+        .heading-secondary {
+            @include font-size(2.5rem);
+            margin-bottom: 7rem;
+
+            @include media-breakpoint-down(xs) {
+                @include font-size(1.25rem);
+                margin-bottom: 5rem;
+            }
+
+            span {
+                @include media-breakpoint-down(xs) {
+                    @include font-size(3.75rem);
+                }
+            }
+        }
+    }
+
+    &__content {
+        font-family: $font-nelphim;
+
+        @include media-breakpoint-up(sm) {
+            @include font-size(1.25rem);
+            font-family: $font-avenirLTStd-roman;
+        }
+    }
+
+    &__count {
+        line-height: 1;
+        font-family: $font-nelphim;
+        @include font-size(2.5rem);
+
+        @include media-breakpoint-up(md) {
+            @include font-size(4.375rem);
         }
     }
 }

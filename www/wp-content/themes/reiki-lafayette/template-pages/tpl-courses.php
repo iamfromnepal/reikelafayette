@@ -4,7 +4,7 @@
 get_header();
 ?>
 
-<section class="hero hero-mobile-overlap container-alt overlay-mobile overlay-mobile--bottom overlay-mobile--top">
+<section class="hero hero-courses hero-mobile-overlap container-alt overlay-mobile overlay-mobile--bottom overlay-mobile--top">
     <div class="row align-items-center">
         <picture class="col-md-6 img-block img-fluid">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/courses-hero-feature.webp" type="image/webp">
@@ -20,7 +20,7 @@ get_header();
                 </h2> <!-- /.heading-primary -->
             </div>
             <div class="font-nelphim font-size-lg block-width-350 mx-auto">
-                <h1 class="heading-primary mb-1 mb-lg-3">
+                <h1 class="heading-primary mb-3">
                     <span>Unleash</span>
                     Your inner Healer
                 </h1> <!-- /.heading-primary -->
@@ -244,7 +244,6 @@ get_header();
     <div class="schedule-section__inner max-width-750 mx-auto">
         <div class="box-text position-relative">
             <span class="box-text__off text-center">Scheduled Courses</span>
-
             <div class="box-text__info text-center max-width-437 mx-auto">
                 <strong class="info-title font-weight-normal">Reiki I</strong>
                 <p>Awaken the energy healer within.</p>

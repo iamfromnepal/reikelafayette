@@ -5,34 +5,6 @@ get_header();
 ?>
 
 <section class="components-page">
-
-    <!-- Banner iv -->
-    <section class="hero container-alt">
-        <div class="row align-items-center">
-            <picture class="col-md-6 hero__img-block img-fluid">
-                <img src="https://via.placeholder.com/708x865.jpg/a59090/000000?Text=708x865" alt="Home Hero Background" width="708" height="865" loading="lazy">
-            </picture>
-            <picture class="col-md-6 hero__img-block img-fluid">
-                <source srcset="<?php echo site_url(); ?>/media/session-hero-feature.webp" type="image/webp">
-                <source srcset="<?php echo site_url(); ?>/media/session-hero-feature.jpg" type="image/jpg">
-                <img src="<?php echo site_url(); ?>/media/session-hero-feature.jpg" alt="Home Hero Background" width="708" height="865" loading="lazy">
-            </picture>
-            <div class="col-md-6 hero__content-block text-center">
-                <div class="font-nelphim font-size-lg" style="max-width: 458px; margin: auto;">
-                    <h1 class="heading-primary mb-1 mb-lg-2 mb-xl-4">
-                        <span>Healing Sessions</span>
-                    </h1> <!-- /.heading-primary -->
-                    <div class="border-mini border-mini--center mb-1 mb-lg-2">
-                        <p>We're a team of reiki + energy healing professionals spread throughout the Montreal area here to help you get back to your most whole & vibrant self.</p>
-                    </div>
-                    <a href="#" class="btn btn-primary">Find Your Practitioner Here</a>
-                </div>
-            </div>
-        </div> <!-- /.hero__inner -->
-    </section> <!-- /.hero -->
-    <hr>
-    <hr>
-
     <div class="container">
         <h1>This is Heading One.</h1>
         <h2>This is Heading Two.</h2>
@@ -97,9 +69,9 @@ get_header();
         <hr>
         <hr>
 
-        <h2 class="my-3">[.list-icon]</h2>
+        <h2 class="my-3">[.list-arrow]</h2>
 
-        <div class="list-icon list-unstyled font-avenir">
+        <div class="list-arrow list-unstyled font-avenir">
             <ul>
                 <li><strong>Receiving information + training:</strong> attunements, conceptual training, “how to” guides, the history of Reiki & so much more is included</li>
 
@@ -107,7 +79,7 @@ get_header();
 
                 <li><strong>Becoming a Reiki channel for others.</strong> As of week 3, we’re shifting our focus from channeling Reiki for yourself, to</li>
             </ul>
-        </div> <!-- /.list-icon -->
+        </div> <!-- /.list-arrow -->
 
         <hr>
         <hr>
@@ -128,6 +100,53 @@ get_header();
                 <li><a href="#">Register for your next course.</a> Click through, fill out the form and make your first payment.</li>
             </ul>
         </div>
+        <hr>
+        <hr>
+
+        <h2>[.box-light]</h2>
+        <div style="background-color: #000; padding: 2rem;">
+            <div class="box-light box-light--mb font-500 text-center">
+                <h2 class="heading-tertiary text-center mb-2 m-md-0">
+                    When we say <br>your energy healing journey starts here,
+                    <span>We Mean it.</span>
+                </h2>
+                <p>We have a year’s worth of FREE resources available for you via our newsletter. You’ll get highly valuable and easy to digest content every week delivered straight to your inbox.</p>
+            </div> <!-- /.box-light -->
+        </div>
+        <hr>
+        <hr>
+
+        <h2>[.box-quote.box-quote--md]</h2>
+        <div class="box-quote box-quote--md mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2">
+            <p>I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey. </p>
+        </div>
+        <hr>
+        <hr>
+
+        <h2>[.box-quote.box-quote--lg]</h2>
+        <div class="box-quote box-quote--lg mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2">
+            <p>I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey. </p>
+        </div>
+        <hr>
+        <hr>
+
+        <h2>[.box-quote]</h2>
+        <div class="box-quote mx-auto font-size-lg text-center mt-1 mt-lg-3 px-lg-3 mb-1 mb-lg-2">
+            <p>I can genuinely say Reiki changed my life and has accompanied me on a long & beautiful healing journey. </p>
+        </div>
+        <hr>
+        <hr>
+
+        <h2>[.box-text]</h2>
+        <div class="box-text text-center mb-2">
+            <span class="box-text__off">Reiki I</span>
+            <h1 class="heading-primary">
+                <span>Awaken</span>
+                Your inner Healer
+            </h1> <!-- /.heading-primary -->
+        </div>
+        <hr>
+        <hr>
     </div>
 </section> <!-- /.components-page -->
 <?php

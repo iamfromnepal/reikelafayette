@@ -15,7 +15,7 @@ get_header();
         </picture>
         <div class="col-md-6 content-block text-center">
             <div class="font-nelphim font-size-lg block-width-350 mx-auto">
-                <div class="box-text mb-1 mb-lg-2">
+                <div class="box-text mb-2">
                     <span class="box-text__off">Reiki I</span>
                     <h1 class="heading-primary">
                         <span>Awaken</span>
@@ -32,7 +32,7 @@ get_header();
     <div class="title-has-bg text-center text-primary pt-3 pb-2 mb-sm-2 mb-1">
         <h2 class="h4 max-width-330 mx-auto">Within Reiki I, you will awaken your inner healer through:</h2>
     </div> <!-- /.title-has-bg -->
-    <div class="list-icon list-unstyled column-list font-avenir max-width-800 mx-auto has-verticleImg has-verticleImg--right">
+    <div class="list-arrow list-unstyled column-list font-avenir max-width-800 mx-auto has-verticleImg has-verticleImg--right">
         <ul>
             <li><strong>Receiving information + training:</strong> attunements, conceptual training, “how to” guides, the history of Reiki & so much more is included in the course. Much of this is recorded through videos & manuals so you have access way beyond the time of our course.</li>
 
@@ -42,7 +42,7 @@ get_header();
 
             <li><strong>Receiving dynamic & interactive guidance.</strong> Our classes feel like conversations with dear friends (where you happen to learn and grow a lot). As a human you know a lot more than you think about energy & healing and it’s our job to draw that out. Whatever comes up for you through the journey is open for conversation. </li>
         </ul>
-    </div> <!-- /.list-icon -->
+    </div> <!-- /.list-arrow -->
     <div class="btn-wrap text-center pt-sm-1">
         <a href="#" class="btn btn-lg btn-primary mw-291">Sign Me Up</a>
     </div>

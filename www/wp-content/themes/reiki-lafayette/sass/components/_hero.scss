@@ -95,6 +95,44 @@
         }
     }
 
+    &-home {
+        .content-block {
+            min-height: 660px;
+
+            @include media-breakpoint-up(xl) {
+                min-height: 792px;
+            }
+        }
+    }
+
+    &-courses {
+        &.hero-mobile-overlap {
+            .content-block {
+                @include media-breakpoint-down(sm) {
+                    min-height: 755px;
+                    padding-top: 1rem;
+                    padding-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+    &-indvCourse {
+        &.hero-mobile-overlap {
+            .content-block {
+                @include media-breakpoint-down(sm) {
+                    min-height: 747px;
+                }
+            }
+        }
+
+        .box-text {
+            max-width: 332px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
     &-session {
         .heading-primary {
             span {
