@@ -35,24 +35,24 @@ get_header();
 
 			<div class="collapse-acc collapse-acc--pri">
 				<div class="collapse-acc__item">
-					<button class="collapse-acc__head">
-						<h2 class="h3"><i class="icon-courses"></i> Courses</h2>
+					<button class="collapse-acc__head h3">
+						<i class="icon-courses"></i> Courses
 					</button>
 					<div class="collapse-acc__content">
 						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 					</div>
 				</div> <!-- /.collapse-acc__item -->
 				<div class="collapse-acc__item">
-					<button class="collapse-acc__head">
-						<h2 class="h3"><i class="icon-sessions"></i> Sessions</h2>
+					<button class="collapse-acc__head h3">
+						<i class="icon-sessions"></i> Sessions
 					</button>
 					<div class="collapse-acc__content">
 						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 					</div>
 				</div> <!-- /.collapse-acc__item -->
 				<div class="collapse-acc__item">
-					<button class="collapse-acc__head">
-						<h2 class="h3"><i class="icon-event"></i> Events</h2>
+					<button class="collapse-acc__head h3">
+						<i class="icon-event"></i> Events
 					</button>
 					<div class="collapse-acc__content">
 						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
