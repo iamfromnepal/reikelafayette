@@ -156,6 +156,7 @@ get_header();
         <div class="box-quote mx-auto max-width-850 text-center mt-1 mt-lg-3 px-lg-3 mb-sm-2 mb-1">
             <p>“I feel like my sacral is shut off completely”, “I knew my sacral chakra has been blocked for a while and being able to put words and awareness on it and bringing intention to it has been priceless”</p>
         </div>
+        <?php echo do_shortcode('[contentbox classes="box-quote mx-auto max-width-850 text-center mt-1 mt-lg-3 px-lg-3 mb-sm-2 mb-1"  quote="“I feel like my sacral is shut off completely”, “I knew my sacral chakra has been blocked for a while and being able to put words and awareness on it and bringing intention to it has been priceless”"]'); ?>
         <hr>
         <hr>
         <div class="text-center mb-2">
@@ -166,6 +167,7 @@ get_header();
             <p>We’re all just walking each other home</p>
             <cite>– Ram Dass</cite>
         </div>
+        <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto text-center my-3"  paragraph="We’re all just walking each other home" cite="– Ram Dass"]'); ?>
         <hr>
         <hr>
         <div class="text-center mb-2">

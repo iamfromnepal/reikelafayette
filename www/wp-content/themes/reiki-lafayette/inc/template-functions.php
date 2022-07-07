@@ -48,6 +48,8 @@ function content_box($attrs = array())
 		'offtext' => '',
 		'headingsig' => '',
 		'heading' => '',
+		'quote' => '',
+		'cite' => '',
 	), $attrs));
 
 	if ($offtext) {
@@ -73,8 +75,18 @@ function content_box($attrs = array())
 	} else {
 		$paragraph = '';
 	}
+	if ($quote) {
+		$quote = '<p>' . $quote . '</p>';
+	} else {
+		$quote = '';
+	}
+	if ($cite) {
+		$cite = '<p>' . $cite . '</p>';
+	} else {
+		$cite = '';
+	}
 
-	$boxContent = $offtext . $heading . $paragraph;
+	$boxContent = $offtext . $heading . $paragraph . $quote . $cite;
 
 	return
 		'<div class="' . $classes . '">'
