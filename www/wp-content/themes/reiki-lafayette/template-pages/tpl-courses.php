@@ -24,9 +24,7 @@ get_header();
                     <span>Unleash</span>
                     Your inner Healer
                 </h2> <!-- /.heading-primary -->
-                <div class="box-quote box-quote--md mx-auto">
-                    <p>Your ability to heal is innate. Whether you’re exploring for yourself or responding to a deep call to guide others on their healing journey, it’s time to reclaim your inner healer.</p>
-                </div>
+                <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto" paragraph="Your ability to heal is innate. Whether you’re exploring for yourself or responding to a deep call to guide others on their healing journey, it’s time to reclaim your inner healer."]'); ?>
             </div>
         </div>
     </div>

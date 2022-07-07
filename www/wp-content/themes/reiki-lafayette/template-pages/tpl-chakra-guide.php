@@ -188,7 +188,6 @@ get_header();
             <div class="box-quote mx-auto max-width-850 text-center mt-1 mt-lg-3 px-lg-3 mb-sm-2 mb-1">
                 <p>“I feel like my sacral is shut off completely”, “I knew my sacral chakra has been blocked for a while and being able to put words and awareness on it and bringing intention to it has been priceless”</p>
             </div>
-
             <div class="text-wrap max-width-700 mx-auto text-sm-center">
                 <p>– Some words from participants in the first round of Chakra Journey in 2017. If you’re feeling unbalanced, you’re not alone and I promise you can absolutely come back to balance. </p>
             </div>

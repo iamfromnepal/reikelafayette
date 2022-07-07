@@ -15,13 +15,7 @@ get_header();
         </picture>
         <div class="col-md-6 content-block text-center">
             <div class="font-nelphim font-size-lg block-width-350 mx-auto">
-                <div class="box-text mb-2">
-                    <span class="box-text__off">Reiki I</span>
-                    <h1 class="heading-primary">
-                        <span>Awaken</span>
-                        Your inner Healer
-                    </h1> <!-- /.heading-primary -->
-                </div>
+                <?php echo do_shortcode('[contentbox classes="box-text text-center mb-2" offtext="Reiki I" headingsig="Awaken" heading="Your inner Healer"]'); ?>
                 <p>You’ve heard the call for some time now. You’ve been meditating, diving into your spiritual work and you’re fascinated. The next step is now clear: awaken the healer in you, learn more about energy in an experiential way, find out how it all works… and maybe, just maybe learn to help others heal too.</p>
             </div>
         </div>
@@ -182,7 +176,7 @@ get_header();
         <p>As soon as you sign up, you will receive an e-mail with access to your online learning portal, where you’ll have instant access to your welcome materials. You will also receive a confirmation e-mail with all the details of your course.</p>
     </header> <!-- /.block-header -->
     <div class="box-quote box-quote--md mx-auto text-center border border-primary text-black">
-        <p>“There’s a healer inside of you waiting to emerge. It’s time to let them come out. “ <span class="d-block">– Inge Broer</span></p>
+        <p>"There’s a healer inside of you waiting to emerge. It’s time to let them come out." <span class="d-block">– Inge Broer</span></p>
     </div>
 </section> <!-- /.container -->
 

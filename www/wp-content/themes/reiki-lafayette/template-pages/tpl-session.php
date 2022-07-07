@@ -34,9 +34,7 @@ get_header();
 <section class="session-about pt-3 py-xl-6 pb-7">
     <div class="container">
         <div class="block-width-612 mx-auto text-md-center mobile-px">
-            <div class="box-quote box-quote--md mx-auto text-center font-size-lg mb-3">
-                <p>Become who you are with Reiki & Energy Healing</p>
-            </div>
+            <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto text-center font-size-lg mb-3" paragraph="Become who you are with Reiki & Energy Healing"]'); ?>
 
             <h2 class="heading-secondary text-center mb-2">
                 <span>About</span>
@@ -327,9 +325,7 @@ get_header();
 
 <div class="session-bleeding container-alt bg-primary pt-3 pt-sm-4 pb-2 pb-sm-3">
     <div class="container">
-        <div class="box-quote box-quote--pri mx-auto text-center">
-            <p>We do our best to show up as our best selves so you can too</p>
-        </div>
+        <?php echo do_shortcode('[contentbox classes="box-quote box-quote--pri mx-auto text-center" paragraph="We do our best to show up as our best selves so you can too"]'); ?>
     </div>
 </div> <!-- /section-bleeding -->
 
@@ -361,10 +357,8 @@ get_header();
 <div class="session-founderInfo container pt-sm-5 pn-2 pb-sm-4">
     <div class="content-block block-width-625 mx-auto text-center">
         <p>Since founding Reiki Montreal in 2013, Inge has worked with thousands of clients and trained hundreds of Reiki practitioners.</p>
-
-        <div class="box-quote box-quote--md mx-auto text-center mb-2 mb-sm-1">
-            <p>She’s seen miracles unfold and receives deep satisfaction in knowing how many lives she’s been able to touch.</p>
-        </div>
+        
+        <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto text-center mb-2 mb-sm-1" paragraph="She’s seen miracles unfold and receives deep satisfaction in knowing how many lives she’s been able to touch."]'); ?>
 
         <p>Now, she’s devoted to put her experience, skills & knowledge to the best use by mentoring her practitioners to be the best healers they can be. When you work with a healer at Reiki Montreal, you also receive the benefit form knowing they are guided by an experienced healer.</p>
 
