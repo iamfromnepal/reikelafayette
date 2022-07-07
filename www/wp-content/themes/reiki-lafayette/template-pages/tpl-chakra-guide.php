@@ -39,7 +39,7 @@ get_header();
 
 <section class="basic-guide container max-width-550 py-xl-6 py-lg-4 py-sm-3 py-2">
     <header class="basic-guide__heading text-center mb-lg-4 mb-sm-3 mb-2">
-        <h4>Here, you’ll learn the basics. You’ll learn what the chakras are, how many there are, what they’re related to and what theme each of them governs.</h4>
+        <h3 class="h4">Here, you’ll learn the basics. You’ll learn what the chakras are, how many there are, what they’re related to and what theme each of them governs.</h3>
     </header> <!-- /.basic-guide__heading -->
 
     <div class="basic-guide__info text-center">
@@ -108,7 +108,7 @@ get_header();
     <div class="row align-items-center">
         <div class="col-lg-5">
             <div class="info-col__box list-unstyled text-center mb-lg-0 mb-sm-3 mb-2">
-                <h4>The Basics for the Root Chakra</h4>
+                <h3 class="h4">The Basics for the Root Chakra</h3>
 
                 <ul>
                     <li><span>Location:</span> The root chakra flows out of the perineum, through the legs and feet into the earth.</li>
@@ -157,7 +157,7 @@ get_header();
     <div class="row align-items-center">
         <div class="col-lg-5">
             <div class="info-col__box list-unstyled text-center">
-                <h4>The Basics for the Root Chakra</h4>
+                <h3 class="h4">The Basics for the Root Chakra</h3>
 
                 <ul>
                     <li><span>Location:</span> The root chakra flows out of the perineum, through the legs and feet into the earth.</li>
@@ -182,7 +182,7 @@ get_header();
     </div>
 </section> <!-- /.info-col -->
 
-<section class="banner-primary banner-primary--quote banner-primary--alt banner-primary--guide py-sm-3 py-2">
+<div class="banner-primary banner-primary--quote banner-primary--alt banner-primary--guide py-sm-3 py-2">
     <div class="container">
         <div class="banner-primary__inner bg-center text-white">
             <div class="box-quote mx-auto max-width-850 text-center mt-1 mt-lg-3 px-lg-3 mb-sm-2 mb-1">
@@ -194,7 +194,7 @@ get_header();
             </div>
         </div>
     </div>
-</section> <!-- banner-primary -->
+</div> <!-- banner-primary -->
 
 <section class="what-next container max-width-550 pb-xl-5 pb-lg-5 pb-sm-2 py-1">
     <header class="what-next__heading mb-xl-5 mb-lg-4 mb-sm-3 mb-2">
@@ -207,10 +207,10 @@ get_header();
         </div>
     </header> <!-- /.what-next__heading -->
     <div class="what-next__video mb-sm-3 mb-2">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/9xwazD5SyVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9xwazD5SyVg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div> <!-- /.what-next__video -->
     <div class="what-next__info has-border pb-1 mb-2">
-        <h4>You’ll learn:</h4>
+        <h3 class="h4">You’ll learn:</h3>
         <ul>
             <li>What the chakras are</li>
             <li>What it looks like when they’re balanced<br> in which ways they can be out of balance and</li>
@@ -219,7 +219,7 @@ get_header();
         <p>– You’ll have to input your e-mail, but that won’t necessarily subscribe you to the newsletter (unless you want it to).</p>
     </div> <!-- /.what-next__info -->
     <div class="what-next__info max-width-400 mx-auto mb-sm-3 mb-2">
-        <h4>Read These Related Articles</h4>
+        <h3 class="h4">Read These Related Articles</h3>
         <ul>
             <li>How Reiki Balances Your Chakras</li>
             <li>Chakra Affirmations for an Unstoppably Vibrant You</li>
@@ -230,14 +230,14 @@ get_header();
         </div>
     </div> <!-- /.what-next__info -->
     <div class="what-next__author text-center">
-        <h4>Book a Session with the Author</h4>
+        <h3 class="h4">Book a Session with the Author</h3>
         <p>Book A Session with Inge. Something like 50 words tying the blog post to the practitioner’s expertise and how they can help the client in the context of a session. Ends with a call to action. Filler text, filler text, filler text, filler text, filler text, filler text, filler text, filler text, filler text, filler text.</p>
         <picture class="author-avatar">
             <source srcset="<?php echo site_url(); ?>/media/author-avatar01.webp" type="image/webp">
             <source srcset="<?php echo site_url(); ?>/media/author-avatar01.jpg" type="image/jpg">
             <img width="80" height="80" src="<?php echo site_url(); ?>/media/author-avatar01.jpg" loading="lazy" alt="Gray Image">
         </picture>
-        <h4>About the Author</h4>
+        <h3 class="h4">About the Author</h3>
         <p>Something like 50 words tying the blog post to the practitioner’s expertise and how people can go further with them. Ends with a call to action. Filler text, filler text, filler text, filler text, filler text, filler text, filler text, filler text, filler text, filler text.</p>
     </div>
 </section> <!-- /.what-next -->

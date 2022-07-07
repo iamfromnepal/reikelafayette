@@ -15,15 +15,15 @@ get_header();
         </picture>
         <div class="col-md-6 content-block content-block--alt justify-content-sm-end text-center">
             <div class="d-sm-none">
-                <h2 class="heading-primary mb-1 mb-lg-3">
+                <h1 class="heading-primary mb-1 mb-lg-3">
                     <span>Energy Healing Courses</span>
-                </h2> <!-- /.heading-primary -->
+                </h1> <!-- /.heading-primary -->
             </div>
             <div class="font-nelphim font-size-lg block-width-350 mx-auto">
-                <h1 class="heading-primary mb-3">
+                <h2 class="heading-primary mb-3">
                     <span>Unleash</span>
                     Your inner Healer
-                </h1> <!-- /.heading-primary -->
+                </h2> <!-- /.heading-primary -->
                 <div class="box-quote box-quote--md mx-auto">
                     <p>Your ability to heal is innate. Whether you’re exploring for yourself or responding to a deep call to guide others on their healing journey, it’s time to reclaim your inner healer.</p>
                 </div>
@@ -106,12 +106,12 @@ get_header();
                     <div class="accordion" id="accordion">
                         <div class="card">
                             <div class="card-header" id="headingOne">
-                                <h5 class="mb-0">
+                                <h3 class="h5 mb-0">
                                     <button class="accordion-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <span>One class at a time OR dive in completely.</span>
                                         <i class="icon-caret-down"></i>
                                     </button>
-                                </h5>
+                                </h3>
                             </div>
 
                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -128,12 +128,12 @@ get_header();
                         </div> <!-- /.card -->
                         <div class="card">
                             <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0">
+                                <h3 class="h5 mb-0">
                                     <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <span>A multi-layered approach to learning.</span>
                                         <i class="icon-caret-down"></i>
                                     </button>
-                                </h5>
+                                </h3>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                 <div class="card-body">
@@ -143,12 +143,12 @@ get_header();
                         </div> <!-- /.card -->
                         <div class="card">
                             <div class="card-header" id="headingThree">
-                                <h5 class="mb-0">
+                                <h3 class="h5 mb-0">
                                     <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <span>In the process to being recognized by ABC, DEF & XYZ.</span>
                                         <i class="icon-caret-down"></i>
                                     </button>
-                                </h5>
+                                </h3>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                 <div class="card-body">
@@ -158,12 +158,12 @@ get_header();
                         </div> <!-- /.card -->
                         <div class="card">
                             <div class="card-header" id="headingFour">
-                                <h5 class="mb-0">
+                                <h3 class="h5 mb-0">
                                     <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         <span>Pay in full or with easy payment plans.</span>
                                         <i class="icon-caret-down"></i>
                                     </button>
-                                </h5>
+                                </h3>
                             </div>
                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                 <div class="card-body">

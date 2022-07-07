@@ -48,7 +48,7 @@ get_header();
     </div>
 </section> <!-- /.container -->
 
-<section class="info-banner d-flex justify-content-center align-items-center has-bg-img">
+<div class="info-banner d-flex justify-content-center align-items-center has-bg-img">
     <picture class="bg-img">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/hand-banner-img.webp" type="image/webp">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/hand-banner-img.jpg" type="image/jpg">
@@ -63,7 +63,7 @@ get_header();
             <span class="d-block">Heal Yourself</span>
         </div>
     </div>
-</section> <!-- /.info-banner -->
+</div> <!-- /.info-banner -->
 
 <section class="container max-width-800 detail-block pt-xl-5 pt-lg-4 pt-sm-3 pt-2 pb-xl-4 pb-lg-3 pb-sm-2 pb-1">
     <div class="detail-block__heading title-has-bg title-has-bg--alt text-center mb-lg-4 mb-3">
@@ -75,19 +75,19 @@ get_header();
 
     <div class="detail-block__format mb-xl-5 mb-lg-4 mb-sm-3 mb-1">
         <div class="text-center mb-sm-2 mb-1">
-            <h4>The format:</h4>
+            <h3 class="h4">The format:</h3>
         </div>
 
         <div class="inner row">
             <div class="col-md-7 mb-lg-2 mb-sm-1">
                 <div class="info-panel">
-                    <h5>Group :</h5>
+                    <h4 class="h5">Group :</h4>
                     <p>We meet a total of 5 times in small groups of between 4 and 8 students. On weeks 1, 3 & 5 we meet for four hours and in person. On weeks 2 & 4 we meet for 1.5h, via zoom. You also receive (1) a manual and (2) recorded meditations and “how to” trainings accessible in a learning portal.</p>
                 </div> <!-- /.info-panel -->
             </div>
             <div class="col-md-5 mb-lg-2 mb-sm-1">
                 <div class="info-panel">
-                    <h5>Individual :</h5>
+                    <h4 class="h5">Individual :</h4>
                     <p>We meet a total of 4 times 90-minutes. At this time, all meetings are via zoom. You also receive (1) a manual and (2) recorded meditations and “how to” trainings accessible in a learning portal.</p>
                 </div> <!-- /.info-panel -->
             </div>
@@ -272,12 +272,12 @@ get_header();
         <div class="accordion accordion--faq" id="accordion">
             <div class="card">
                 <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
+                    <h3 class="h5 mb-0">
                         <button class="accordion-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <span>Who is Reiki I not for?</span>
                             <i class="icon-caret-down"></i>
                         </button>
-                    </h5>
+                    </h3>
                 </div>
 
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -291,12 +291,12 @@ get_header();
             </div> <!-- /.card -->
             <div class="card">
                 <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
+                    <h3 class="h5 mb-0">
                         <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             <span>What if I don’t like it? Is there a guarantee?</span>
                             <i class="icon-caret-down"></i>
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
@@ -306,12 +306,12 @@ get_header();
             </div> <!-- /.card -->
             <div class="card">
                 <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
+                    <h3 class="h5 mb-0">
                         <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             <span>What is the cancellation policy?</span>
                             <i class="icon-caret-down"></i>
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
@@ -321,12 +321,12 @@ get_header();
             </div> <!-- /.card -->
             <div class="card">
                 <div class="card-header" id="headingFour">
-                    <h5 class="mb-0">
+                    <h3 class="h5 mb-0">
                         <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             <span>Can I split the payments up?</span>
                             <i class="icon-caret-down"></i>
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                     <div class="card-body">
@@ -336,12 +336,12 @@ get_header();
             </div> <!-- /.card -->
             <div class="card">
                 <div class="card-header" id="headingFive">
-                    <h5 class="mb-0">
+                    <h3 class="h5 mb-0">
                         <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             <span>Can I start NOW?</span>
                             <i class="icon-caret-down"></i>
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                     <div class="card-body">
@@ -351,12 +351,12 @@ get_header();
             </div> <!-- /.card -->
             <div class="card">
                 <div class="card-header" id="headingSix">
-                    <h5 class="mb-0">
+                    <h3 class="h5 mb-0">
                         <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                             <span>What if I need to miss a class?</span>
                             <i class="icon-caret-down"></i>
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                     <div class="card-body">
@@ -366,12 +366,12 @@ get_header();
             </div> <!-- /.card -->
             <div class="card">
                 <div class="card-header" id="headingSeven">
-                    <h5 class="mb-0">
+                    <h3 class="h5 mb-0">
                         <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                             <span>I’d like to do the Reiki Certificate. When should I do Reiki I?</span>
                             <i class="icon-caret-down"></i>
                         </button>
-                    </h5>
+                    </h3>
                 </div>
                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                     <div class="card-body">

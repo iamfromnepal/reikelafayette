@@ -190,7 +190,7 @@ get_header();
 </div> <!-- /.about-visual -->
 
 <div class="container-alt">
-    <h3 class="text-center pt-2 mb-3">Start with us right here</h3>
+    <h2 class="h3 text-center pt-2 mb-3">Start with us right here</h2>
     <section class="has-bg-img pt-xl-5 pt-3 pb-3 pb-sm-5">
         <picture class="bg-img">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-us-feature-bg03.webp" type="image/webp">

@@ -122,10 +122,11 @@ get_header();
 </section> <!-- /.session-team -->
 
 <section class="container py-xl-6 py-lg-4 py-sm-3 py-2 block-width-950 px-sm-1 px-0">
+    <h2 class="hidden-title">More on Our Team</h2>
     <div class="accordion accordion-reverse" id="accordion">
         <div class="card">
             <div class="card-header" id="headingOne">
-                <h5 class="mb-0 has-bg-img">
+                <h3 class="h5 mb-0 has-bg-img">
                     <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg01.jpg" alt="Background Image" width="914" height="78" loading="lazy">
                     <button class="accordion-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <span class="accordion-btn__info">
@@ -139,7 +140,7 @@ get_header();
                         </span>
                         <i class="icon-caret-down"></i>
                     </button>
-                </h5>
+                </h3>
             </div>
 
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -152,7 +153,7 @@ get_header();
         </div> <!-- /.card -->
         <div class="card">
             <div class="card-header" id="headingTwo">
-                <h5 class="mb-0 has-bg-img">
+                <h3 class="h5 mb-0 has-bg-img">
                     <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg02.jpg" alt="Background Image" width="914" height="78" loading="lazy">
                     <button class="accordion-btn" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                         <span class="accordion-btn__info">
@@ -166,7 +167,7 @@ get_header();
                         </span>
                         <i class="icon-caret-down"></i>
                     </button>
-                </h5>
+                </h3>
             </div>
 
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -179,7 +180,7 @@ get_header();
         </div> <!-- /.card -->
         <div class="card">
             <div class="card-header" id="headingThree">
-                <h5 class="mb-0 has-bg-img">
+                <h3 class="h5 mb-0 has-bg-img">
                     <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg03.jpg" alt="Background Image" width="914" height="78" loading="lazy">
                     <button class="accordion-btn" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                         <span class="accordion-btn__info">
@@ -193,7 +194,7 @@ get_header();
                         </span>
                         <i class="icon-caret-down"></i>
                     </button>
-                </h5>
+                </h3>
             </div>
 
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -206,7 +207,7 @@ get_header();
         </div> <!-- /.card -->
         <div class="card">
             <div class="card-header" id="headingFour">
-                <h5 class="mb-0 has-bg-img">
+                <h3 class="h5 mb-0 has-bg-img">
                     <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg04.jpg" alt="Background Image" width="914" height="78" loading="lazy">
                     <button class="accordion-btn" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                         <span class="accordion-btn__info">
@@ -220,7 +221,7 @@ get_header();
                         </span>
                         <i class="icon-caret-down"></i>
                     </button>
-                </h5>
+                </h3>
             </div>
 
             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
@@ -233,7 +234,7 @@ get_header();
         </div> <!-- /.card -->
         <div class="card">
             <div class="card-header" id="headingFive">
-                <h5 class="mb-0 has-bg-img">
+                <h3 class="h5 mb-0 has-bg-img">
                     <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg05.jpg" alt="Background Image" width="914" height="78" loading="lazy">
                     <button class="accordion-btn" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                         <span class="accordion-btn__info">
@@ -247,7 +248,7 @@ get_header();
                         </span>
                         <i class="icon-caret-down"></i>
                     </button>
-                </h5>
+                </h3>
             </div>
 
             <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
@@ -260,7 +261,7 @@ get_header();
         </div> <!-- /.card -->
         <div class="card">
             <div class="card-header" id="headingSix">
-                <h5 class="mb-0 has-bg-img">
+                <h3 class="h5 mb-0 has-bg-img">
                     <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg06.jpg" alt="Background Image" width="914" height="78" loading="lazy">
                     <button class="accordion-btn" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                         <span class="accordion-btn__info">
@@ -274,7 +275,7 @@ get_header();
                         </span>
                         <i class="icon-caret-down"></i>
                     </button>
-                </h5>
+                </h3>
             </div>
 
             <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
@@ -287,7 +288,7 @@ get_header();
         </div> <!-- /.card -->
         <div class="card">
             <div class="card-header" id="headingSeven">
-                <h5 class="mb-0 has-bg-img">
+                <h3 class="h5 mb-0 has-bg-img">
                     <img class="bg-img" src="<?php echo site_url(); ?>/media/accordion-reverse-bg07.jpg" alt="Background Image" width="914" height="78" loading="lazy">
                     <button class="accordion-btn" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
                         <span class="accordion-btn__info">
@@ -301,7 +302,7 @@ get_header();
                         </span>
                         <i class="icon-caret-down"></i>
                     </button>
-                </h5>
+                </h3>
             </div>
 
             <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
@@ -324,13 +325,13 @@ get_header();
     </div>
 </div>
 
-<section class="session-bleeding container-alt bg-primary pt-3 pt-sm-4 pb-2 pb-sm-3">
+<div class="session-bleeding container-alt bg-primary pt-3 pt-sm-4 pb-2 pb-sm-3">
     <div class="container">
         <div class="box-quote box-quote--pri mx-auto text-center">
             <p>We do our best to show up as our best selves so you can too</p>
         </div>
     </div>
-</section> <!-- /section-bleeding -->
+</div> <!-- /section-bleeding -->
 
 <section class="session-founder pt-2 pt-sm-3">
     <div class="container">
@@ -357,7 +358,7 @@ get_header();
     </div>
 </section> <!-- /.section-founder -->
 
-<section class="session-founderInfo container pt-sm-5 pn-2 pb-sm-4">
+<div class="session-founderInfo container pt-sm-5 pn-2 pb-sm-4">
     <div class="content-block block-width-625 mx-auto text-center">
         <p>Since founding Reiki Montreal in 2013, Inge has worked with thousands of clients and trained hundreds of Reiki practitioners.</p>
 
@@ -369,7 +370,7 @@ get_header();
 
         <p>All Reiki Montreal practitioners have done at least some of their training with Inge & receive mentoring from her.</p>
     </div>
-</section> <!-- /.section-founderInfo -->
+</div> <!-- /.section-founderInfo -->
 
 <section class="session-healing container-alt has-bg-img py-2">
     <picture class="bg-img">

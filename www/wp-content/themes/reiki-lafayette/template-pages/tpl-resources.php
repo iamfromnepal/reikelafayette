@@ -59,7 +59,7 @@ get_header();
                     <span class="figcaption">Preparatory</span>
                 </div>
                 <div class="card-article__title">
-                    <h6><a href="#" class="stretched-link">How to know you’re called to be a healer</a></h6>
+                    <h3 class="h6"><a href="#" class="stretched-link">How to know you’re called to be a healer</a></h3>
                 </div>
             </article> <!-- /.card-article -->
         </div>
@@ -74,7 +74,7 @@ get_header();
                     <span class="figcaption">Preparatory</span>
                 </div>
                 <div class="card-article__title">
-                    <h6><a href="#" class="stretched-link">How to prepare for a Reiki session</a></h6>
+                    <h3 class="h6"><a href="#" class="stretched-link">How to prepare for a Reiki session</a></h3>
                 </div>
             </article> <!-- /.card-article -->
         </div>
@@ -89,7 +89,7 @@ get_header();
                     <span class="figcaption">Library</span>
                 </div>
                 <div class="card-article__title">
-                    <h6><a href="#" class="stretched-link">The seven chakras</a></h6>
+                    <h3 class="h6"><a href="#" class="stretched-link">The seven chakras</a></h3>
                 </div>
             </article> <!-- /.card-article -->
         </div>
@@ -104,7 +104,7 @@ get_header();
                     <span class="figcaption">Laboratory</span>
                 </div>
                 <div class="card-article__title">
-                    <h6><a href="#" class="stretched-link">Self-love for empaths</a></h6>
+                    <h3 class="h6"><a href="#" class="stretched-link">Self-love for empaths</a></h3>
                 </div>
             </article> <!-- /.card-article -->
         </div>
@@ -119,7 +119,7 @@ get_header();
                     <span class="figcaption">Library</span>
                 </div>
                 <div class="card-article__title">
-                    <h6><a href="#" class="stretched-link">Mindfulness Journey</a></h6>
+                    <h3 class="h6"><a href="#" class="stretched-link">Mindfulness Journey</a></h3>
                 </div>
             </article> <!-- /.card-article -->
         </div>
@@ -134,7 +134,7 @@ get_header();
                     <span class="figcaption">Preparatory</span>
                 </div>
                 <div class="card-article__title">
-                    <h6><a href="#" class="stretched-link">Back to Basics of Energy</a></h6>
+                    <h3 class="h6"><a href="#" class="stretched-link">Back to Basics of Energy</a></h3>
                 </div>
             </article> <!-- /.card-article -->
         </div>
@@ -210,7 +210,7 @@ get_header();
                         <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
                         <img src="<?php echo site_url(); ?>/media/teacher-avatar.png" alt="Home Hero Background" width="166" height="162" loading="lazy">
                     </picture>
-                    <h6>Inge Broer</h6>
+                    <h3 class="h6">Inge Broer</h3>
                     <small>The Alchemical Creatrix</small>
                 </div>
                 <div class="about-panel__body">
@@ -231,7 +231,7 @@ get_header();
                         <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
                         <img src="<?php echo site_url(); ?>/media/teacher-avatar.png" alt="Home Hero Background" width="166" height="162" loading="lazy">
                     </picture>
-                    <h6>Inge Broer</h6>
+                    <h3 class="h6">Inge Broer</h3>
                     <small>The Alchemical Creatrix</small>
                 </div>
                 <div class="about-panel__body">

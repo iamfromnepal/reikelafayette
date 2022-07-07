@@ -79,14 +79,14 @@ get_header();
     </div>
 </section> <!-- /section -->
 
-<section class="aboutInge-bleeding container-alt bg-primary">
+<div class="aboutInge-bleeding container-alt bg-primary">
     <div class="container">
         <div class="box-quote box-quote--md box-quote--pri mx-auto text-center">
             <p>"Stop acting so small. You are the universe in ecstatic motion."</p>
             <cite>- Rumi</cite>
         </div>
     </div>
-</section> <!-- /section -->
+</div> <!-- /section -->
 
 <section class="aboutInge-columns container-alt pt-xl-9 pt-4 pb-sm-2">
     <div class="container">

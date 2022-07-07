@@ -30,6 +30,7 @@ get_header();
 </section> <!-- /.hero -->
 
 <section class="events-info container-alt pt-sm-3 pt-2 pb-sm-4 pb-2">
+    <h2 class="hidden-title">Events</h2>
     <div class="container">
         <div class="title-bg">
             <p>Browse below for <strong>what’s coming up.</strong><br>
@@ -54,7 +55,7 @@ get_header();
             </div>
         </div>
     </div>
-</section>
+</section> <!-- /.events-info -->
 
 
 <?php
