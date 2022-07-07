@@ -294,9 +294,10 @@ body{
                         }
 
                         @include media-breakpoint-down(md) {
-                            position: absolute;
-                            top: 16px;
-                            right: 5px;
+                            // position: absolute;
+                            // top: 16px;
+                            // right: 5px;
+                            margin-right: -24px;
                         }
                     }
                 }
