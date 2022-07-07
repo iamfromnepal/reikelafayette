@@ -1,0 +1,142 @@
+.blog {
+    .row {
+        margin: 0 -5px;
+    }
+
+    .container {
+        max-width: 1140px;
+    }
+
+    .post-thumbnail {
+        display: block;
+        margin-bottom: 1rem;
+        overflow: hidden;
+
+        img {
+            vertical-align: top;
+            transition: .2s all ease-in-out;
+            width: 100%;
+        }
+    }
+
+    .entry-header,
+    .entry-content {
+        padding: 0 15px;
+
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .entry-content {
+        padding-bottom: 20px;
+
+        a {
+            display: inline-block;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .entry-meta {
+        margin-bottom: 1rem;
+    }
+
+    article {
+        padding: 0 5px;
+
+        .holder {
+            border: 1px solid $orange;
+            border-radius: 5px;
+            overflow: hidden;
+            background: $orange;
+            color: $white;
+
+            a {
+                color: $white;
+            }
+        }
+
+        &:hover {
+            .post-thumbnail {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+.wp-pagenavi {
+    text-align: center;
+
+    .pages,
+    .page,
+    .nextpostslink,
+    .previouspostslink,
+    .current {
+        border: 1px solid $orange;
+        display: inline-block;
+        color: $orange;
+        padding: 6px 10px;
+        line-height: 1;
+        font-size: 18px;
+        font-weight: normal;
+        vertical-align: middle;
+
+        &:hover {
+            background: $orange;
+            color: $white;
+            border-color: $orange;
+            text-decoration: none;
+        }
+    }
+
+    .nextpostslink,
+    .previouspostslink {
+        padding: 5px 10px 8px;
+    }
+
+    span.current,
+    .pages {
+        background: $orange;
+        color: $white;
+        border-color: $orange;
+    }
+}
+
+.single-post {
+    .entry-meta {
+        margin-bottom: 1rem;
+    }
+
+    .navigation  {
+        border-top: 1px solid $orange;
+        padding-top: 1rem;
+        margin-top: 2rem;
+    }
+
+    .nav-links {
+        a {
+            color: $orange;
+        }
+    }
+
+    .wp-block-quote {
+        background-color: $orange;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 15px;
+        color: $white;
+
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

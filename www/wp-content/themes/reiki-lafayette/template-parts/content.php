@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying posts
  *
@@ -6,58 +7,51 @@
  *
  * @package Reiki_Lafayette
  */
-
+if (!is_singular()) {
+	$colClasses = 'col-sm-6 col-xl-4 mb-2';
+}
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
+<article id="post-<?php the_ID(); ?>" <?php post_class($colClasses); ?>>
+	<div class="holder position-relative">
+		<?php if (!is_singular()) { ?>
+			<?php reiki_lafayette_post_thumbnail(); ?>
+		<?php } ?>
 
-		if ( 'post' === get_post_type() ) :
+		<header class="entry-header">
+			<?php
+			if (is_singular()) :
+				the_title('<h1 class="entry-title">', '</h1>');
+			else :
+				the_title('<h2 class="entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h2>');
+			endif;
+
+			if ('post' === get_post_type()) :
 			?>
-			<div class="entry-meta">
-				<?php
-				reiki_lafayette_posted_on();
-				reiki_lafayette_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+				<div class="entry-meta">
+					<?php
+					// reiki_lafayette_posted_on();
+					reiki_lafayette_posted_by();
+					?>
+				</div><!-- .entry-meta -->
+			<?php endif; ?>
+		</header><!-- .entry-header -->
 
-	<?php reiki_lafayette_post_thumbnail(); ?>
+		<div class="entry-content">
 
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'reiki-lafayette' ),
+			<?php if (is_singular()) {
+				the_content();
+
+				wp_link_pages(
 					array(
-						'span' => array(
-							'class' => array(),
-						),
+						'before' => '<div class="page-links">' . esc_html__('Pages:', 'reiki-lafayette'),
+						'after'  => '</div>',
 					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'reiki-lafayette' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php reiki_lafayette_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+				);
+			} else {
+				echo wpautop(wp_trim_words(get_the_content(), 50));
+			} ?>
+			<?php if (!is_singular()) { ?><a href="<?php echo get_the_permalink(); ?>" class="stretched-link readmore">Read More</a><?php } ?>
+		</div><!-- .entry-content -->
+	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
