@@ -85,9 +85,10 @@ get_header();
         </div>
         <div class="col-lg-4">
             <h3>Their Journey</h3>
-            <p>Aenean lacinia facilisis. Bibendum fusce. Ut turpis facilisi maecenas. Natoque mi, primis praesent. Facilisi feugiat torquent cras consequat dignissim habitant. Quam pharetra eu lobortis.<br>
-                Eu semper proin mollis litora dui. Feugiat morbi nulla elementum per justo lectus est purus magna. Dis nostra sodales Sollicitudin consectetuer et quam quam sollicitudin elementum luctus adipiscing quam sociis placerat sollicitudin placerat. Dignissim auctor morbi.<br>
-                Habitasse sapien lacinia. Tellus turpis cras hendrerit varius mus magnis est pharetra dapibus velit volutpat egestas parturient fermentum ad molestie nam suspendisse sit lacus adipiscing fusce venenatis. Massa ligula nostra. Ultrices nostra tristique lobortis. Vulputate amet. Erat mi ullamcorper fringilla.</p>
+            <p>Aenean lacinia facilisis. Bibendum fusce. Ut turpis facilisi maecenas. Natoque mi, primis praesent. Facilisi
+            <p>feugiat torquent cras consequat dignissim habitant. Quam pharetra eu lobortis.</p>
+            Eu semper proin mollis litora dui. Feugiat morbi nulla elementum per justo lectus est purus magna. Dis nostra sodales Sollicitudin consectetuer et quam quam sollicitudin elementum luctus adipiscing quam sociis placerat sollicitudin placerat. Dignissim auctor morbi.</p>
+            <p>Habitasse sapien lacinia. Tellus turpis cras hendrerit varius mus magnis est pharetra dapibus velit volutpat egestas parturient fermentum ad molestie nam suspendisse sit lacus adipiscing fusce venenatis. Massa ligula nostra. Ultrices nostra tristique lobortis. Vulputate amet. Erat mi ullamcorper fringilla.</p>
         </div>
     </div>
 </section> <!-- /.prac-schedule -->
@@ -101,10 +102,10 @@ get_header();
         <img src="<?php echo site_url(); ?>/media/prac-bleeding-bg01-mobile.jpg" alt="Prac Bleeding Background" width="1440" height="865" loading="lazy">
     </picture>
     <div class="container content-block mx-auto text-center text-white">
-        <p>Eget nisl odio porta. Penatibus. Tortor interdum est nostra non porta ullamcorper curabitur. Suspendisse ultrices risus <br>
-            Fermentum torquent faucibus facilisis leo nec mattis tincidunt fusce ante viverra torquent interdum a. Facilisi congue<br>
-            Suscipit suspendisse sem.<br>
-            Nisi nisi fames integer semper urna metus conubia bibendum hac, ut, consequat congue egestas, adipiscing.</p>
+        <p>Eget nisl odio porta. Penatibus. Tortor interdum est nostra non porta ullamcorper curabitur. Suspendisse ultrices risus</p>
+        <p>Fermentum torquent faucibus facilisis leo nec mattis tincidunt fusce ante viverra torquent interdum a. Facilisi congue</p>
+        <p>Suscipit suspendisse sem.</p>
+        <p>Nisi nisi fames integer semper urna metus conubia bibendum hac, ut, consequat congue egestas, adipiscing.</p>
     </div>
 </div> <!-- /.parc-bleeding -->
 

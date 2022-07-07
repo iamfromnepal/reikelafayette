@@ -24,11 +24,11 @@ get_header();
 </section> <!-- /.hero -->
 
 <div class="container block-width-625 text-sm-center font-avenir font-300 font-size-lg pt-2 pt-sm-4 pb-1 pb-sm-5 mobile-px">
-    <p>It’s so good to meet you.<br>
-        Each of us is wildly different. We have different stories, personalities, struggles and loves. But. At one time or another, we have all gone through our own healing journeys.<br>
-        We’ve all had a moment (or two or twelve or five thousand) where we felt stuck, where we struggled, where we repeated patterns that simply didn’t serve us. We’ve driven ourselves crazy with overthinking and anxiety. We’ve loved, we’ve lost. We’ve grieved. We’ve failed and learned. We’ve closed up and been broken open again. We’ve cursed our sensitivity only to discover it to be a great gift.
-        We get it.<br>
-        … and we’ve all, all, at one time or another had the courage and humility to say: “this isn’t working. I want help”. We’ve all made the bet that devoting ourselves to our healing would open us to what we yearn for most – a life full of love, connection, meaning & peace…</p>
+    <p>It’s so good to meet you.</p>
+    <p>Each of us is wildly different. We have different stories, personalities, struggles and loves. But. At one time or another, we have all gone through our own healing journeys.</p>
+    We’ve all had a moment (or two or twelve or five thousand) where we felt stuck, where we struggled, where we repeated patterns that simply didn’t serve us. We’ve driven ourselves crazy with overthinking and anxiety. We’ve loved, we’ve lost. We’ve grieved. We’ve failed and learned. We’ve closed up and been broken open again. We’ve cursed our sensitivity only to discover it to be a great gift.
+    We get it.</p>
+    <p> … and we’ve all, all, at one time or another had the courage and humility to say: “this isn’t working. I want help”. We’ve all made the bet that devoting ourselves to our healing would open us to what we yearn for most – a life full of love, connection, meaning & peace…</p>
 </div>
 
 <section class="about-bleeding container-alt bg-primary pt-3 pb-1 pb-sm-3">
@@ -49,18 +49,15 @@ get_header();
     <h2 class="hidden-title">More on About Us</h2>
     <div class="container content-block block-width-625 font-avenir font-300 font-size-lg">
         <h3>In everything we do, we aim to … </h3>
-        <p>Guide you back to yourself & remind you<br>
-            that all the same is true for you</p>
+        <p>Guide you back to yourself & remind you</p>
+        <p>that all the same is true for you</p>
         <ul>
             <li>You are not broken.</li>
             <li>It is entirely possible to transform every ounce of your stuckness into incredible growth.</li>
             <li>There is magic in you becoming exactly who you are.</li>
         </ul>
-
-        <div class="box-quote box-quote--md mx-auto text-center my-3">
-            <p>We’re all just walking each other home</p>
-            <cite>– Ram Dass</cite>
-        </div>
+        
+        <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto text-center my-3"  paragraph="We’re all just walking each other home" cite="– Ram Dass"]'); ?>
 
         <h3>To help you become who you are, we’ve got…</h3>
         <ul>
@@ -220,12 +217,12 @@ get_header();
     <div class="container block-width-625 content-block">
         <h2 class="heading-secondary title-bg">… want to know more?</h2>
         <p>
-            Let’s back up a little – I’d love to tell you the story of how Reiki Montreal was founded.<br>
-            It’s a dark weekday in December 2012. I’m staring at my old and slow iMac as if it’s a crystal ball that holds the answers to the deep uncomfortable question I’m asking myself: What am I going to do?<br>
-            I’ve completed my last class of my Energy Medicine certificate. As challenging as they were, I loved every second of the 525 hours I spent in class learning about energy, confronting my blocks and spelunking my depths. I grieve the end of it. I’m one year into my masters in neuropsychology and I struggle to admit to myself that I know academia will never really be for me.<br>
-            At this time, I’ve done case studies. I can apply to be part of a naturotherapy association and give insurance receipts to clients. The only question is: “Do I dare? Do I dare try to make this work? Do I dare make a living from something as tenuous and underground as energy healing?”. Truthfully, the answer is “no”. “No, I’m not passionate enough”, “no, I’m not good enough”, “no, I’m not healed enough”, “no, I don’t know anything about marketing or business”, “no, I don’t have a space to do it from”, “no”, “no”, “no”.<br>
-            … and then… as I’m staring into the abyss of facebook window open on my screen, I see the red dot of a notification. I feel relief at being pulled out of my anxiety-fueled reverie. I click. An event: “Looking for a massage therapist or energy healer to share a space on St-Joseph E.”. There is no reason for me to be notified. Except. Well. That was all it took. I replied. I visited. I got the space for 3 days a week… and I figured out the rest, turning my every “no” into a “yes”. In January, 2013 I started with a few “pay what you can” clients. In February, 2013 I started for real.<br>
-            The rest? Well… I continued saying one yes at a time, building Reiki Montreal step-by-step until I could fulfill the vision I’ve had for it all along which is what you see before you now.<br>
+            <p>Let’s back up a little – I’d love to tell you the story of how Reiki Montreal was founded.</p>
+            <p>It’s a dark weekday in December 2012. I’m staring at my old and slow iMac as if it’s a crystal ball that holds the answers to the deep uncomfortable question I’m asking myself: What am I going to do?</p>
+            <p>I’ve completed my last class of my Energy Medicine certificate. As challenging as they were, I loved every second of the 525 hours I spent in class learning about energy, confronting my blocks and spelunking my depths. I grieve the end of it. I’m one year into my masters in neuropsychology and I struggle to admit to myself that I know academia will never really be for me.</p>
+            <p>At this time, I’ve done case studies. I can apply to be part of a naturotherapy association and give insurance receipts to clients. The only question is: “Do I dare? Do I dare try to make this work? Do I dare make a living from something as tenuous and underground as energy healing?”. Truthfully, the answer is “no”. “No, I’m not passionate enough”, “no, I’m not good enough”, “no, I’m not healed enough”, “no, I don’t know anything about marketing or business”, “no, I don’t have a space to do it from”, “no”, “no”, “no”.</p>
+            <p>… and then… as I’m staring into the abyss of facebook window open on my screen, I see the red dot of a notification. I feel relief at being pulled out of my anxiety-fueled reverie. I click. An event: “Looking for a massage therapist or energy healer to share a space on St-Joseph E.”. There is no reason for me to be notified. Except. Well. That was all it took. I replied. I visited. I got the space for 3 days a week… and I figured out the rest, turning my every “no” into a “yes”. In January, 2013 I started with a few “pay what you can” clients. In February, 2013 I started for real.</p>
+            <p>The rest? Well… I continued saying one yes at a time, building Reiki Montreal step-by-step until I could fulfill the vision I’ve had for it all along which is what you see before you now.</p>
         </p>
     </div>
 </section> <!-- /.about-more -->

@@ -9,7 +9,7 @@
         font-family: $font-nelphim;
         @include font-size(1.25rem);
         line-height: 1.45;
-        padding: 1.625rem 1rem 0;
+        padding: 1.625rem 1rem 1rem;
         position: relative;
 
         &:before {

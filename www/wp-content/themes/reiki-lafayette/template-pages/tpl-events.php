@@ -13,7 +13,7 @@ get_header();
             <source srcset="<?php echo site_url(); ?>/media/events-hero-feature-mobile.jpg" type="image/jpg">
             <img src="<?php echo site_url(); ?>/media/events-hero-feature.jpg" alt="Events Hero Background" width="718" height="865" loading="lazy">
         </picture>
-        <div class="col-md-6 content-block text-center">
+        <div class="col-md-6 content-block text-center py-md-3">
             <div class="block-width-top mx-auto mb-5">
                 <h1 class="mb-1 mb-lg-2 mb-xl-4">
                     <span class="heading-wrap">There are times where <span>Healing</span>is a solo adventure.</span>

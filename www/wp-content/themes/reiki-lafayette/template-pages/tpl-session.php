@@ -13,7 +13,7 @@ get_header();
             <source srcset="<?php echo site_url(); ?>/media/session-hero-feature-mobile.jpg" type="image/jpg">
             <img src="<?php echo site_url(); ?>/media/session-hero-feature.jpg" alt="Session Hero Background" width="718" height="865" loading="lazy">
         </picture>
-        <div class="col-md-6 content-block content-block--alt text-center">
+        <div class="col-md-6 content-block content-block--alt text-center py-md-3">
             <div class="block-width-460 mx-auto">
                 <h1 class="heading-primary mb-1 mb-lg-2 mb-xl-4">
                     <span>Healing Sessions</span>
@@ -41,13 +41,12 @@ get_header();
                 Reiki
             </h2>
 
-            <p>Reiki relieves stress in a deep way<br>
-                Reiki reconnects you to your inner wisdom & knowing.<br>
-                Reiki balances your chakras<br>
-                Reiki releases energy blocks<br>
-                Reiki facilitates adopting a spiritual & holistic perspective to the issues you’re experiencing.<br>
-                Reiki brings healing on the physical, mental, emotional & spiritual levels.</p>
-
+            <p>Reiki relieves stress in a deep way</p>
+            <p>Reiki reconnects you to your inner wisdom & knowing.</p>
+            <p>Reiki balances your chakras</p>
+            <p>Reiki releases energy blocks</p>
+            <p>Reiki facilitates adopting a spiritual & holistic perspective to the issues you’re experiencing.</p>
+            <p>Reiki brings healing on the physical, mental, emotional & spiritual levels.</p>
             <h3>... and so much more.</h3>
 
             <p>After a session, people tell me they have less pain or that they “feel lighter !” or I often hear: “I’m so much calmer and less anxious!”. Sometimes it’s hard to pinpoint what happens, but Reiki always connects you with your next healing step.</p>
@@ -99,7 +98,7 @@ get_header();
     </div>
 </div> <!-- /.session-mini-block -->
 
-<section class="session-team has-bg-img container-alt has-bg-img mb-2 mb-sm-0 pt-3 pb-1 pb-xl-5">
+<section class="session-team has-bg-img container-alt has-bg-img mb-2 mb-sm-0 pt-3 pb-1 pb-sm-3 pb-xl-5">
     <picture class="bg-img overlay overlay-80--bottom">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-team-bg.webp" type="image/webp">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/session-team-bg.jpg" type="image/jpg">
@@ -118,6 +117,14 @@ get_header();
         <a href="#" class="btn btn-primary">Click Here</a>
     </div>
 </section> <!-- /.session-team -->
+
+<div class="session-team-mobile container">
+    <div class="d-block d-sm-none content-block text-center mobile-px">
+        <p>Finding the right practitioner for you is almost everything. Working with someone who really gets you is a gift you give yourself potentially for years to come. Trust your intuition while browsing the practitioners on our team.</p>
+        <p>… but right now you just want to try Reiki and you don’t REALLY care with whom? As long as it’s in the right price range, neighborhood? We’ve got you covered there too.</p>
+        <a href="#" class="btn btn-primary">Click Here</a>
+    </div>
+</div>
 
 <section class="container py-xl-6 py-lg-4 py-sm-3 py-2 block-width-950 px-sm-1 px-0">
     <h2 class="hidden-title">More on Our Team</h2>
@@ -314,15 +321,6 @@ get_header();
     </div> <!-- /.accordion -->
 </section>
 
-<div class="session-team-mobile container pb-3">
-    <div class="d-block d-sm-none content-block text-center mobile-px">
-        <p>Finding the right practitioner for you is almost everything. Working with someone who really gets you is a gift you give yourself potentially for years to come. Trust your intuition while browsing the practitioners on our team.</p>
-        <p>… but right now you just want to try Reiki and you don’t REALLY care with whom? As long as it’s in the right price range, neighborhood? We’ve got you covered there too.</p>
-
-        <a href="#" class="btn btn-primary">Click Here</a>
-    </div>
-</div>
-
 <div class="session-bleeding container-alt bg-primary pt-3 pt-sm-4 pb-2 pb-sm-3">
     <div class="container">
         <?php echo do_shortcode('[contentbox classes="box-quote box-quote--pri mx-auto text-center" paragraph="We do our best to show up as our best selves so you can too"]'); ?>
@@ -357,7 +355,7 @@ get_header();
 <div class="session-founderInfo container pt-sm-5 pn-2 pb-sm-4">
     <div class="content-block block-width-625 mx-auto text-center">
         <p>Since founding Reiki Montreal in 2013, Inge has worked with thousands of clients and trained hundreds of Reiki practitioners.</p>
-        
+
         <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto text-center mb-2 mb-sm-1" paragraph="She’s seen miracles unfold and receives deep satisfaction in knowing how many lives she’s been able to touch."]'); ?>
 
         <p>Now, she’s devoted to put her experience, skills & knowledge to the best use by mentoring her practitioners to be the best healers they can be. When you work with a healer at Reiki Montreal, you also receive the benefit form knowing they are guided by an experienced healer.</p>

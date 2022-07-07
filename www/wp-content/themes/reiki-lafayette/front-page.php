@@ -122,7 +122,7 @@ get_header();
 				<source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/home-slides-bg.jpg" type="image/jpg">
 				<source srcset="<?php echo site_url(); ?>/media/home-slides-bg-mobile.webp" type="image/webp">
 				<source srcset="<?php echo site_url(); ?>/media/home-slides-bg-mobile.jpg" type="image/jpg">
-				<img src="<?php echo site_url(); ?>/media/home-slides-bg.jpg" alt="Home Hero Background" width="1440" height="702" loading="lazy">
+				<img src="<?php echo site_url(); ?>/media/home-slides-bg.jpg" alt="Home Slides Background" width="1440" height="702" loading="lazy">
 			</picture>
 			<div class="content-wrap pt-sm-5 pt-2 overlay overlay-53--top overlay-53--bottom">
 				<h2 class="heading-secondary text-white text-center">

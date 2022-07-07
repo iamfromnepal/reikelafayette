@@ -13,7 +13,7 @@ get_header();
             <source srcset="<?php echo site_url(); ?>/media/about-hero-feature-mobile.jpg" type="image/jpg">
             <img src="<?php echo site_url(); ?>/media/about-hero-feature.jpg" alt="Home Hero Background" width="718" height="865" loading="lazy">
         </picture>
-        <div class="col-md-6 content-block text-center">
+        <div class="col-md-6 content-block text-center py-md-3">
             <div class="font-nelphim font-size-lg block-width-350 mx-auto">
                 <h1 class="heading-primary mb-1 mb-lg-2 mb-xl-4">
                     <span>Hi</span>
@@ -81,10 +81,7 @@ get_header();
 
 <div class="aboutInge-bleeding container-alt bg-primary">
     <div class="container">
-        <div class="box-quote box-quote--md box-quote--pri mx-auto text-center">
-            <p>"Stop acting so small. You are the universe in ecstatic motion."</p>
-            <cite>- Rumi</cite>
-        </div>
+        <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md box-quote--pri mx-auto text-center"  paragraph="Stop acting so small. You are the universe in ecstatic motion." cite="- Rumi"]'); ?>
     </div>
 </div> <!-- /section -->
 

@@ -151,7 +151,7 @@ get_header();
         <hr>
         <div class="text-center mb-2">
             <h2>[.box-quote with ""]</h2>
-            Shortcode not implemented on Chakra Guide
+            Shortcode implemented on Chakra Guide
         </div>
         <div class="box-quote mx-auto max-width-850 text-center mt-1 mt-lg-3 px-lg-3 mb-sm-2 mb-1">
             <p>“I feel like my sacral is shut off completely”, “I knew my sacral chakra has been blocked for a while and being able to put words and awareness on it and bringing intention to it has been priceless”</p>
@@ -161,22 +161,13 @@ get_header();
         <hr>
         <div class="text-center mb-2">
             <h2>[.box-quote with 'cite']</h2>
-            Shortcode not implemented on page About Us
+            Shortcode implemented on page About Us
         </div>
         <div class="box-quote box-quote--md mx-auto text-center my-3">
             <p>We’re all just walking each other home</p>
             <cite>– Ram Dass</cite>
         </div>
         <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto text-center my-3"  paragraph="We’re all just walking each other home" cite="– Ram Dass"]'); ?>
-        <hr>
-        <hr>
-        <div class="text-center mb-2">
-            <h2>[.box-quote with span]</h2>
-            Shortcode not implemented on page Individual Course
-        </div>
-        <div class="box-quote box-quote--md mx-auto text-center border border-primary text-black">
-            <p>"There’s a healer inside of you waiting to emerge. It’s time to let them come out." <span class="d-block">– Inge Broer</span></p>
-        </div>
         <hr>
         <hr>
     </div>
