@@ -156,7 +156,7 @@ get_header();
 <section class="container info-col py-xl-5 py-lg-4 py-sm-3 py-2">
     <div class="row align-items-center">
         <div class="col-lg-5">
-            <div class="info-col__box list-unstyled text-center">
+            <div class="info-col__box list-unstyled text-center mb-lg-0 mb-sm-3 mb-2">
                 <h3 class="h4">The Basics for the Root Chakra</h3>
 
                 <ul>

@@ -48,7 +48,7 @@ get_header();
     </div>
 </section> <!-- /.container -->
 
-<div class="info-banner d-flex justify-content-center align-items-center has-bg-img">
+<div class="info-banner mx-auto max-width-1180 d-flex justify-content-center align-items-center has-bg-img">
     <picture class="bg-img">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/hand-banner-img.webp" type="image/webp">
         <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/hand-banner-img.jpg" type="image/jpg">
@@ -58,8 +58,8 @@ get_header();
     </picture> <!-- /.bg-img -->
     <div class="container">
         <div class="info-banner__content text-center text-white font-nelphim py-lg-4 py-sm-3 py-2">
-            <span class="d-block">Become a Reiki Practitioner |</span>
-            <span class="d-block">Reconnect to Source Energy |</span>
+            <span class="d-block">Become a Reiki Practitioner<span class="d-sm-none">.</span> <span class="d-none d-sm-inline-block">|</span></span>
+            <span class="d-block">Reconnect to Source Energy<span class="d-sm-none">.</span> <span class="d-none d-sm-inline-block">|</span></span>
             <span class="d-block">Heal Yourself</span>
         </div>
     </div>
@@ -214,13 +214,13 @@ get_header();
     </div>
 </section> <!-- /.two-col -->
 
-<section class="banner-primary py-lg-4 py-sm-3 py-2">
+<div class="banner-primary py-lg-4 py-sm-3 py-2">
     <div class="container">
         <div class="banner-primary__inner has-border max-width-650 mx-auto text-center py-2">
             <p>If you’re not 100% ready to sign up for your class just yet, Inge offers discovery calls where you’ll get to know each other, where she can address all your questions and concerns and help you make an empowered decision.</p>
         </div>
     </div>
-</section> <!-- banner-primary -->
+</div> <!-- banner-primary -->
 
 <section class="testimonials-section container max-width-800 py-xl-5 py-lg-4 py-sm-3 py-2">
     <header class="testimonials-section__heading mb-lg-4 mb-sm-3 mb-2">

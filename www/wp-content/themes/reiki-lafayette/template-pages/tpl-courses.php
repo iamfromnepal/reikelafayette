@@ -260,8 +260,9 @@ get_header();
     </div>
 </section> <!-- /.schedule-section -->
 
-<section class="course-foot container-alt mb-xl-6 mb-lg-4 mb-sm-3 mb-2">
-    <div class="course-foot__top has-bg-img pt-xl-6 pt-lg-4 py-3">
+
+<section class="course-foot mb-xl-6 mb-lg-4 mb-sm-3">
+    <div class="course-foot__top container-alt has-bg-img pt-xl-6 pt-lg-4 py-3">
         <picture class="bg-img">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/course-page-foot-bg.webp" type="image/webp">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/course-page-foot-bg.jpg" type="image/jpg">
@@ -291,7 +292,7 @@ get_header();
             <p>When you graduate (and way before), you’re equipped with the know-how to strike out on your own as an energy healer. Of course, you’ll have a million business questions and I’ve got you covered there too.</p>
         </div> <!-- /.course-foot__info -->
 
-        <div class="counter-list text-center has-bg-img py-2 pb-lg-4 pb-sm-3">
+        <div class="counter-list text-center has-bg-img pt-2 pb-lg-4 pb-3">
             <picture class="bg-img">
                 <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/course-page-foot-list-bg.webp" type="image/webp">
                 <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/course-page-foot-list-bg.jpg" type="image/jpg">

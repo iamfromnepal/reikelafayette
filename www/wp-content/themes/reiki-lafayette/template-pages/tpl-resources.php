@@ -194,7 +194,7 @@ get_header();
     </div>
 </section> <!-- banner-primary -->
 
-<section class="about-author container max-width-510 py-xl-5 py-lg-4 py-sm-3 py-2">
+<section class="about-author container max-width-510 py-xl-5 pt-lg-4 pt-sm-3 pt-2 pb-4">
     <div class="about-author__heading">
         <h2 class="heading-secondary text-center mb-lg-3 mb-2">
             <span>About</span>
