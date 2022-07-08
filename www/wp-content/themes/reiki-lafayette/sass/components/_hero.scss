@@ -394,10 +394,14 @@
             left: 50%;
             bottom: 0;
             width: 100%;
-            max-width: 330px;
+            max-width: 250px;
             transform: translateX(-50%);
             border: 1px solid;
             border-color: $white transparent;
+
+            @include media-breakpoint-up(sm) {
+                max-width: 330px;
+            }
         }
     }
 

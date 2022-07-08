@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Individual Course */
+/* Template Name: Individual Course Static */
 
 get_header();
 ?>
