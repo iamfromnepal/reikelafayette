@@ -94,3 +94,5 @@ function content_box($attrs = array())
 		'</div>';
 }
 add_shortcode('contentbox', 'content_box');
+
+add_filter( 'gform_confirmation_anchor', '__return_false' );

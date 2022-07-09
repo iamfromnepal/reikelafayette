@@ -49,8 +49,7 @@ get_header();
     <h2 class="hidden-title">More on About Us</h2>
     <div class="container content-block block-width-625 font-avenir font-300 font-size-lg">
         <h3>In everything we do, we aim to … </h3>
-        <p>Guide you back to yourself & remind you</p>
-        <p>that all the same is true for you</p>
+        <p>Guide you back to yourself & remind you <br>that all the same is true for you</p>
         <ul>
             <li>You are not broken.</li>
             <li>It is entirely possible to transform every ounce of your stuckness into incredible growth.</li>
@@ -60,9 +59,7 @@ get_header();
         <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto text-center my-3"  paragraph="We’re all just walking each other home" cite="– Ram Dass"]'); ?>
 
         <h3>To help you become who you are, we’ve got…</h3>
-        <ul>
-            <li>A team of X healing professionals at your disposal for life-changing one-on-one sessions.</li>
-        </ul>
+        <p>A team of X healing professionals at your disposal for life-changing one-on-one sessions.</p>
     </div>
 </section> <!-- /.about-info -->
 
@@ -100,8 +97,73 @@ get_header();
     <p>Lots of people who have paved the way:</p>
 </div>
 
-<div class="about-blockquote container-alt">
+<div class="about-blockquote container-alt px-0">
     <div class="verticalSlider-col-1 hide-arrow vertical-dots">
+        <div class="slide-item has-bg-img text-white text-center">
+            <picture class="bg-img">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.webp" type="image/webp">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" type="image/jpg">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" alt="About Feature Background" width="1417" height="333" loading="lazy">
+            </picture>
+            <blockquote class="blockquote font-avenir font-300 font-size-lg pt-4 pb-1">
+                <q>Words aren't enough to explain you how much Inge has helped my in the toughest time of my life. I thought I'd never see the light again in any way in any form, and now I'm experience it and its all thanks to her help in the process. Inge taught me how to get back my life and I will always be immeasurably grateful for that</q>
+                <cite>Daniella Hurtado</cite>
+            </blockquote>
+        </div> <!-- /.slide-item -->
+        <div class="slide-item has-bg-img text-white text-center">
+            <picture class="bg-img">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.webp" type="image/webp">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" type="image/jpg">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" alt="About Feature Background" width="1417" height="333" loading="lazy">
+            </picture>
+            <blockquote class="blockquote font-avenir font-300 font-size-lg pt-4 pb-1">
+                <q>Words aren't enough to explain you how much Inge has helped my in the toughest time of my life. I thought I'd never see the light again in any way in any form, and now I'm experience it and its all thanks to her help in the process. Inge taught me how to get back my life and I will always be immeasurably grateful for that</q>
+                <cite>Daniella Hurtado</cite>
+            </blockquote>
+        </div> <!-- /.slide-item -->
+        <div class="slide-item has-bg-img text-white text-center">
+            <picture class="bg-img">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.webp" type="image/webp">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" type="image/jpg">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" alt="About Feature Background" width="1417" height="333" loading="lazy">
+            </picture>
+            <blockquote class="blockquote font-avenir font-300 font-size-lg pt-4 pb-1">
+                <q>Words aren't enough to explain you how much Inge has helped my in the toughest time of my life. I thought I'd never see the light again in any way in any form, and now I'm experience it and its all thanks to her help in the process. Inge taught me how to get back my life and I will always be immeasurably grateful for that</q>
+                <cite>Daniella Hurtado</cite>
+            </blockquote>
+        </div> <!-- /.slide-item -->
+        <div class="slide-item has-bg-img text-white text-center">
+            <picture class="bg-img">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.webp" type="image/webp">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" type="image/jpg">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" alt="About Feature Background" width="1417" height="333" loading="lazy">
+            </picture>
+            <blockquote class="blockquote font-avenir font-300 font-size-lg pt-4 pb-1">
+                <q>Words aren't enough to explain you how much Inge has helped my in the toughest time of my life. I thought I'd never see the light again in any way in any form, and now I'm experience it and its all thanks to her help in the process. Inge taught me how to get back my life and I will always be immeasurably grateful for that</q>
+                <cite>Daniella Hurtado</cite>
+            </blockquote>
+        </div> <!-- /.slide-item -->
+        <div class="slide-item has-bg-img text-white text-center">
+            <picture class="bg-img">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.webp" type="image/webp">
+                <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" type="image/jpg">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01-mobile.jpg" type="image/jpg">
+                <img src="<?php echo site_url(); ?>/media/about-feature-slider-bg01.jpg" alt="About Feature Background" width="1417" height="333" loading="lazy">
+            </picture>
+            <blockquote class="blockquote font-avenir font-300 font-size-lg pt-4 pb-1">
+                <q>Words aren't enough to explain you how much Inge has helped my in the toughest time of my life. I thought I'd never see the light again in any way in any form, and now I'm experience it and its all thanks to her help in the process. Inge taught me how to get back my life and I will always be immeasurably grateful for that</q>
+                <cite>Daniella Hurtado</cite>
+            </blockquote>
+        </div> <!-- /.slide-item -->
         <div class="slide-item has-bg-img text-white text-center">
             <picture class="bg-img">
                 <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-feature-slider-bg01.webp" type="image/webp">
@@ -131,7 +193,7 @@ get_header();
     </div>
 </div> <!-- /.about-blockquote -->
 
-<div class="about-visual container-alt">
+<div class="about-visual container-alt px-0">
     <div class="slider-col-1 hide-dots slick-xl-arrow">
         <div class="slide-item">
             <div class="box-blur box-blur--none text-center d-sm-none">
@@ -186,8 +248,8 @@ get_header();
     </div>
 </div> <!-- /.about-visual -->
 
-<div class="container-alt">
-    <h2 class="h3 text-center pt-2 mb-3">Start with us right here</h2>
+<div class="container-alt px-0">
+    <h2 class="h3 text-center pt-2 px-1 mb-2">Start with us right here</h2>
     <section class="has-bg-img pt-xl-5 pt-3 pb-3 pb-sm-5">
         <picture class="bg-img">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-us-feature-bg03.webp" type="image/webp">

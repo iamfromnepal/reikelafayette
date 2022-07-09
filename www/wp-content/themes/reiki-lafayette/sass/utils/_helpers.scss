@@ -375,6 +375,15 @@ picture {
 		z-index: -1;
 	}
 
+	&>img {
+		position: relative;
+		z-index: -2;
+	}
+
+	&>.bg-img {
+		z-index: -2;
+	}
+
 	&-80 {
 
 		&--top {

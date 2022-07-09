@@ -1,10 +1,16 @@
 // Buttons
 .btn {
     max-width: 244px;
+    transition: .2s all ease-in-out;
 
-    &:focus {
-        outline: none;
+    &:focus,
+    &:hover,
+    &:active,
+    &.active {
+        // outline: none;
         box-shadow: none;
+        transform: translateY(-5px) scale(1.05);
+        border-radius: 10px;
     }
 
     &.btn-block {

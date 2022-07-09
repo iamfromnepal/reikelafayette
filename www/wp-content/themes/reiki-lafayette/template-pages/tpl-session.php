@@ -41,12 +41,7 @@ get_header();
                 Reiki
             </h2>
 
-            <p>Reiki relieves stress in a deep way</p>
-            <p>Reiki reconnects you to your inner wisdom & knowing.</p>
-            <p>Reiki balances your chakras</p>
-            <p>Reiki releases energy blocks</p>
-            <p>Reiki facilitates adopting a spiritual & holistic perspective to the issues you’re experiencing.</p>
-            <p>Reiki brings healing on the physical, mental, emotional & spiritual levels.</p>
+            <p>Reiki relieves stress in a deep way</br>Reiki reconnects you to your inner wisdom & knowing.</br>Reiki balances your chakras</br>Reiki releases energy blocks</br>Reiki facilitates adopting a spiritual & holistic perspective to the issues you’re experiencing.</br>Reiki brings healing on the physical, mental, emotional & spiritual levels.</p>
             <h3>... and so much more.</h3>
 
             <p>After a session, people tell me they have less pain or that they “feel lighter !” or I often hear: “I’m so much calmer and less anxious!”. Sometimes it’s hard to pinpoint what happens, but Reiki always connects you with your next healing step.</p>

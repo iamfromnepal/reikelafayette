@@ -306,13 +306,13 @@ var rl;
             // verticalSlider-col-1
             $(".verticalSlider-col-1").slick({
                 dots: true,
-                infinite: false,
+                infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 adaptiveHeight: true,
                 autoplay: true,
                 autoplaySpeed: 10000,
-                speed: 2000,
+                speed: 1000,
                 vertical: true,
                 verticalSwiping: true,
             });
