@@ -59,6 +59,10 @@
 }
 
 .session-team {
+    .overlay-80--bottom:after {
+        top: 36%;
+    }
+
     .content-block {
         max-width: 569px;
         margin-left: auto;

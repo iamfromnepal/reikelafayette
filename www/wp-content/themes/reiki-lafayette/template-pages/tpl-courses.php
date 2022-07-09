@@ -86,7 +86,7 @@ get_header();
             </div>
         </div>
         <div class="col-lg-6 offset-col__item">
-            <div class="offset-col__right has-bg-img py-sm-3 py-2 mr-n1 ml-lg-0 ml-n1">
+            <div class="offset-col__right has-bg-img overlay-top py-sm-3 py-2 mr-n1 ml-lg-0 ml-n1">
                 <picture class="bg-img">
                     <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/accordion-block-bg.webp" type="image/webp">
                     <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/accordion-block-bg.jpg" type="image/jpg">

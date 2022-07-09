@@ -41,6 +41,14 @@
             min-height: 444px;
         }
 
+        &.overlay-53--top:before {
+            bottom: 42%;
+        }
+
+        &.overlay-53--bottom:after {
+            top: 0;
+        }
+
         .heading-secondary {
             @include font-size(2.5rem);
             margin-bottom: 7rem;
