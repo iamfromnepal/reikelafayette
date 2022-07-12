@@ -12,13 +12,52 @@ get_header();
         <source srcset="<?php echo site_url(); ?>/media/about-us-hero-bg-mobile.jpg" type="image/jpg">
         <img src="<?php echo site_url(); ?>/media/about-us-hero-bg.jpg" alt="About Us Hero Background" width="1440" height="865" loading="lazy">
     </picture>
-    <div class="container content-block d-flex flex-column justify-content-center align-items-center text-white">
+    <div class="container content-block d-flex flex-column justify-content-center align-items-center text-white max-width-380 text-center">
         <h1 class="heading-primary text-center">
             <span>About</span>
             Reiki Montreal
-            <span class="d-none d-sm-block">Hi</span>
-            <span class="d-sm-none">We help people heal</span>
         </h1>
+        <div class="avatar-group mt-sm-2 mt-1 mb-sm-1">
+            <picture class="avatar-group__centerImg">
+                <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
+                <img width="166" height="162" src="<?php echo site_url(); ?>/media/teacher-avatar.png" loading="lazy" alt="Avatar">
+            </picture>
+            <div class="avatar-group__inner">
+                <picture class="avatar-group__offsetImg">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.webp" type="image/webp">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
+                    <img width="166" height="162" src="<?php echo site_url(); ?>/media/teacher-avatar.png" loading="lazy" alt="Avatar">
+                </picture>
+                <picture class="avatar-group__offsetImg">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.webp" type="image/webp">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
+                    <img width="166" height="162" src="<?php echo site_url(); ?>/media/teacher-avatar.png" loading="lazy" alt="Avatar">
+                </picture>
+                <picture class="avatar-group__offsetImg">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.webp" type="image/webp">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
+                    <img width="166" height="162" src="<?php echo site_url(); ?>/media/teacher-avatar.png" loading="lazy" alt="Avatar">
+                </picture>
+                <picture class="avatar-group__offsetImg">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.webp" type="image/webp">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
+                    <img width="166" height="162" src="<?php echo site_url(); ?>/media/teacher-avatar.png" loading="lazy" alt="Avatar">
+                </picture>
+                <picture class="avatar-group__offsetImg">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.webp" type="image/webp">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
+                    <img width="166" height="162" src="<?php echo site_url(); ?>/media/teacher-avatar.png" loading="lazy" alt="Avatar">
+                </picture>
+                <picture class="avatar-group__offsetImg">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.webp" type="image/webp">
+                    <source srcset="<?php echo site_url(); ?>/media/teacher-avatar.png" type="image/png">
+                    <img width="166" height="162" src="<?php echo site_url(); ?>/media/teacher-avatar.png" loading="lazy" alt="Avatar">
+                </picture>
+            </div>
+        </div>
+        <span class="font-double-signature d-none d-sm-block font-size-80 line-height-1">Hi</span>
+        <span class="font-double-signature d-sm-none d-block font-size-72 line-height-1">We help people heal</span>
         <p>We’re the people behind Reiki Montreal. We help people heal.</p>
     </div>
 </section> <!-- /.hero -->
@@ -55,7 +94,7 @@ get_header();
             <li>It is entirely possible to transform every ounce of your stuckness into incredible growth.</li>
             <li>There is magic in you becoming exactly who you are.</li>
         </ul>
-        
+
         <?php echo do_shortcode('[contentbox classes="box-quote box-quote--md mx-auto text-center my-3"  paragraph="We’re all just walking each other home" cite="– Ram Dass"]'); ?>
 
         <h3>To help you become who you are, we’ve got…</h3>
@@ -275,16 +314,16 @@ get_header();
     </section> <!-- /section -->
 </div>
 
-<section class="about-more container-alt pt-2 pt-sm-7 pb-1 pb-sm-3">
+<section class="about-more has-verticleImg has-verticleImg--right container-alt pt-2 pt-sm-7 pb-1 pb-sm-3">
     <div class="container block-width-625 content-block">
         <h2 class="heading-secondary title-bg">… want to know more?</h2>
         <p>
-            <p>Let’s back up a little – I’d love to tell you the story of how Reiki Montreal was founded.</p>
-            <p>It’s a dark weekday in December 2012. I’m staring at my old and slow iMac as if it’s a crystal ball that holds the answers to the deep uncomfortable question I’m asking myself: What am I going to do?</p>
-            <p>I’ve completed my last class of my Energy Medicine certificate. As challenging as they were, I loved every second of the 525 hours I spent in class learning about energy, confronting my blocks and spelunking my depths. I grieve the end of it. I’m one year into my masters in neuropsychology and I struggle to admit to myself that I know academia will never really be for me.</p>
-            <p>At this time, I’ve done case studies. I can apply to be part of a naturotherapy association and give insurance receipts to clients. The only question is: “Do I dare? Do I dare try to make this work? Do I dare make a living from something as tenuous and underground as energy healing?”. Truthfully, the answer is “no”. “No, I’m not passionate enough”, “no, I’m not good enough”, “no, I’m not healed enough”, “no, I don’t know anything about marketing or business”, “no, I don’t have a space to do it from”, “no”, “no”, “no”.</p>
-            <p>… and then… as I’m staring into the abyss of facebook window open on my screen, I see the red dot of a notification. I feel relief at being pulled out of my anxiety-fueled reverie. I click. An event: “Looking for a massage therapist or energy healer to share a space on St-Joseph E.”. There is no reason for me to be notified. Except. Well. That was all it took. I replied. I visited. I got the space for 3 days a week… and I figured out the rest, turning my every “no” into a “yes”. In January, 2013 I started with a few “pay what you can” clients. In February, 2013 I started for real.</p>
-            <p>The rest? Well… I continued saying one yes at a time, building Reiki Montreal step-by-step until I could fulfill the vision I’ve had for it all along which is what you see before you now.</p>
+        <p>Let’s back up a little – I’d love to tell you the story of how Reiki Montreal was founded.</p>
+        <p>It’s a dark weekday in December 2012. I’m staring at my old and slow iMac as if it’s a crystal ball that holds the answers to the deep uncomfortable question I’m asking myself: What am I going to do?</p>
+        <p>I’ve completed my last class of my Energy Medicine certificate. As challenging as they were, I loved every second of the 525 hours I spent in class learning about energy, confronting my blocks and spelunking my depths. I grieve the end of it. I’m one year into my masters in neuropsychology and I struggle to admit to myself that I know academia will never really be for me.</p>
+        <p>At this time, I’ve done case studies. I can apply to be part of a naturotherapy association and give insurance receipts to clients. The only question is: “Do I dare? Do I dare try to make this work? Do I dare make a living from something as tenuous and underground as energy healing?”. Truthfully, the answer is “no”. “No, I’m not passionate enough”, “no, I’m not good enough”, “no, I’m not healed enough”, “no, I don’t know anything about marketing or business”, “no, I don’t have a space to do it from”, “no”, “no”, “no”.</p>
+        <p>… and then… as I’m staring into the abyss of facebook window open on my screen, I see the red dot of a notification. I feel relief at being pulled out of my anxiety-fueled reverie. I click. An event: “Looking for a massage therapist or energy healer to share a space on St-Joseph E.”. There is no reason for me to be notified. Except. Well. That was all it took. I replied. I visited. I got the space for 3 days a week… and I figured out the rest, turning my every “no” into a “yes”. In January, 2013 I started with a few “pay what you can” clients. In February, 2013 I started for real.</p>
+        <p>The rest? Well… I continued saying one yes at a time, building Reiki Montreal step-by-step until I could fulfill the vision I’ve had for it all along which is what you see before you now.</p>
         </p>
     </div>
 </section> <!-- /.about-more -->

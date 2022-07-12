@@ -1,3 +1,80 @@
+// avatar-group
+.avatar-group {
+    width: 100%;
+    position: relative;
+
+    &__centerImg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90px;
+        height: 90px;
+
+        @include media-breakpoint-up(sm) {
+            width: 115px;
+            height: 115px;
+        }
+    }
+
+    &__inner {
+        position: relative;
+        min-height: 280px;
+        width: 100%;
+
+        @include media-breakpoint-up(sm) {
+            min-height: 300px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            min-height: 345px;
+        }
+    }
+
+    &__offsetImg {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+
+        @include media-breakpoint-up(sm) {
+            width: 85px;
+            height: 85px;
+        }
+
+        &:first-child {
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &:nth-child(2) {
+            top: 60px;
+            left: 0;
+        }
+
+        &:nth-child(3) {
+            top: 60px;
+            right: 0;
+        }
+
+        &:nth-child(4) {
+            bottom: 60px;
+            left: 0;
+        }
+
+        &:nth-child(5) {
+            bottom: 60px;
+            right: 0;
+        }
+
+        &:nth-child(6) {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
 .about-bleeding {
     background: url('#{$image-path}/flower-bg02.png') no-repeat;
     background-size: 458px;
@@ -147,6 +224,31 @@
 }
 
 .about-more {
+    &.has-verticleImg {
+        &:before {
+            background-image: url(#{$image-path}/about-more-verticle-img.png);
+            width: 300px;
+            height: 730px;
+            right: 0;
+
+            @include media-breakpoint-up(xl) {
+                width: 350px;
+                height: 780px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                width: 407px;
+                height: 836px;
+            }
+
+            @include media-breakpoint-down(xs) {
+                background-image: url(#{$image-path}/about-more-verticle-img-xs.png);
+                width: 185px;
+                height: 382px;
+            }
+        }
+    }
+
     .heading-secondary {
         @extend .h3;
 

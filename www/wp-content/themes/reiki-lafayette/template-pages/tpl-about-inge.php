@@ -85,27 +85,27 @@ get_header();
     </div>
 </div> <!-- /section -->
 
-<section class="aboutInge-columns container-alt pt-xl-9 pt-4 pb-sm-2">
-    <div class="container">
-        <div class="row mb-xl-8 mb-md-6 justify-content-center">
-            <div class="col-lg-6">
-                <div class="max-width-510 content-block font-avenir font-size-lg font-300 pl-xl-5 mobile-px">
-                    <h2 class="h3 mb-1 mb-lg-2">
-                        At this time, I’m only<br>
-                        working with:</h2>
-                    <p>After 8 years of working with over a thousand clients one-on-one, I’m taking a pause from one-on-one work and putting my full focus on teaching new energy healers + mentoring the healers featured here <a href="#">(link)</a>. When you work with them, you work with me and benefit from my know-how and experience as well as theirs. <a href="#">(link to work with me page)</a></p>
-                </div>
+<section class="aboutInge-columns container-alt px-0 pb-sm-2">
+    <div class="row align-items-center two-columns flex-lg-row-reverse no-gutters">
+        <div class="col-lg-6">
+            <div class="max-width-510 mx-lg-0 mx-auto content-block font-avenir font-size-lg font-300 pl-xl-5 pl-lg-3 pr-lg-0 px-1 mobile-px py-lg-0 pt-sm-3 pt-2 pb-sm-2 pb-1">
+                <h2 class="h3 mb-1 mb-lg-2">
+                    At this time, I’m only<br>
+                    working with:</h2>
+                <p>After 8 years of working with over a thousand clients one-on-one, I’m taking a pause from one-on-one work and putting my full focus on teaching new energy healers + mentoring the healers featured here <a href="#">(link)</a>. When you work with them, you work with me and benefit from my know-how and experience as well as theirs. <a href="#">(link to work with me page)</a></p>
             </div>
         </div>
+        <div class="col-lg-6">
+            <picture class="img-fluid">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature01-desktop.webp" type="image/webp">
+                <source srcset="<?php echo site_url(); ?>/media/about-feature01-desktop.jpg" type="image/jpg">
+                <img width="720" height="586" src="<?php echo site_url(); ?>/media/about-feature01-desktop.jpg" loading="lazy" alt="About Feature">
+            </picture>
+        </div>
     </div>
-    <picture class="row mb-1 d-sm-none">
-        <source srcset="<?php echo site_url(); ?>/media/about-feature01-mobile.webp" type="image/webp">
-        <source srcset="<?php echo site_url(); ?>/media/about-feature01-mobile.jpg" type="image/jpg">
-        <img width="414" height="385" src="<?php echo site_url(); ?>/media/about-feature01-mobile.jpg" loading="lazy" alt="About Feature">
-    </picture>
     <div class="row align-items-center two-columns mb-5 mb-xl-6">
         <div class="col-lg-6">
-            <div class="block-width-350 py-2 mx-lg-auto font-avenir font-size-lg font-300">
+            <div class="max-width-380 px-1 py-2 mx-auto font-avenir font-size-lg font-300">
                 <h2 class="heading-secondary heading-secondary--sm text-center mb-1 mb-lg-2">
                     <span>My background:</span>
                     The Official Academic Stuff
@@ -126,7 +126,7 @@ get_header();
                 <img width="724" height="532" src="<?php echo site_url(); ?>/media/about-professional-stuff-bg.jpg" loading="lazy" alt="Background Image">
             </picture>
 
-            <div class="content-list font-avenir font-size-lg font-300 pl-xl-4">
+            <div class="content-list font-avenir font-size-lg font-300 pl-xl-4 pr-lg-1 mx-lg-0 mx-auto">
                 <h2 class="h3 mb-1 mb-xl-2 text-center text-sm-left">The Professional Stuff</h2>
                 <ul>
                     <li>Over 8 years of experience as a full time energy healer</li>
@@ -139,7 +139,7 @@ get_header();
             </div>
         </div>
     </div>
-    <div class="block-width-625 mx-auto font-avenir font-size-lg font-300 mb-2">
+    <div class="px-1 block-width-625 mx-auto font-avenir font-size-lg font-300 mb-2">
         <h2 class="h3 text-center mb-1 mb-lg-2">The Personal Stuff</h2>
         <ul>
             <li>Moved to Canada from the Netherlands (Where I was born and my family is from) when I was four. Because I have a super dutch name and it’s not easy to pronounce, I like “Inga” as a pronunciation of my name.</li>

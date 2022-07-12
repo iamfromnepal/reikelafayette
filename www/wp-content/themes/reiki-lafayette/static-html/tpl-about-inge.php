@@ -1,12 +1,12 @@
 <?php
-/* Template Name: About Inge Static */
+/* Template Name: About Inge */
 
 get_header();
 ?>
 
-<section class="hero hero-mobile-overlap container-alt overlay-mobile overlay-mobile--bottom">
+<section class="hero hero-mobile-overlap container-alt">
     <div class="row align-items-center">
-        <picture class="col-md-6 img-block img-fluid">
+        <picture class="col-md-6 img-block img-fluid overlay-mobile overlay-mobile--bottom">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-hero-feature.webp" type="image/webp">
             <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/about-hero-feature.jpg" type="image/jpg">
             <source srcset="<?php echo site_url(); ?>/media/about-hero-feature-mobile.webp" type="image/webp">
@@ -15,11 +15,11 @@ get_header();
         </picture>
         <div class="col-md-6 content-block text-center py-md-3">
             <div class="font-nelphim font-size-lg block-width-350 mx-auto">
-                <h1 class="heading-primary mb-1 mb-lg-2 mb-xl-4">
+                <h1 class="heading-primary mb-1">
                     <span>Hi</span>
                 </h1> <!-- /.heading-primary -->
                 <div class="border-mini border-mini--center mb-1 mb-lg-2">
-                    <p>I’m Inge. <br>I’m the creator, founder & mentor behind Reiki Montreal.</p>
+                    <p>I’m Inge. <br>I’m the creator, founder & mentor<br> behind Reiki Montreal.</p>
                 </div>
             </div>
         </div>
@@ -87,8 +87,8 @@ get_header();
 
 <section class="aboutInge-columns container-alt pt-xl-9 pt-4 pb-sm-2">
     <div class="container">
-        <div class="row mb-xl-8 mb-md-6 offset-columns">
-            <div class="offset-lg-6 col-lg-6">
+        <div class="row mb-xl-8 mb-md-6 justify-content-center">
+            <div class="col-lg-6">
                 <div class="max-width-510 content-block font-avenir font-size-lg font-300 pl-xl-5 mobile-px">
                     <h2 class="h3 mb-1 mb-lg-2">
                         At this time, I’m only<br>
