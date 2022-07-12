@@ -1,3 +1,11 @@
+.hero-cGuide {
+    .heading-primary span {
+        @media (max-width: 767.98px) {
+            font-size: 7.8625rem;
+        }
+    }
+}
+
 // banner-primary
 .banner-primary {
     &--guide {

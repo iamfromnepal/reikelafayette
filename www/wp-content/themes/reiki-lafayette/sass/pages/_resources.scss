@@ -1,3 +1,17 @@
+.hero-resources {
+    .heading-primary span {
+        @media (max-width: 767.98px) {
+            font-size: 5.8625rem;
+        }
+    }
+
+    &.overlay-80--bottom {
+        &:after {
+            top: 30%;
+        }
+    }
+}
+
 // .resources-intro
 .resources-intro {
     &__heading {

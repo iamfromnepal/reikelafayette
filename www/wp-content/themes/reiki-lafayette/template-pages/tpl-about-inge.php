@@ -87,8 +87,8 @@ get_header();
 
 <section class="aboutInge-columns container-alt pt-xl-9 pt-4 pb-sm-2">
     <div class="container">
-        <div class="row mb-xl-8 mb-md-6 offset-columns">
-            <div class="offset-lg-6 col-lg-6">
+        <div class="row mb-xl-8 mb-md-6 justify-content-center">
+            <div class="col-lg-6">
                 <div class="max-width-510 content-block font-avenir font-size-lg font-300 pl-xl-5 mobile-px">
                     <h2 class="h3 mb-1 mb-lg-2">
                         At this time, I’m only<br>
