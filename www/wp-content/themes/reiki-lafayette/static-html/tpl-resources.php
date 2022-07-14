@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Resources Static Static */
+/* Template Name: Static Resources */
 
 get_header();
 ?>

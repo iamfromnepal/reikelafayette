@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Practitioner Static */
+/* Template Name: Static Practitioner */
 
 get_header();
 ?>
@@ -95,17 +95,14 @@ get_header();
 
 <div class="prac-bleeding container-alt has-bg-img pt-5 pb-2 pb-sm-3">
     <picture class="bg-img">
-        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/prac-bleeding-bg01-mobile.webp" type="image/webp">
-        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/prac-bleeding-bg01-mobile.jpg" type="image/jpg">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/prac-bleeding-bg01.webp" type="image/webp">
+        <source media="(min-width: 576px)" srcset="<?php echo site_url(); ?>/media/prac-bleeding-bg01.jpg" type="image/jpg">
         <source srcset="<?php echo site_url(); ?>/media/prac-bleeding-bg01-mobile.webp" type="image/webp">
         <source srcset="<?php echo site_url(); ?>/media/prac-bleeding-bg01-mobile.jpg" type="image/jpg">
         <img src="<?php echo site_url(); ?>/media/prac-bleeding-bg01-mobile.jpg" alt="Prac Bleeding Background" width="1440" height="865" loading="lazy">
     </picture>
     <div class="container content-block mx-auto text-center text-white">
-        <p>Eget nisl odio porta. Penatibus. Tortor interdum est nostra non porta ullamcorper curabitur. Suspendisse ultrices risus</p>
-        <p>Fermentum torquent faucibus facilisis leo nec mattis tincidunt fusce ante viverra torquent interdum a. Facilisi congue</p>
-        <p>Suscipit suspendisse sem.</p>
-        <p>Nisi nisi fames integer semper urna metus conubia bibendum hac, ut, consequat congue egestas, adipiscing.</p>
+        <p>Eget nisl odio porta. Penatibus. Tortor interdum est nostra non porta ullamcorper curabitur. Suspendisse ultrices risus</br>Fermentum torquent faucibus facilisis leo nec mattis tincidunt fusce ante viverra torquent interdum a. Facilisi congue</br>Suscipit suspendisse sem.</br>Nisi nisi fames integer semper urna metus conubia bibendum hac, ut, consequat congue egestas, adipiscing.</p>
     </div>
 </div> <!-- /.parc-bleeding -->
 

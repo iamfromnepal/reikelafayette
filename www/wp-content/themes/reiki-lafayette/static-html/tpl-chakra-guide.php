@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Chakra Guide Static */
+/* Template Name: Static Chakra Guide */
 
 get_header();
 ?>

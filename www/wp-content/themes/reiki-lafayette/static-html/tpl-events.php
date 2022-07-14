@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Events Static */
+/* Template Name: Static Events */
 
 get_header();
 ?>
@@ -29,7 +29,7 @@ get_header();
     </div>
 </section> <!-- /.hero -->
 
-<section class="events-info container-alt pt-sm-3 pt-2 pb-sm-4 pb-2">
+<section class="events-info container-alt pt-sm-3 pt-2 pb-sm-4 pb-2 px-0">
     <h2 class="hidden-title">Events</h2>
     <div class="container">
         <div class="title-bg">
@@ -50,7 +50,7 @@ get_header();
             <div class="col-md-6">
                 <div class="content-holder mr-md-auto ml-md-2">
                     <h3 class="h4"><i class="icon-instagram"></i> More in the mood for inspiration?</h3>
-                    <p>Head on over to our Instagram for inspiration & pictures of our events.</p>
+                    <p>Head on over to our Instagram for<br> inspiration & pictures of our events.</p>
                 </div>
             </div>
         </div>

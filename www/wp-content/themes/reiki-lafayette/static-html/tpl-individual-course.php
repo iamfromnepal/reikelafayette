@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Individual Course Static */
+/* Template Name: Static Individual Course */
 
 get_header();
 ?>
@@ -107,7 +107,7 @@ get_header();
     </div> <!-- /.detail-block__format -->
     <div class="detail-block__date">
         <div class="text-center mb-sm-2 mb-1">
-            <h4>The Dates:</h4>
+            <h3>The Dates:</h3>
         </div>
 
         <div class="group-date">
@@ -146,7 +146,7 @@ get_header();
             </div>
         </div> <!-- /.group-date -->
         <div class="individual-date text-center pt-lg-2 pt-sm-1">
-            <h4>Individual :</h4>
+            <h3>Individual :</h3>
             <p>4 x 90-minute sessions via zoom. Flexible dates. Available as of April 2022 (due to maternity leave).</p>
         </div>
     </div>
@@ -179,7 +179,7 @@ get_header();
 </section> <!-- /.container -->
 
 <section class="two-col two-col--offset pb-lg-0 pb-sm-3 pb-2">
-    <div class="row align-items-center text-lg-left text-center">
+    <div class="row align-items-end text-lg-left text-center">
         <div class="col-lg-6">
             <picture class="two-col__media mb-lg-0 mb-sm-3 mb-2">
                 <source srcset="<?php echo site_url(); ?>/media/about-teacher-feature-img.webp" type="image/webp">
@@ -187,12 +187,12 @@ get_header();
                 <img width="672" height="572" src="<?php echo site_url(); ?>/media/about-teacher-feature-img.jpg" loading="lazy" alt="About Teacher">
             </picture> <!-- /.two-col__media -->
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 align-self-center pb-lg-2">
             <div class="two-col__content text-center max-width-580 mx-lg-0 mx-auto px-xl-2 px-1 text-black">
                 <div class="title-has-bg title-has-bg--alt text-center py-3 mb-2">
                     <h2 class="heading-secondary text-center">
                         <span>About</span>
-                        the teacher
+                        The teacher
                     </h2>
                 </div>
                 <p>Hi, I’m Inge. I’d love to be your Reiki guide.
