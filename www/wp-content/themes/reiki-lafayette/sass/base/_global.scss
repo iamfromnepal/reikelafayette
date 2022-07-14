@@ -177,3 +177,7 @@ body {
 		max-width: 1920px;
 	}
 }
+
+p:empty {
+	display: none !important;
+}

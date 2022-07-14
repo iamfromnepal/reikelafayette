@@ -175,6 +175,7 @@ var rl;
                 });
 
                 //collapse-acc
+                $(".collapse-acc__head").siblings('p').remove();
                 $(".collapse-acc__head.active").next().slideDown();
                 $(".collapse-acc__head").on("click", function () {
                     if ($(this).hasClass('active')) {
