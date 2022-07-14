@@ -1,6 +1,7 @@
 <?php
 
 /**
+ * Template Name: Home Page
  * The main template file
  *
  * This is the most generic template file in a WordPress theme

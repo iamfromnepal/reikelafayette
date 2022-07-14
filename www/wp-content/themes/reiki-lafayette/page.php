@@ -15,21 +15,12 @@
 
 get_header();
 ?>
-
-<div class="container default-block py-xxl-6 py-lg-4 py-sm-3 py-2">
 	<?php
 	while (have_posts()) :
 		the_post();
 		get_template_part('template-parts/content', 'page');
-
-		if (comments_open() || get_comments_number()) :
-			comments_template();
-		endif;
-
 	endwhile;
 	?>
-</div>
 
 <?php
-// get_sidebar();
 get_footer();

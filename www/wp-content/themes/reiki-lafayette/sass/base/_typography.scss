@@ -11,11 +11,14 @@
         }
 
         small,
-        span {
+        span,
+        strong {
             display: block;
+            font-weight: normal;
         }
 
-        span {
+        span,
+        strong {
             line-height: .7;
             margin-bottom: 0.75rem;
             font-family: $font-double-signature;
@@ -25,7 +28,8 @@
     &-primary {
         @include font-size(1.875rem);
 
-        span {
+        span,
+        strong {
             @include font-size(4.5rem);
 
             @include media-breakpoint-down(sm) {
@@ -36,7 +40,8 @@
         @include media-breakpoint-up(sm) {
             @include font-size(2.1875rem);
 
-            span {
+            span,
+            strong {
                 @include font-size(6.25rem);
             }
         }
@@ -49,7 +54,8 @@
     &-secondary {
         @include font-size(1.875rem);
 
-        span {
+        span,
+        strong {
             @include font-size(4.5rem);
 
             @include media-breakpoint-down(sm) {
@@ -64,7 +70,8 @@
         &--alt {
             line-height: 1.5;
 
-            span {
+            span,
+            strong {
                 line-height: .5;
             }
         }
@@ -77,7 +84,8 @@
     &-tertiary {
         @include font-size(1.25rem);
 
-        span {
+        span,
+        strong {
             @include font-size(4.375rem);
             line-height: .7;
         }
